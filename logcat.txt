@@ -1,55 +1,12 @@
---------- beginning of system
-11-08 16:37:57.646  1540  1540 E ActivityManager: Cancel pending or running compactions as system is awake
 --------- beginning of main
-11-08 16:47:56.608  1540  1570 D ActivityManager: mediaResourceManagerBinder get success
-11-08 16:47:59.036  1540  1570 D ActivityManager: mediaResourceManagerBinder get success
-11-08 16:48:02.466  1540  1570 D ActivityManager: mediaResourceManagerBinder get success
-11-08 16:48:05.554  1540  1570 D ActivityManager: mediaResourceManagerBinder get success
-11-08 16:48:24.885  4874  4874 I FloweryDiagnostics: QUEUE_LOAD source=ACTION_PLAY size=72 index=2 repeat=0 shuffle=false
-11-08 16:48:24.896  4874  4874 I FloweryDiagnostics: PLAY_CURRENT index=2 queueSize=72 title=Through Struggle repeat=0 shuffle=false
-11-08 16:48:25.206  4874  4874 D AndroidRuntime: Shutting down VM
---------- beginning of crash
-11-08 16:48:25.209  4874  4874 E AndroidRuntime: FATAL EXCEPTION: main
-11-08 16:48:25.209  4874  4874 E AndroidRuntime: Process: com.waizusora.flowery, PID: 4874
-11-08 16:48:25.209  4874  4874 E AndroidRuntime: java.lang.ArithmeticException: divide by zero
-11-08 16:48:25.209  4874  4874 E AndroidRuntime: 	at com.waizusora.flowery.FloweryPlayer.positionMs(FloweryPlayer.kt:691)
-11-08 16:48:25.209  4874  4874 E AndroidRuntime: 	at com.waizusora.flowery.PlaybackCoordinator.positionMs(PlaybackCoordinator.kt:78)
-11-08 16:48:25.209  4874  4874 E AndroidRuntime: 	at com.waizusora.flowery.PlaybackService$progressUpdates$1.run(PlaybackService.kt:139)
-11-08 16:48:25.209  4874  4874 E AndroidRuntime: 	at android.os.Handler.handleCallback(Handler.java:958)
-11-08 16:48:25.209  4874  4874 E AndroidRuntime: 	at android.os.Handler.dispatchMessage(Handler.java:99)
-11-08 16:48:25.209  4874  4874 E AndroidRuntime: 	at android.os.Looper.loopOnce(Looper.java:222)
-11-08 16:48:25.209  4874  4874 E AndroidRuntime: 	at android.os.Looper.loop(Looper.java:314)
-11-08 16:48:25.209  4874  4874 E AndroidRuntime: 	at android.app.ActivityThread.main(ActivityThread.java:8716)
-11-08 16:48:25.209  4874  4874 E AndroidRuntime: 	at java.lang.reflect.Method.invoke(Native Method)
-11-08 16:48:25.209  4874  4874 E AndroidRuntime: 	at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:565)
-11-08 16:48:25.209  4874  4874 E AndroidRuntime: 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:1081)
-11-08 16:48:25.375  1540  1570 D ActivityManager: mediaResourceManagerBinder get success
-11-08 16:48:27.323  1540  1570 D ActivityManager: mediaResourceManagerBinder get success
-11-08 16:48:41.032  1540  1570 D ActivityManager: mediaResourceManagerBinder get success
-11-08 16:48:42.291  1540  1570 D ActivityManager: mediaResourceManagerBinder get success
-11-08 16:48:43.226 17313 17313 I FloweryDiagnostics: PROCESS_START pid=17313 availableMemoryBytes=1269022720 lowMemory=false memoryThresholdBytes=226492416
-11-08 16:48:43.229 17313 17313 W FloweryDiagnostics: PREVIOUS_PROCESS_EXIT timestamp=1794131305243 reason=4 status=0 importance=100 pssKb=150728 rssKb=178576 description=crash
-11-08 16:48:45.496  1540  1570 D ActivityManager: mediaResourceManagerBinder get success
-11-08 16:48:46.548  1540  1570 D ActivityManager: mediaResourceManagerBinder get success
-11-08 16:48:51.838  1540  1570 D ActivityManager: mediaResourceManagerBinder get success
-11-08 16:48:53.406  1540  1570 D ActivityManager: mediaResourceManagerBinder get success
-11-08 16:48:55.777  1540  1570 D ActivityManager: mediaResourceManagerBinder get success
-11-08 16:48:57.173  1540  1570 D ActivityManager: mediaResourceManagerBinder get success
-11-08 16:49:33.001  1540  1570 D ActivityManager: mediaResourceManagerBinder get success
-11-08 16:49:34.012  1540  1570 D ActivityManager: mediaResourceManagerBinder get success
-11-08 16:49:35.355 17313 17313 I FloweryDiagnostics: SERVICE_CREATE pid=17313
-11-08 16:49:35.450 17313 17313 I FloweryDiagnostics: QUEUE_LOAD source=ACTION_PLAY size=87 index=3 repeat=0 shuffle=false
-11-08 16:49:35.487 17313 17313 I FloweryDiagnostics: PLAY_CURRENT index=3 queueSize=87 title=Idol repeat=0 shuffle=false
-11-08 16:49:37.088  1540  1570 D ActivityManager: mediaResourceManagerBinder get success
-11-08 16:49:40.533  1540  1570 D ActivityManager: mediaResourceManagerBinder get success
-11-08 16:49:58.163  1540  1570 D ActivityManager: mediaResourceManagerBinder get success
-11-08 16:50:00.906  1540  1570 D ActivityManager: mediaResourceManagerBinder get success
-11-08 16:50:03.205  1540  1570 D ActivityManager: mediaResourceManagerBinder get success
-11-08 16:50:17.846  1540  1570 D ActivityManager: mediaResourceManagerBinder get success
-11-08 16:50:18.885  1540  1570 D ActivityManager: mediaResourceManagerBinder get success
-11-08 16:50:47.952  1540  1570 D ActivityManager: mediaResourceManagerBinder get success
-11-08 16:50:53.323  1540  1570 D ActivityManager: mediaResourceManagerBinder get success
-11-08 16:50:53.324  1540  1570 D ActivityManager: mediaResourceManagerBinder get success
-11-08 16:51:01.040  1540  1570 D ActivityManager: mediaResourceManagerBinder get success
-11-08 16:51:05.536  1540  1570 D ActivityManager: mediaResourceManagerBinder get success
-11-08 16:51:12.675  1540  1570 D ActivityManager: mediaResourceManagerBinder get success
+11-08 18:45:00.716  1540  1570 D ActivityManager: mediaResourceManagerBinder get success
+11-08 18:45:03.755  1540  1570 D ActivityManager: mediaResourceManagerBinder get success
+11-08 18:45:06.013  1540  1570 D ActivityManager: mediaResourceManagerBinder get success
+11-08 18:45:07.655  1540  1570 D ActivityManager: mediaResourceManagerBinder get success
+11-08 18:45:11.649  1540  1570 D ActivityManager: mediaResourceManagerBinder get success
+11-08 18:45:14.302 23020 23020 W FloweryDiagnostics: SERVICE_TASK_REMOVED index=3 queueSize=15 playbackState=1
+11-08 18:45:17.004  1540  1570 D ActivityManager: mediaResourceManagerBinder get success
+11-08 18:45:17.024 23020 23020 I FloweryDiagnostics: PROCESS_START pid=23020 availableMemoryBytes=1130176512 lowMemory=false memoryThresholdBytes=226492416
+11-08 18:45:17.026 23020 23020 I FloweryDiagnostics: PREVIOUS_PROCESS_EXIT none reported by Android
+11-08 18:45:18.388  1540  1570 D ActivityManager: mediaResourceManagerBinder get success
+11-08 18:45:19.760  1540  1570 D ActivityManager: mediaResourceManagerBinder get success
