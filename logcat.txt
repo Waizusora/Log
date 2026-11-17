@@ -1,0 +1,441 @@
+--------- beginning of main
+11-17 17:31:02.377 11229 11245 W izusora.flowery: Cleared Reference was only reachable from finalizer (only reported once)
+11-17 17:31:02.395 11229 11282 I GED     : ged_boost_gpu_freq, level 80, eOrigin 2, final_idx 25, oppidx_max 31, oppidx_min 0
+11-17 17:31:02.395 11229 11282 I GED     : ged_boost_gpu_freq, level 80, eOrigin 2, final_idx 25, oppidx_max 31, oppidx_min 0
+11-17 17:31:02.645 11229 11229 W WindowOnBackDispatcher: OnBackInvokedCallback is not enabled for the application.
+11-17 17:31:02.645 11229 11229 W WindowOnBackDispatcher: Set 'android:enableOnBackInvokedCallback="true"' in the application manifest.
+11-17 17:31:02.671 11229 11229 D BufferQueueConsumer: [](id:2bdd00000004,api:0,p:-1,c:11229) connect: controlledByApp=false
+11-17 17:31:02.673 11229 11282 E OpenGLRenderer: Unable to match the desired swap behavior.
+11-17 17:31:02.674 11229 11229 D VRI[MainActivity]: vri.reportNextDraw android.view.ViewRootImpl.performTraversals:4376 android.view.ViewRootImpl.doTraversal:2992 android.view.ViewRootImpl$TraversalRunnable.run:10469 android.view.Choreographer$CallbackRecord.run:1671 android.view.Choreographer$CallbackRecord.run:1680 
+11-17 17:31:02.674 11229 11229 D VRI[MainActivity]: vri.Setup new sync=wmsSync-VRI[MainActivity]#10
+11-17 17:31:03.359 11229 11255 W izusora.flowery: PerfMonitor async binderTransact :  time=510ms interface=android.app.IApplicationThread code=44
+11-17 17:31:03.399 11229 11282 D BLASTBufferQueue: [VRI[MainActivity]#4](f:0,a:1) acquireNextBufferLocked size=720x1650 mFrameNumber=1 applyTransaction=true mTimestamp=26678523313204(auto) mPendingTransactions.size=0 graphicBufferId=48228187766803 transform=0
+11-17 17:31:03.401 11229 11229 D VRI[MainActivity]: vri.reportDrawFinished
+11-17 17:31:03.402 11229 11229 E FileUtils: err write to mi_exception_log
+11-17 17:31:03.402 11229 11229 E FileUtils: err write to mi_exception_log
+11-17 17:31:03.405 11229 11229 I Choreographer: Skipped 44 frames!  The application may be doing too much work on its main thread.
+11-17 17:31:03.416 11229 11229 I HandWritingStubImpl: refreshLastKeyboardType: 1
+11-17 17:31:03.416 11229 11229 I HandWritingStubImpl: getCurrentKeyboardType: 1
+11-17 17:31:03.421 11229 11255 I OpenGLRenderer: Davey! duration=757ms; Flags=1, FrameTimelineVsyncId=10520672, IntendedVsync=26677765781514, Vsync=26677765781514, InputEventId=0, HandleInputStart=26677776879050, AnimationStart=26677776882050, PerformTraversalsStart=26677780127666, DrawStart=26678483630743, FrameDeadline=26677785781514, FrameInterval=26677776762358, FrameStartTime=16654258, SyncQueued=26678513973512, SyncStart=26678515183666, IssueDrawCommandsStart=26678515693820, SwapBuffers=26678521496897, FrameCompleted=26678524356589, DequeueBufferDuration=74154, QueueBufferDuration=809847, GpuCompleted=26678523835974, SwapBuffersCompleted=26678524356589, DisplayPresentTime=26641986498048, CommandSubmissionCompleted=26678521496897, 
+11-17 17:31:08.661 11229 11282 I gralloc4: @set_metadata: update dataspace from GM (0x00000000 -> 0x08010000)
+11-17 17:31:08.683 11229 11282 I gralloc4: @set_metadata: update dataspace from GM (0x00000000 -> 0x08010000)
+11-17 17:31:08.698 11229 11282 I gralloc4: @set_metadata: update dataspace from GM (0x00000000 -> 0x08010000)
+11-17 17:31:08.718 11229 11282 I gralloc4: @set_metadata: update dataspace from GM (0x00000000 -> 0x08010000)
+11-17 17:31:08.730 11229 11282 I gralloc4: @set_metadata: update dataspace from GM (0x00000000 -> 0x08010000)
+11-17 17:31:08.763 11229 11282 I gralloc4: @set_metadata: update dataspace from GM (0x00000000 -> 0x08010000)
+11-17 17:31:08.779 11229 11282 I gralloc4: @set_metadata: update dataspace from GM (0x00000000 -> 0x08010000)
+11-17 17:31:08.797 11229 11282 I gralloc4: @set_metadata: update dataspace from GM (0x00000000 -> 0x08010000)
+11-17 17:31:08.818 11229 11282 I gralloc4: @set_metadata: update dataspace from GM (0x00000000 -> 0x08010000)
+11-17 17:31:08.831 11229 11282 I gralloc4: @set_metadata: update dataspace from GM (0x00000000 -> 0x08010000)
+11-17 17:31:08.852 11229 11282 I gralloc4: @set_metadata: update dataspace from GM (0x00000000 -> 0x08010000)
+11-17 17:31:08.866 11229 11282 I gralloc4: @set_metadata: update dataspace from GM (0x00000000 -> 0x08010000)
+11-17 17:31:08.883 11229 11282 I gralloc4: @set_metadata: update dataspace from GM (0x00000000 -> 0x08010000)
+11-17 17:31:08.899 11229 11282 I gralloc4: @set_metadata: update dataspace from GM (0x00000000 -> 0x08010000)
+11-17 17:31:08.916 11229 11282 I gralloc4: @set_metadata: update dataspace from GM (0x00000000 -> 0x08010000)
+11-17 17:31:08.931 11229 11282 I gralloc4: @set_metadata: update dataspace from GM (0x00000000 -> 0x08010000)
+11-17 17:31:08.948 11229 11282 I gralloc4: @set_metadata: update dataspace from GM (0x00000000 -> 0x08010000)
+11-17 17:31:12.445 11229 11229 I HandWritingStubImpl: refreshLastKeyboardType: 1
+11-17 17:31:12.446 11229 11229 I HandWritingStubImpl: getCurrentKeyboardType: 1
+11-17 17:31:13.299 11229 11282 I gralloc4: @set_metadata: update dataspace from GM (0x00000000 -> 0x08010000)
+11-17 17:31:13.520 11229 11282 I gralloc4: @set_metadata: update dataspace from GM (0x00000000 -> 0x08010000)
+11-17 17:31:14.524 11229 11282 I gralloc4: @set_metadata: update dataspace from GM (0x00000000 -> 0x08010000)
+11-17 17:31:14.542 11229 11282 I gralloc4: @set_metadata: update dataspace from GM (0x00000000 -> 0x08010000)
+11-17 17:31:14.556 11229 11282 I gralloc4: @set_metadata: update dataspace from GM (0x00000000 -> 0x08010000)
+11-17 17:31:14.573 11229 11282 I gralloc4: @set_metadata: update dataspace from GM (0x00000000 -> 0x08010000)
+11-17 17:31:14.589 11229 11282 I gralloc4: @set_metadata: update dataspace from GM (0x00000000 -> 0x08010000)
+11-17 17:31:14.606 11229 11282 I gralloc4: @set_metadata: update dataspace from GM (0x00000000 -> 0x08010000)
+11-17 17:31:14.623 11229 11282 I gralloc4: @set_metadata: update dataspace from GM (0x00000000 -> 0x08010000)
+11-17 17:31:14.643 11229 11282 I gralloc4: @set_metadata: update dataspace from GM (0x00000000 -> 0x08010000)
+11-17 17:31:14.662 11229 11282 I gralloc4: @set_metadata: update dataspace from GM (0x00000000 -> 0x08010000)
+11-17 17:31:14.677 11229 11282 I gralloc4: @set_metadata: update dataspace from GM (0x00000000 -> 0x08010000)
+11-17 17:31:14.694 11229 11282 I gralloc4: @set_metadata: update dataspace from GM (0x00000000 -> 0x08010000)
+11-17 17:31:14.711 11229 11282 I gralloc4: @set_metadata: update dataspace from GM (0x00000000 -> 0x08010000)
+11-17 17:31:14.728 11229 11282 I gralloc4: @set_metadata: update dataspace from GM (0x00000000 -> 0x08010000)
+11-17 17:31:14.745 11229 11282 I gralloc4: @set_metadata: update dataspace from GM (0x00000000 -> 0x08010000)
+11-17 17:31:14.760 11229 11282 I gralloc4: @set_metadata: update dataspace from GM (0x00000000 -> 0x08010000)
+11-17 17:31:14.780 11229 11282 I gralloc4: @set_metadata: update dataspace from GM (0x00000000 -> 0x08010000)
+11-17 17:31:14.793 11229 11282 I gralloc4: @set_metadata: update dataspace from GM (0x00000000 -> 0x08010000)
+11-17 17:31:14.811 11229 11282 I gralloc4: @set_metadata: update dataspace from GM (0x00000000 -> 0x08010000)
+11-17 17:31:14.828 11229 11282 I gralloc4: @set_metadata: update dataspace from GM (0x00000000 -> 0x08010000)
+11-17 17:31:14.844 11229 11282 I gralloc4: @set_metadata: update dataspace from GM (0x00000000 -> 0x08010000)
+11-17 17:31:14.860 11229 11282 I gralloc4: @set_metadata: update dataspace from GM (0x00000000 -> 0x08010000)
+11-17 17:31:14.878 11229 11282 I gralloc4: @set_metadata: update dataspace from GM (0x00000000 -> 0x08010000)
+11-17 17:31:14.893 11229 11282 I gralloc4: @set_metadata: update dataspace from GM (0x00000000 -> 0x08010000)
+11-17 17:31:14.913 11229 11282 I gralloc4: @set_metadata: update dataspace from GM (0x00000000 -> 0x08010000)
+11-17 17:31:14.927 11229 11282 I gralloc4: @set_metadata: update dataspace from GM (0x00000000 -> 0x08010000)
+11-17 17:31:14.946 11229 11282 I gralloc4: @set_metadata: update dataspace from GM (0x00000000 -> 0x08010000)
+11-17 17:31:14.963 11229 11282 I gralloc4: @set_metadata: update dataspace from GM (0x00000000 -> 0x08010000)
+11-17 17:31:14.977 11229 11282 I gralloc4: @set_metadata: update dataspace from GM (0x00000000 -> 0x08010000)
+11-17 17:31:14.996 11229 11282 I gralloc4: @set_metadata: update dataspace from GM (0x00000000 -> 0x08010000)
+11-17 17:31:15.009 11229 11282 I gralloc4: @set_metadata: update dataspace from GM (0x00000000 -> 0x08010000)
+11-17 17:31:16.344 11229 11282 I gralloc4: @set_metadata: update dataspace from GM (0x00000000 -> 0x08010000)
+11-17 17:31:16.358 11229 11282 I gralloc4: @set_metadata: update dataspace from GM (0x00000000 -> 0x08010000)
+11-17 17:31:16.373 11229 11282 I gralloc4: @set_metadata: update dataspace from GM (0x00000000 -> 0x08010000)
+11-17 17:31:16.390 11229 11282 I gralloc4: @set_metadata: update dataspace from GM (0x00000000 -> 0x08010000)
+11-17 17:31:16.407 11229 11282 I gralloc4: @set_metadata: update dataspace from GM (0x00000000 -> 0x08010000)
+11-17 17:31:16.424 11229 11282 I gralloc4: @set_metadata: update dataspace from GM (0x00000000 -> 0x08010000)
+11-17 17:31:16.440 11229 11282 I gralloc4: @set_metadata: update dataspace from GM (0x00000000 -> 0x08010000)
+11-17 17:31:16.457 11229 11282 I gralloc4: @set_metadata: update dataspace from GM (0x00000000 -> 0x08010000)
+11-17 17:31:16.473 11229 11282 I gralloc4: @set_metadata: update dataspace from GM (0x00000000 -> 0x08010000)
+11-17 17:31:16.490 11229 11282 I gralloc4: @set_metadata: update dataspace from GM (0x00000000 -> 0x08010000)
+11-17 17:31:16.507 11229 11282 I gralloc4: @set_metadata: update dataspace from GM (0x00000000 -> 0x08010000)
+11-17 17:31:16.523 11229 11282 I gralloc4: @set_metadata: update dataspace from GM (0x00000000 -> 0x08010000)
+11-17 17:31:16.540 11229 11282 I gralloc4: @set_metadata: update dataspace from GM (0x00000000 -> 0x08010000)
+11-17 17:31:16.554 11229 11282 I gralloc4: @set_metadata: update dataspace from GM (0x00000000 -> 0x08010000)
+11-17 17:31:16.570 11229 11282 I gralloc4: @set_metadata: update dataspace from GM (0x00000000 -> 0x08010000)
+11-17 17:31:16.589 11229 11282 I gralloc4: @set_metadata: update dataspace from GM (0x00000000 -> 0x08010000)
+11-17 17:31:16.606 11229 11282 I gralloc4: @set_metadata: update dataspace from GM (0x00000000 -> 0x08010000)
+11-17 17:31:16.623 11229 11282 I gralloc4: @set_metadata: update dataspace from GM (0x00000000 -> 0x08010000)
+11-17 17:31:16.640 11229 11282 I gralloc4: @set_metadata: update dataspace from GM (0x00000000 -> 0x08010000)
+11-17 17:31:16.659 11229 11282 I gralloc4: @set_metadata: update dataspace from GM (0x00000000 -> 0x08010000)
+11-17 17:31:16.675 11229 11282 I gralloc4: @set_metadata: update dataspace from GM (0x00000000 -> 0x08010000)
+11-17 17:31:16.692 11229 11282 I gralloc4: @set_metadata: update dataspace from GM (0x00000000 -> 0x08010000)
+11-17 17:31:16.708 11229 11282 I gralloc4: @set_metadata: update dataspace from GM (0x00000000 -> 0x08010000)
+11-17 17:31:16.725 11229 11282 I gralloc4: @set_metadata: update dataspace from GM (0x00000000 -> 0x08010000)
+11-17 17:31:16.741 11229 11282 I gralloc4: @set_metadata: update dataspace from GM (0x00000000 -> 0x08010000)
+11-17 17:31:16.759 11229 11282 I gralloc4: @set_metadata: update dataspace from GM (0x00000000 -> 0x08010000)
+11-17 17:31:16.776 11229 11282 I gralloc4: @set_metadata: update dataspace from GM (0x00000000 -> 0x08010000)
+11-17 17:31:16.792 11229 11282 I gralloc4: @set_metadata: update dataspace from GM (0x00000000 -> 0x08010000)
+11-17 17:31:16.809 11229 11282 I gralloc4: @set_metadata: update dataspace from GM (0x00000000 -> 0x08010000)
+11-17 17:31:16.826 11229 11282 I gralloc4: @set_metadata: update dataspace from GM (0x00000000 -> 0x08010000)
+11-17 17:31:16.843 11229 11282 I gralloc4: @set_metadata: update dataspace from GM (0x00000000 -> 0x08010000)
+11-17 17:31:16.859 11229 11282 I gralloc4: @set_metadata: update dataspace from GM (0x00000000 -> 0x08010000)
+11-17 17:31:16.876 11229 11282 I gralloc4: @set_metadata: update dataspace from GM (0x00000000 -> 0x08010000)
+11-17 17:31:16.892 11229 11282 I gralloc4: @set_metadata: update dataspace from GM (0x00000000 -> 0x08010000)
+11-17 17:31:16.900 11229 11244 I izusora.flowery: Compiler allocated 11MB to compile void com.waizusora.flowery.FoldersDestinationKt.FoldersDestination-P7lUrz8(java.util.List, java.util.List, com.waizusora.flowery.LibraryFolder, boolean, com.waizusora.flowery.AudioTrackItem, long, long, boolean, float, kotlin.jvm.functions.Function0, kotlin.jvm.functions.Function0, kotlin.jvm.functions.Function1, kotlin.jvm.functions.Function1, kotlin.jvm.functions.Function1, kotlin.jvm.functions.Function2, androidx.compose.runtime.Composer, int, int)
+11-17 17:31:16.908 11229 11282 I gralloc4: @set_metadata: update dataspace from GM (0x00000000 -> 0x08010000)
+11-17 17:31:16.925 11229 11282 I gralloc4: @set_metadata: update dataspace from GM (0x00000000 -> 0x08010000)
+11-17 17:31:16.950 11229 11282 I gralloc4: @set_metadata: update dataspace from GM (0x00000000 -> 0x08010000)
+11-17 17:31:17.249 11229 11282 I gralloc4: @set_metadata: update dataspace from GM (0x00000000 -> 0x08010000)
+11-17 17:31:17.720 11229 11229 E FileUtils: err write to mi_exception_log
+11-17 17:31:17.727 11229 11282 I gralloc4: @set_metadata: update dataspace from GM (0x00000000 -> 0x08010000)
+11-17 17:31:18.999 11229 11282 I gralloc4: @set_metadata: update dataspace from GM (0x00000000 -> 0x08010000)
+11-17 17:31:19.107 11229 11282 I gralloc4: @set_metadata: update dataspace from GM (0x00000000 -> 0x08010000)
+11-17 17:31:19.122 11229 11282 I gralloc4: @set_metadata: update dataspace from GM (0x00000000 -> 0x08010000)
+11-17 17:31:19.139 11229 11282 I gralloc4: @set_metadata: update dataspace from GM (0x00000000 -> 0x08010000)
+11-17 17:31:19.155 11229 11282 I gralloc4: @set_metadata: update dataspace from GM (0x00000000 -> 0x08010000)
+11-17 17:31:19.172 11229 11282 I gralloc4: @set_metadata: update dataspace from GM (0x00000000 -> 0x08010000)
+11-17 17:31:19.186 11229 11282 I gralloc4: @set_metadata: update dataspace from GM (0x00000000 -> 0x08010000)
+11-17 17:31:19.206 11229 11282 I gralloc4: @set_metadata: update dataspace from GM (0x00000000 -> 0x08010000)
+11-17 17:31:19.223 11229 11282 I gralloc4: @set_metadata: update dataspace from GM (0x00000000 -> 0x08010000)
+11-17 17:31:19.239 11229 11282 I gralloc4: @set_metadata: update dataspace from GM (0x00000000 -> 0x08010000)
+11-17 17:31:19.256 11229 11282 I gralloc4: @set_metadata: update dataspace from GM (0x00000000 -> 0x08010000)
+11-17 17:31:19.273 11229 11282 I gralloc4: @set_metadata: update dataspace from GM (0x00000000 -> 0x08010000)
+11-17 17:31:19.290 11229 11282 I gralloc4: @set_metadata: update dataspace from GM (0x00000000 -> 0x08010000)
+11-17 17:31:19.306 11229 11282 I gralloc4: @set_metadata: update dataspace from GM (0x00000000 -> 0x08010000)
+11-17 17:31:19.325 11229 11282 I gralloc4: @set_metadata: update dataspace from GM (0x00000000 -> 0x08010000)
+11-17 17:31:19.339 11229 11282 I gralloc4: @set_metadata: update dataspace from GM (0x00000000 -> 0x08010000)
+11-17 17:31:19.357 11229 11282 I gralloc4: @set_metadata: update dataspace from GM (0x00000000 -> 0x08010000)
+11-17 17:31:19.373 11229 11282 I gralloc4: @set_metadata: update dataspace from GM (0x00000000 -> 0x08010000)
+11-17 17:31:19.390 11229 11282 I gralloc4: @set_metadata: update dataspace from GM (0x00000000 -> 0x08010000)
+11-17 17:31:19.406 11229 11282 I gralloc4: @set_metadata: update dataspace from GM (0x00000000 -> 0x08010000)
+11-17 17:31:19.422 11229 11282 I gralloc4: @set_metadata: update dataspace from GM (0x00000000 -> 0x08010000)
+11-17 17:31:19.443 11229 11282 I gralloc4: @set_metadata: update dataspace from GM (0x00000000 -> 0x08010000)
+11-17 17:31:19.456 11229 11282 I gralloc4: @set_metadata: update dataspace from GM (0x00000000 -> 0x08010000)
+11-17 17:31:19.472 11229 11282 I gralloc4: @set_metadata: update dataspace from GM (0x00000000 -> 0x08010000)
+11-17 17:31:19.492 11229 11282 I gralloc4: @set_metadata: update dataspace from GM (0x00000000 -> 0x08010000)
+11-17 17:31:19.507 11229 11282 I gralloc4: @set_metadata: update dataspace from GM (0x00000000 -> 0x08010000)
+11-17 17:31:19.523 11229 11282 I gralloc4: @set_metadata: update dataspace from GM (0x00000000 -> 0x08010000)
+11-17 17:31:19.541 11229 11282 I gralloc4: @set_metadata: update dataspace from GM (0x00000000 -> 0x08010000)
+11-17 17:31:19.558 11229 11282 I gralloc4: @set_metadata: update dataspace from GM (0x00000000 -> 0x08010000)
+11-17 17:31:19.572 11229 11282 I gralloc4: @set_metadata: update dataspace from GM (0x00000000 -> 0x08010000)
+11-17 17:31:19.589 11229 11282 I gralloc4: @set_metadata: update dataspace from GM (0x00000000 -> 0x08010000)
+11-17 17:31:19.621 11229 11282 I gralloc4: @set_metadata: update dataspace from GM (0x00000000 -> 0x08010000)
+11-17 17:31:20.406 11229 11229 I FloweryDiagnostics: SERVICE_CREATE pid=11229
+11-17 17:31:20.403 11229 11229 W izusora.flowery: type=1400 audit(0.0:45986): avc:  denied  { read } for  name="u:object_r:vendor_ro_audio_prop:s0" dev="tmpfs" ino=8047 scontext=u:r:untrusted_app:s0:c97,c257,c512,c768 tcontext=u:object_r:vendor_ro_audio_prop:s0 tclass=file permissive=0 app=com.waizusora.flowery
+11-17 17:31:20.407 11229 11229 W libc    : Access denied finding property "ro.vendor.audio.cloudctrl"
+11-17 17:31:20.420 11229 11229 W MediaSessionCompat: Couldn't find a unique registered media button receiver in the given context.
+11-17 17:31:20.449 11229 11229 I FloweryDiagnostics: QUEUE_LOAD source=ACTION_PLAY size=16 index=2 repeat=0 shuffle=false
+11-17 17:31:20.450 11229 11229 D CompatibilityChangeReporter: Compat change id reported: 160794467; UID 10353; state: ENABLED
+11-17 17:31:20.484 11229 11229 I FloweryDiagnostics: PLAY_CURRENT index=2 queueSize=16 title=Idol repeat=0 shuffle=false
+11-17 17:31:20.484 11229 11229 I FloweryDiagnostics: PLAY_PHASE phase=focus_request_start index=2
+11-17 17:31:20.500 11229 11229 I FloweryDiagnostics: PLAY_PHASE phase=focus_request_done accepted=true index=2
+11-17 17:31:20.512 11229 11703 I FloweryDiagnostics: PLAY_PHASE phase=metadata_retrieval_start index=2
+11-17 17:31:20.518 11229 11703 D MediaMetadataRetriever: dynamicEnableMediaLog getprop frameworks.media.debug.MediaMetadataRetriever: -1,
+11-17 17:31:20.528 11229 11229 I FloweryDiagnostics: VOLUME_UI_SOURCE source=playback_broadcast previous=0.2 reported=0.06666667 status=none
+11-17 17:31:20.676 11229 11703 D skia    : SkJpegCodec::onGetPixels + (600, 600)
+11-17 17:31:20.680 11229 11703 E ion     : ioctl c0044901 failed with code -1: Invalid argument
+11-17 17:31:20.680 11229 11703 D skia    : stream getLength() not supported, use temp buffer for loading stream, buffer addr 0x7b3180e000 length 378273
+11-17 17:31:20.681 11229 11703 D skia    : LoadInputStreamToMem va 0x7b3180e000  size 380544
+11-17 17:31:20.679 11229 11229 W pool-5-thread-1: type=1400 audit(0.0:45987): avc:  denied  { search } for  name="ppm" dev="proc" ino=4026531925 scontext=u:r:untrusted_app:s0:c97,c257,c512,c768 tcontext=u:object_r:proc_ppm:s0 tclass=dir permissive=0 app=com.waizusora.flowery
+11-17 17:31:20.684 11229 11703 D libjpeg-alpha: Huffman Builder run in subthread
+11-17 17:31:20.685 11229 11703 D libjpeg-alpha: Tile Decoder (#thread:4, size:256 256 256 432x304, alignment:256x16)
+11-17 17:31:20.683 11229 11229 W pool-5-thread-1: type=1400 audit(0.0:45988): avc:  denied  { search } for  name="ppm" dev="proc" ino=4026531925 scontext=u:r:untrusted_app:s0:c97,c257,c512,c768 tcontext=u:object_r:proc_ppm:s0 tclass=dir permissive=0 app=com.waizusora.flowery
+11-17 17:31:20.696 11229 11703 D skia    : SkJpegCodec::onGetPixels -
+11-17 17:31:20.696 11229 11703 D skia    : onGetGainmapInfo: false.
+11-17 17:31:20.720 11229 11229 W EpFrameworkFactory: activated: false jar exist: false
+11-17 17:31:20.726 11229 11703 I FloweryDiagnostics: PLAY_PHASE phase=engine_play_start index=2
+11-17 17:31:20.728 11229 11703 I FloweryDiagnostics: PLAY_PHASE phase=engine_play_return index=2; waiting_for_engine_started_callback=true
+11-17 17:31:21.053 11229 11229 I FloweryDiagnostics: VOLUME_UI_SOURCE source=playback_broadcast previous=0.06666667 reported=1.0 status=none
+11-17 17:31:22.924 11229 11229 I HandWritingStubImpl: refreshLastKeyboardType: 1
+11-17 17:31:22.924 11229 11229 I HandWritingStubImpl: getCurrentKeyboardType: 1
+11-17 17:31:22.949 11229 11709 D UsbDeviceConnectionJNI: close
+11-17 17:31:22.953 11229 11709 E FloweryDiagnostics: PLAYBACK_ENGINE_FAILURE generation=2
+11-17 17:31:22.953 11229 11709 E FloweryDiagnostics: java.lang.IllegalStateException: UAC2 Clock Source 6 has no usable frequency control
+11-17 17:31:22.953 11229 11709 E FloweryDiagnostics: 	at com.waizusora.flowery.UsbNativePlaybackSession$Companion.open-hUnOzRk(UsbNativePlaybackSession.kt:266)
+11-17 17:31:22.953 11229 11709 E FloweryDiagnostics: 	at com.waizusora.flowery.FloweryPlayer.play$lambda$32(FloweryPlayer.kt:139)
+11-17 17:31:22.953 11229 11709 E FloweryDiagnostics: 	at com.waizusora.flowery.FloweryPlayer.$r8$lambda$Q59QRjd60Kfq9ANx-slgDTBmDV0(FloweryPlayer.kt:0)
+11-17 17:31:22.953 11229 11709 E FloweryDiagnostics: 	at com.waizusora.flowery.FloweryPlayer$$ExternalSyntheticLambda2.invoke(D8$$SyntheticClass:0)
+11-17 17:31:22.953 11229 11709 E FloweryDiagnostics: 	at kotlin.concurrent.ThreadsKt$thread$thread$1.run(Thread.kt:30)
+11-17 17:31:23.060 11229 11229 I FloweryDiagnostics: VOLUME_UI_SOURCE source=playback_broadcast previous=1.0 reported=0.06666667 status=none
+11-17 17:31:23.893 11229 11282 I gralloc4: @set_metadata: update dataspace from GM (0x00000000 -> 0x08010000)
+11-17 17:31:23.911 11229 11282 I gralloc4: @set_metadata: update dataspace from GM (0x00000000 -> 0x08010000)
+11-17 17:31:23.926 11229 11282 I gralloc4: @set_metadata: update dataspace from GM (0x00000000 -> 0x08010000)
+11-17 17:31:23.952 11229 11282 I gralloc4: @set_metadata: update dataspace from GM (0x00000000 -> 0x08010000)
+11-17 17:31:23.970 11229 11282 I gralloc4: @set_metadata: update dataspace from GM (0x00000000 -> 0x08010000)
+11-17 17:31:23.998 11229 11282 I gralloc4: @set_metadata: update dataspace from GM (0x00000000 -> 0x08010000)
+11-17 17:31:24.006 11229 11282 I gralloc4: @set_metadata: update dataspace from GM (0x00000000 -> 0x08010000)
+11-17 17:31:24.020 11229 11282 I gralloc4: @set_metadata: update dataspace from GM (0x00000000 -> 0x08010000)
+11-17 17:31:24.035 11229 11282 I gralloc4: @set_metadata: update dataspace from GM (0x00000000 -> 0x08010000)
+11-17 17:31:24.054 11229 11282 I gralloc4: @set_metadata: update dataspace from GM (0x00000000 -> 0x08010000)
+11-17 17:31:24.071 11229 11282 I gralloc4: @set_metadata: update dataspace from GM (0x00000000 -> 0x08010000)
+11-17 17:31:24.087 11229 11282 I gralloc4: @set_metadata: update dataspace from GM (0x00000000 -> 0x08010000)
+11-17 17:31:24.103 11229 11282 I gralloc4: @set_metadata: update dataspace from GM (0x00000000 -> 0x08010000)
+11-17 17:31:24.121 11229 11282 I gralloc4: @set_metadata: update dataspace from GM (0x00000000 -> 0x08010000)
+11-17 17:31:24.139 11229 11282 I gralloc4: @set_metadata: update dataspace from GM (0x00000000 -> 0x08010000)
+11-17 17:31:24.146 11229 11229 I FloweryDiagnostics: QUEUE_LOAD source=ACTION_PLAY size=16 index=2 repeat=0 shuffle=false
+11-17 17:31:24.153 11229 11282 I gralloc4: @set_metadata: update dataspace from GM (0x00000000 -> 0x08010000)
+11-17 17:31:24.154 11229 11229 I FloweryDiagnostics: PLAY_CURRENT index=2 queueSize=16 title=Idol repeat=0 shuffle=false
+11-17 17:31:24.154 11229 11229 I FloweryDiagnostics: PLAY_PHASE phase=focus_request_start index=2
+11-17 17:31:24.154 11229 11229 I FloweryDiagnostics: PLAY_PHASE phase=focus_request_done accepted=true index=2
+11-17 17:31:24.162 11229 11703 I FloweryDiagnostics: PLAY_PHASE phase=metadata_retrieval_start index=2
+11-17 17:31:24.162 11229 11703 D MediaMetadataRetriever: dynamicEnableMediaLog getprop frameworks.media.debug.MediaMetadataRetriever: -1,
+11-17 17:31:24.172 11229 11282 I gralloc4: @set_metadata: update dataspace from GM (0x00000000 -> 0x08010000)
+11-17 17:31:24.188 11229 11282 I gralloc4: @set_metadata: update dataspace from GM (0x00000000 -> 0x08010000)
+11-17 17:31:24.205 11229 11282 I gralloc4: @set_metadata: update dataspace from GM (0x00000000 -> 0x08010000)
+11-17 17:31:24.221 11229 11282 I gralloc4: @set_metadata: update dataspace from GM (0x00000000 -> 0x08010000)
+11-17 17:31:24.240 11229 11282 I gralloc4: @set_metadata: update dataspace from GM (0x00000000 -> 0x08010000)
+11-17 17:31:24.255 11229 11282 I gralloc4: @set_metadata: update dataspace from GM (0x00000000 -> 0x08010000)
+11-17 17:31:24.271 11229 11703 I FloweryDiagnostics: PLAY_PHASE phase=engine_play_start index=2
+11-17 17:31:24.272 11229 11282 I gralloc4: @set_metadata: update dataspace from GM (0x00000000 -> 0x08010000)
+11-17 17:31:24.273 11229 11703 I FloweryDiagnostics: PLAY_PHASE phase=engine_play_return index=2; waiting_for_engine_started_callback=true
+11-17 17:31:24.289 11229 11282 I gralloc4: @set_metadata: update dataspace from GM (0x00000000 -> 0x08010000)
+11-17 17:31:24.306 11229 11282 I gralloc4: @set_metadata: update dataspace from GM (0x00000000 -> 0x08010000)
+11-17 17:31:24.321 11229 11282 I gralloc4: @set_metadata: update dataspace from GM (0x00000000 -> 0x08010000)
+11-17 17:31:24.339 11229 11282 I gralloc4: @set_metadata: update dataspace from GM (0x00000000 -> 0x08010000)
+11-17 17:31:24.348 11229 11726 D UsbDeviceConnectionJNI: close
+11-17 17:31:24.349 11229 11726 E FloweryDiagnostics: PLAYBACK_ENGINE_FAILURE generation=4
+11-17 17:31:24.349 11229 11726 E FloweryDiagnostics: java.lang.IllegalStateException: UAC2 Clock Source 6 has no usable frequency control
+11-17 17:31:24.349 11229 11726 E FloweryDiagnostics: 	at com.waizusora.flowery.UsbNativePlaybackSession$Companion.open-hUnOzRk(UsbNativePlaybackSession.kt:266)
+11-17 17:31:24.349 11229 11726 E FloweryDiagnostics: 	at com.waizusora.flowery.FloweryPlayer.play$lambda$32(FloweryPlayer.kt:139)
+11-17 17:31:24.349 11229 11726 E FloweryDiagnostics: 	at com.waizusora.flowery.FloweryPlayer.$r8$lambda$Q59QRjd60Kfq9ANx-slgDTBmDV0(FloweryPlayer.kt:0)
+11-17 17:31:24.349 11229 11726 E FloweryDiagnostics: 	at com.waizusora.flowery.FloweryPlayer$$ExternalSyntheticLambda2.invoke(D8$$SyntheticClass:0)
+11-17 17:31:24.349 11229 11726 E FloweryDiagnostics: 	at kotlin.concurrent.ThreadsKt$thread$thread$1.run(Thread.kt:30)
+11-17 17:31:24.355 11229 11282 I gralloc4: @set_metadata: update dataspace from GM (0x00000000 -> 0x08010000)
+11-17 17:31:24.367 11229 11282 I gralloc4: @set_metadata: update dataspace from GM (0x00000000 -> 0x08010000)
+11-17 17:31:24.402 11229 11282 I gralloc4: @set_metadata: update dataspace from GM (0x00000000 -> 0x08010000)
+11-17 17:31:25.097 11229 11282 I gralloc4: @set_metadata: update dataspace from GM (0x00000000 -> 0x08010000)
+11-17 17:31:25.119 11229 11282 I gralloc4: @set_metadata: update dataspace from GM (0x00000000 -> 0x08010000)
+11-17 17:31:25.138 11229 11282 I gralloc4: @set_metadata: update dataspace from GM (0x00000000 -> 0x08010000)
+11-17 17:31:25.148 11229 11282 I gralloc4: @set_metadata: update dataspace from GM (0x00000000 -> 0x08010000)
+11-17 17:31:25.171 11229 11282 I gralloc4: @set_metadata: update dataspace from GM (0x00000000 -> 0x08010000)
+11-17 17:31:25.186 11229 11282 I gralloc4: @set_metadata: update dataspace from GM (0x00000000 -> 0x08010000)
+11-17 17:31:25.202 11229 11282 I gralloc4: @set_metadata: update dataspace from GM (0x00000000 -> 0x08010000)
+11-17 17:31:25.222 11229 11282 I gralloc4: @set_metadata: update dataspace from GM (0x00000000 -> 0x08010000)
+11-17 17:31:25.238 11229 11282 I gralloc4: @set_metadata: update dataspace from GM (0x00000000 -> 0x08010000)
+11-17 17:31:25.255 11229 11282 I gralloc4: @set_metadata: update dataspace from GM (0x00000000 -> 0x08010000)
+11-17 17:31:25.269 11229 11282 I gralloc4: @set_metadata: update dataspace from GM (0x00000000 -> 0x08010000)
+11-17 17:31:25.288 11229 11282 I gralloc4: @set_metadata: update dataspace from GM (0x00000000 -> 0x08010000)
+11-17 17:31:25.304 11229 11282 I gralloc4: @set_metadata: update dataspace from GM (0x00000000 -> 0x08010000)
+11-17 17:31:25.309 11229 11229 I FloweryDiagnostics: QUEUE_LOAD source=ACTION_PLAY size=16 index=2 repeat=0 shuffle=false
+11-17 17:31:25.315 11229 11229 I FloweryDiagnostics: PLAY_CURRENT index=2 queueSize=16 title=Idol repeat=0 shuffle=false
+11-17 17:31:25.315 11229 11229 I FloweryDiagnostics: PLAY_PHASE phase=focus_request_start index=2
+11-17 17:31:25.315 11229 11229 I FloweryDiagnostics: PLAY_PHASE phase=focus_request_done accepted=true index=2
+11-17 17:31:25.321 11229 11703 I FloweryDiagnostics: PLAY_PHASE phase=metadata_retrieval_start index=2
+11-17 17:31:25.322 11229 11703 D MediaMetadataRetriever: dynamicEnableMediaLog getprop frameworks.media.debug.MediaMetadataRetriever: -1,
+11-17 17:31:25.322 11229 11282 I gralloc4: @set_metadata: update dataspace from GM (0x00000000 -> 0x08010000)
+11-17 17:31:25.337 11229 11282 I gralloc4: @set_metadata: update dataspace from GM (0x00000000 -> 0x08010000)
+11-17 17:31:25.355 11229 11282 I gralloc4: @set_metadata: update dataspace from GM (0x00000000 -> 0x08010000)
+11-17 17:31:25.371 11229 11282 I gralloc4: @set_metadata: update dataspace from GM (0x00000000 -> 0x08010000)
+11-17 17:31:25.388 11229 11282 I gralloc4: @set_metadata: update dataspace from GM (0x00000000 -> 0x08010000)
+11-17 17:31:25.406 11229 11282 I gralloc4: @set_metadata: update dataspace from GM (0x00000000 -> 0x08010000)
+11-17 17:31:25.419 11229 11282 I gralloc4: @set_metadata: update dataspace from GM (0x00000000 -> 0x08010000)
+11-17 17:31:25.434 11229 11703 I FloweryDiagnostics: PLAY_PHASE phase=engine_play_start index=2
+11-17 17:31:25.435 11229 11703 I FloweryDiagnostics: PLAY_PHASE phase=engine_play_return index=2; waiting_for_engine_started_callback=true
+11-17 17:31:25.440 11229 11282 I gralloc4: @set_metadata: update dataspace from GM (0x00000000 -> 0x08010000)
+11-17 17:31:25.455 11229 11282 I gralloc4: @set_metadata: update dataspace from GM (0x00000000 -> 0x08010000)
+11-17 17:31:25.470 11229 11282 I gralloc4: @set_metadata: update dataspace from GM (0x00000000 -> 0x08010000)
+11-17 17:31:25.488 11229 11282 I gralloc4: @set_metadata: update dataspace from GM (0x00000000 -> 0x08010000)
+11-17 17:31:25.496 11229 11728 D UsbDeviceConnectionJNI: close
+11-17 17:31:25.497 11229 11728 E FloweryDiagnostics: PLAYBACK_ENGINE_FAILURE generation=6
+11-17 17:31:25.497 11229 11728 E FloweryDiagnostics: java.lang.IllegalStateException: UAC2 Clock Source 6 has no usable frequency control
+11-17 17:31:25.497 11229 11728 E FloweryDiagnostics: 	at com.waizusora.flowery.UsbNativePlaybackSession$Companion.open-hUnOzRk(UsbNativePlaybackSession.kt:266)
+11-17 17:31:25.497 11229 11728 E FloweryDiagnostics: 	at com.waizusora.flowery.FloweryPlayer.play$lambda$32(FloweryPlayer.kt:139)
+11-17 17:31:25.497 11229 11728 E FloweryDiagnostics: 	at com.waizusora.flowery.FloweryPlayer.$r8$lambda$Q59QRjd60Kfq9ANx-slgDTBmDV0(FloweryPlayer.kt:0)
+11-17 17:31:25.497 11229 11728 E FloweryDiagnostics: 	at com.waizusora.flowery.FloweryPlayer$$ExternalSyntheticLambda2.invoke(D8$$SyntheticClass:0)
+11-17 17:31:25.497 11229 11728 E FloweryDiagnostics: 	at kotlin.concurrent.ThreadsKt$thread$thread$1.run(Thread.kt:30)
+11-17 17:31:25.504 11229 11282 I gralloc4: @set_metadata: update dataspace from GM (0x00000000 -> 0x08010000)
+11-17 17:31:25.521 11229 11282 I gralloc4: @set_metadata: update dataspace from GM (0x00000000 -> 0x08010000)
+11-17 17:31:25.541 11229 11282 I gralloc4: @set_metadata: update dataspace from GM (0x00000000 -> 0x08010000)
+11-17 17:31:25.554 11229 11282 I gralloc4: @set_metadata: update dataspace from GM (0x00000000 -> 0x08010000)
+11-17 17:31:25.571 11229 11282 I gralloc4: @set_metadata: update dataspace from GM (0x00000000 -> 0x08010000)
+11-17 17:31:25.588 11229 11282 I gralloc4: @set_metadata: update dataspace from GM (0x00000000 -> 0x08010000)
+11-17 17:31:25.608 11229 11282 I gralloc4: @set_metadata: update dataspace from GM (0x00000000 -> 0x08010000)
+11-17 17:31:26.148 11229 11282 I gralloc4: @set_metadata: update dataspace from GM (0x00000000 -> 0x08010000)
+11-17 17:31:26.303 11229 11282 I gralloc4: @set_metadata: update dataspace from GM (0x00000000 -> 0x08010000)
+11-17 17:31:26.770 11229 11282 I gralloc4: @set_metadata: update dataspace from GM (0x00000000 -> 0x08010000)
+11-17 17:31:26.869 11229 11282 I gralloc4: @set_metadata: update dataspace from GM (0x00000000 -> 0x08010000)
+11-17 17:31:26.886 11229 11282 I gralloc4: @set_metadata: update dataspace from GM (0x00000000 -> 0x08010000)
+11-17 17:31:26.902 11229 11282 I gralloc4: @set_metadata: update dataspace from GM (0x00000000 -> 0x08010000)
+11-17 17:31:26.917 11229 11282 I gralloc4: @set_metadata: update dataspace from GM (0x00000000 -> 0x08010000)
+11-17 17:31:26.934 11229 11282 I gralloc4: @set_metadata: update dataspace from GM (0x00000000 -> 0x08010000)
+11-17 17:31:26.938 11229 11229 D skia    : SkJpegCodec::onGetPixels + (1200, 1200)
+11-17 17:31:26.939 11229 11229 D skia    : stream getLength() supported, buffer addr 0x7b3180e000 length 380544
+11-17 17:31:26.939 11229 11229 D skia    : LoadInputStreamToMem va 0x7b3180e000  size 380544
+11-17 17:31:26.939 11229 11229 W izusora.flowery: type=1400 audit(0.0:45989): avc:  denied  { search } for  name="ppm" dev="proc" ino=4026531925 scontext=u:r:untrusted_app:s0:c97,c257,c512,c768 tcontext=u:object_r:proc_ppm:s0 tclass=dir permissive=0 app=com.waizusora.flowery
+11-17 17:31:26.941 11229 11229 D libjpeg-alpha: Huffman Builder run in subthread
+11-17 17:31:26.941 11229 11229 D libjpeg-alpha: Tile Decoder (#thread:4, size:256 256 256 432x304, alignment:256x16)
+11-17 17:31:26.939 11229 11229 W izusora.flowery: type=1400 audit(0.0:45990): avc:  denied  { search } for  name="ppm" dev="proc" ino=4026531925 scontext=u:r:untrusted_app:s0:c97,c257,c512,c768 tcontext=u:object_r:proc_ppm:s0 tclass=dir permissive=0 app=com.waizusora.flowery
+11-17 17:31:26.950 11229 11229 D skia    : SkJpegCodec::onGetPixels -
+11-17 17:31:26.950 11229 11229 D skia    : onGetGainmapInfo: false.
+11-17 17:31:26.952 11229 11282 I gralloc4: @set_metadata: update dataspace from GM (0x00000000 -> 0x08010000)
+11-17 17:31:26.967 11229 11282 I gralloc4: @set_metadata: update dataspace from GM (0x00000000 -> 0x08010000)
+11-17 17:31:26.984 11229 11282 I gralloc4: @set_metadata: update dataspace from GM (0x00000000 -> 0x08010000)
+11-17 17:31:27.005 11229 11282 I gralloc4: @set_metadata: update dataspace from GM (0x00000000 -> 0x08010000)
+11-17 17:31:27.021 11229 11282 I gralloc4: @set_metadata: update dataspace from GM (0x00000000 -> 0x08010000)
+11-17 17:31:27.035 11229 11282 I gralloc4: @set_metadata: update dataspace from GM (0x00000000 -> 0x08010000)
+11-17 17:31:27.053 11229 11282 I gralloc4: @set_metadata: update dataspace from GM (0x00000000 -> 0x08010000)
+11-17 17:31:27.070 11229 11282 I gralloc4: @set_metadata: update dataspace from GM (0x00000000 -> 0x08010000)
+11-17 17:31:27.101 11229 11282 I gralloc4: @set_metadata: update dataspace from GM (0x00000000 -> 0x08010000)
+11-17 17:31:27.208 11229 11282 I gralloc4: @set_metadata: update dataspace from GM (0x00000000 -> 0x08010000)
+11-17 17:31:28.749 11229 11282 I gralloc4: @set_metadata: update dataspace from GM (0x00000000 -> 0x08010000)
+11-17 17:31:28.862 11229 11229 I FloweryDiagnostics: PLAY_CURRENT index=2 queueSize=16 title=Idol repeat=0 shuffle=false
+11-17 17:31:28.862 11229 11229 I FloweryDiagnostics: PLAY_PHASE phase=focus_request_start index=2
+11-17 17:31:28.862 11229 11229 I FloweryDiagnostics: PLAY_PHASE phase=focus_request_done accepted=true index=2
+11-17 17:31:28.865 11229 11282 I gralloc4: @set_metadata: update dataspace from GM (0x00000000 -> 0x08010000)
+11-17 17:31:28.869 11229 11703 I FloweryDiagnostics: PLAY_PHASE phase=metadata_retrieval_start index=2
+11-17 17:31:28.869 11229 11703 D MediaMetadataRetriever: dynamicEnableMediaLog getprop frameworks.media.debug.MediaMetadataRetriever: -1,
+11-17 17:31:28.880 11229 11282 I gralloc4: @set_metadata: update dataspace from GM (0x00000000 -> 0x08010000)
+11-17 17:31:28.897 11229 11282 I gralloc4: @set_metadata: update dataspace from GM (0x00000000 -> 0x08010000)
+11-17 17:31:28.913 11229 11282 I gralloc4: @set_metadata: update dataspace from GM (0x00000000 -> 0x08010000)
+11-17 17:31:28.930 11229 11282 I gralloc4: @set_metadata: update dataspace from GM (0x00000000 -> 0x08010000)
+11-17 17:31:28.949 11229 11282 I gralloc4: @set_metadata: update dataspace from GM (0x00000000 -> 0x08010000)
+11-17 17:31:28.950 11229 11703 I FloweryDiagnostics: PLAY_PHASE phase=engine_play_start index=2
+11-17 17:31:28.951 11229 11703 I FloweryDiagnostics: PLAY_PHASE phase=engine_play_return index=2; waiting_for_engine_started_callback=true
+11-17 17:31:28.966 11229 11282 I gralloc4: @set_metadata: update dataspace from GM (0x00000000 -> 0x08010000)
+11-17 17:31:28.985 11229 11282 I gralloc4: @set_metadata: update dataspace from GM (0x00000000 -> 0x08010000)
+11-17 17:31:29.002 11229 11282 I gralloc4: @set_metadata: update dataspace from GM (0x00000000 -> 0x08010000)
+11-17 17:31:29.018 11229 11282 I gralloc4: @set_metadata: update dataspace from GM (0x00000000 -> 0x08010000)
+11-17 17:31:29.034 11229 11282 I gralloc4: @set_metadata: update dataspace from GM (0x00000000 -> 0x08010000)
+11-17 17:31:29.051 11229 11282 I gralloc4: @set_metadata: update dataspace from GM (0x00000000 -> 0x08010000)
+11-17 17:31:29.068 11229 11282 I gralloc4: @set_metadata: update dataspace from GM (0x00000000 -> 0x08010000)
+11-17 17:31:29.084 11229 11282 I gralloc4: @set_metadata: update dataspace from GM (0x00000000 -> 0x08010000)
+11-17 17:31:29.085 11229 11762 D UsbDeviceConnectionJNI: close
+11-17 17:31:29.086 11229 11762 E FloweryDiagnostics: PLAYBACK_ENGINE_FAILURE generation=8
+11-17 17:31:29.086 11229 11762 E FloweryDiagnostics: java.lang.IllegalStateException: UAC2 Clock Source 6 has no usable frequency control
+11-17 17:31:29.086 11229 11762 E FloweryDiagnostics: 	at com.waizusora.flowery.UsbNativePlaybackSession$Companion.open-hUnOzRk(UsbNativePlaybackSession.kt:266)
+11-17 17:31:29.086 11229 11762 E FloweryDiagnostics: 	at com.waizusora.flowery.FloweryPlayer.play$lambda$32(FloweryPlayer.kt:139)
+11-17 17:31:29.086 11229 11762 E FloweryDiagnostics: 	at com.waizusora.flowery.FloweryPlayer.$r8$lambda$Q59QRjd60Kfq9ANx-slgDTBmDV0(FloweryPlayer.kt:0)
+11-17 17:31:29.086 11229 11762 E FloweryDiagnostics: 	at com.waizusora.flowery.FloweryPlayer$$ExternalSyntheticLambda2.invoke(D8$$SyntheticClass:0)
+11-17 17:31:29.086 11229 11762 E FloweryDiagnostics: 	at kotlin.concurrent.ThreadsKt$thread$thread$1.run(Thread.kt:30)
+11-17 17:31:29.103 11229 11282 I gralloc4: @set_metadata: update dataspace from GM (0x00000000 -> 0x08010000)
+11-17 17:31:29.120 11229 11282 I gralloc4: @set_metadata: update dataspace from GM (0x00000000 -> 0x08010000)
+11-17 17:31:29.136 11229 11282 I gralloc4: @set_metadata: update dataspace from GM (0x00000000 -> 0x08010000)
+11-17 17:31:29.153 11229 11282 I gralloc4: @set_metadata: update dataspace from GM (0x00000000 -> 0x08010000)
+11-17 17:31:29.170 11229 11282 I gralloc4: @set_metadata: update dataspace from GM (0x00000000 -> 0x08010000)
+11-17 17:31:29.187 11229 11282 I gralloc4: @set_metadata: update dataspace from GM (0x00000000 -> 0x08010000)
+11-17 17:31:29.204 11229 11282 I gralloc4: @set_metadata: update dataspace from GM (0x00000000 -> 0x08010000)
+11-17 17:31:29.219 11229 11282 I gralloc4: @set_metadata: update dataspace from GM (0x00000000 -> 0x08010000)
+11-17 17:31:29.235 11229 11282 I gralloc4: @set_metadata: update dataspace from GM (0x00000000 -> 0x08010000)
+11-17 17:31:29.251 11229 11282 I gralloc4: @set_metadata: update dataspace from GM (0x00000000 -> 0x08010000)
+11-17 17:31:29.267 11229 11282 I gralloc4: @set_metadata: update dataspace from GM (0x00000000 -> 0x08010000)
+11-17 17:31:29.284 11229 11282 I gralloc4: @set_metadata: update dataspace from GM (0x00000000 -> 0x08010000)
+11-17 17:31:29.301 11229 11282 I gralloc4: @set_metadata: update dataspace from GM (0x00000000 -> 0x08010000)
+11-17 17:31:29.319 11229 11282 I gralloc4: @set_metadata: update dataspace from GM (0x00000000 -> 0x08010000)
+11-17 17:31:29.334 11229 11282 I gralloc4: @set_metadata: update dataspace from GM (0x00000000 -> 0x08010000)
+11-17 17:31:30.761 11229 11245 I izusora.flowery: Background concurrent copying GC freed 3625KB AllocSpace bytes, 13(3304KB) LOS objects, 49% free, 7950KB/15MB, paused 115us,118us total 114.198ms
+11-17 17:31:33.444 11229 11229 I FloweryDiagnostics: PLAY_CURRENT index=2 queueSize=16 title=Idol repeat=0 shuffle=false
+11-17 17:31:33.444 11229 11229 I FloweryDiagnostics: PLAY_PHASE phase=focus_request_start index=2
+11-17 17:31:33.444 11229 11229 I FloweryDiagnostics: PLAY_PHASE phase=focus_request_done accepted=true index=2
+11-17 17:31:33.445 11229 11282 I gralloc4: @set_metadata: update dataspace from GM (0x00000000 -> 0x08010000)
+11-17 17:31:33.451 11229 11703 I FloweryDiagnostics: PLAY_PHASE phase=metadata_retrieval_start index=2
+11-17 17:31:33.452 11229 11703 D MediaMetadataRetriever: dynamicEnableMediaLog getprop frameworks.media.debug.MediaMetadataRetriever: -1,
+11-17 17:31:33.457 11229 11282 I gralloc4: @set_metadata: update dataspace from GM (0x00000000 -> 0x08010000)
+11-17 17:31:33.466 11229 11282 I gralloc4: @set_metadata: update dataspace from GM (0x00000000 -> 0x08010000)
+11-17 17:31:33.478 11229 11282 I gralloc4: @set_metadata: update dataspace from GM (0x00000000 -> 0x08010000)
+11-17 17:31:33.496 11229 11282 I gralloc4: @set_metadata: update dataspace from GM (0x00000000 -> 0x08010000)
+11-17 17:31:33.511 11229 11282 I gralloc4: @set_metadata: update dataspace from GM (0x00000000 -> 0x08010000)
+11-17 17:31:33.528 11229 11282 I gralloc4: @set_metadata: update dataspace from GM (0x00000000 -> 0x08010000)
+11-17 17:31:33.539 11229 11703 I FloweryDiagnostics: PLAY_PHASE phase=engine_play_start index=2
+11-17 17:31:33.539 11229 11703 I FloweryDiagnostics: PLAY_PHASE phase=engine_play_return index=2; waiting_for_engine_started_callback=true
+11-17 17:31:33.545 11229 11282 I gralloc4: @set_metadata: update dataspace from GM (0x00000000 -> 0x08010000)
+11-17 17:31:33.564 11229 11282 I gralloc4: @set_metadata: update dataspace from GM (0x00000000 -> 0x08010000)
+11-17 17:31:33.581 11229 11282 I gralloc4: @set_metadata: update dataspace from GM (0x00000000 -> 0x08010000)
+11-17 17:31:33.602 11229 11282 I gralloc4: @set_metadata: update dataspace from GM (0x00000000 -> 0x08010000)
+11-17 17:31:33.615 11229 11282 I gralloc4: @set_metadata: update dataspace from GM (0x00000000 -> 0x08010000)
+11-17 17:31:33.634 11229 11282 I gralloc4: @set_metadata: update dataspace from GM (0x00000000 -> 0x08010000)
+11-17 17:31:33.649 11229 11282 I gralloc4: @set_metadata: update dataspace from GM (0x00000000 -> 0x08010000)
+11-17 17:31:33.669 11229 11282 I gralloc4: @set_metadata: update dataspace from GM (0x00000000 -> 0x08010000)
+11-17 17:31:33.678 11229 11764 D UsbDeviceConnectionJNI: close
+11-17 17:31:33.679 11229 11764 E FloweryDiagnostics: PLAYBACK_ENGINE_FAILURE generation=10
+11-17 17:31:33.679 11229 11764 E FloweryDiagnostics: java.lang.IllegalStateException: UAC2 Clock Source 6 has no usable frequency control
+11-17 17:31:33.679 11229 11764 E FloweryDiagnostics: 	at com.waizusora.flowery.UsbNativePlaybackSession$Companion.open-hUnOzRk(UsbNativePlaybackSession.kt:266)
+11-17 17:31:33.679 11229 11764 E FloweryDiagnostics: 	at com.waizusora.flowery.FloweryPlayer.play$lambda$32(FloweryPlayer.kt:139)
+11-17 17:31:33.679 11229 11764 E FloweryDiagnostics: 	at com.waizusora.flowery.FloweryPlayer.$r8$lambda$Q59QRjd60Kfq9ANx-slgDTBmDV0(FloweryPlayer.kt:0)
+11-17 17:31:33.679 11229 11764 E FloweryDiagnostics: 	at com.waizusora.flowery.FloweryPlayer$$ExternalSyntheticLambda2.invoke(D8$$SyntheticClass:0)
+11-17 17:31:33.679 11229 11764 E FloweryDiagnostics: 	at kotlin.concurrent.ThreadsKt$thread$thread$1.run(Thread.kt:30)
+11-17 17:31:33.682 11229 11282 I gralloc4: @set_metadata: update dataspace from GM (0x00000000 -> 0x08010000)
+11-17 17:31:33.701 11229 11282 I gralloc4: @set_metadata: update dataspace from GM (0x00000000 -> 0x08010000)
+11-17 17:31:33.714 11229 11282 I gralloc4: @set_metadata: update dataspace from GM (0x00000000 -> 0x08010000)
+11-17 17:31:33.732 11229 11282 I gralloc4: @set_metadata: update dataspace from GM (0x00000000 -> 0x08010000)
+11-17 17:31:33.751 11229 11282 I gralloc4: @set_metadata: update dataspace from GM (0x00000000 -> 0x08010000)
+11-17 17:31:33.765 11229 11282 I gralloc4: @set_metadata: update dataspace from GM (0x00000000 -> 0x08010000)
+11-17 17:31:33.782 11229 11282 I gralloc4: @set_metadata: update dataspace from GM (0x00000000 -> 0x08010000)
+11-17 17:31:33.798 11229 11282 I gralloc4: @set_metadata: update dataspace from GM (0x00000000 -> 0x08010000)
+11-17 17:31:33.814 11229 11282 I gralloc4: @set_metadata: update dataspace from GM (0x00000000 -> 0x08010000)
+11-17 17:31:33.833 11229 11282 I gralloc4: @set_metadata: update dataspace from GM (0x00000000 -> 0x08010000)
+11-17 17:31:33.849 11229 11282 I gralloc4: @set_metadata: update dataspace from GM (0x00000000 -> 0x08010000)
+11-17 17:31:33.864 11229 11282 I gralloc4: @set_metadata: update dataspace from GM (0x00000000 -> 0x08010000)
+11-17 17:31:33.879 11229 11282 I gralloc4: @set_metadata: update dataspace from GM (0x00000000 -> 0x08010000)
+11-17 17:31:33.899 11229 11282 I gralloc4: @set_metadata: update dataspace from GM (0x00000000 -> 0x08010000)
+11-17 17:31:33.914 11229 11282 I gralloc4: @set_metadata: update dataspace from GM (0x00000000 -> 0x08010000)
+11-17 17:31:33.932 11229 11282 I gralloc4: @set_metadata: update dataspace from GM (0x00000000 -> 0x08010000)
+11-17 17:31:33.946 11229 11282 I gralloc4: @set_metadata: update dataspace from GM (0x00000000 -> 0x08010000)
+11-17 17:31:37.184 11229 11282 I gralloc4: @set_metadata: update dataspace from GM (0x00000000 -> 0x08010000)
+11-17 17:31:37.194 11229 11282 I gralloc4: @set_metadata: update dataspace from GM (0x00000000 -> 0x08010000)
+11-17 17:31:37.198 11229 11229 I FloweryDiagnostics: PLAY_CURRENT index=2 queueSize=16 title=Idol repeat=0 shuffle=false
+11-17 17:31:37.199 11229 11229 I FloweryDiagnostics: PLAY_PHASE phase=focus_request_start index=2
+11-17 17:31:37.199 11229 11229 I FloweryDiagnostics: PLAY_PHASE phase=focus_request_done accepted=true index=2
+11-17 17:31:37.205 11229 11703 I FloweryDiagnostics: PLAY_PHASE phase=metadata_retrieval_start index=2
+11-17 17:31:37.205 11229 11703 D MediaMetadataRetriever: dynamicEnableMediaLog getprop frameworks.media.debug.MediaMetadataRetriever: -1,
+11-17 17:31:37.211 11229 11282 I gralloc4: @set_metadata: update dataspace from GM (0x00000000 -> 0x08010000)
+11-17 17:31:37.225 11229 11282 I gralloc4: @set_metadata: update dataspace from GM (0x00000000 -> 0x08010000)
+11-17 17:31:37.241 11229 11282 I gralloc4: @set_metadata: update dataspace from GM (0x00000000 -> 0x08010000)
+11-17 17:31:37.260 11229 11282 I gralloc4: @set_metadata: update dataspace from GM (0x00000000 -> 0x08010000)
+11-17 17:31:37.278 11229 11282 I gralloc4: @set_metadata: update dataspace from GM (0x00000000 -> 0x08010000)
+11-17 17:31:37.299 11229 11282 I gralloc4: @set_metadata: update dataspace from GM (0x00000000 -> 0x08010000)
+11-17 17:31:37.313 11229 11282 I gralloc4: @set_metadata: update dataspace from GM (0x00000000 -> 0x08010000)
+11-17 17:31:37.322 11229 11703 I FloweryDiagnostics: PLAY_PHASE phase=engine_play_start index=2
+11-17 17:31:37.323 11229 11703 I FloweryDiagnostics: PLAY_PHASE phase=engine_play_return index=2; waiting_for_engine_started_callback=true
+11-17 17:31:37.330 11229 11282 I gralloc4: @set_metadata: update dataspace from GM (0x00000000 -> 0x08010000)
+11-17 17:31:37.347 11229 11282 I gralloc4: @set_metadata: update dataspace from GM (0x00000000 -> 0x08010000)
+11-17 17:31:37.367 11229 11282 I gralloc4: @set_metadata: update dataspace from GM (0x00000000 -> 0x08010000)
+11-17 17:31:37.379 11229 11282 I gralloc4: @set_metadata: update dataspace from GM (0x00000000 -> 0x08010000)
+11-17 17:31:37.400 11229 11282 I gralloc4: @set_metadata: update dataspace from GM (0x00000000 -> 0x08010000)
+11-17 17:31:37.413 11229 11282 I gralloc4: @set_metadata: update dataspace from GM (0x00000000 -> 0x08010000)
+11-17 17:31:37.432 11229 11282 I gralloc4: @set_metadata: update dataspace from GM (0x00000000 -> 0x08010000)
+11-17 17:31:37.446 11229 11282 I gralloc4: @set_metadata: update dataspace from GM (0x00000000 -> 0x08010000)
+11-17 17:31:37.464 11229 11282 I gralloc4: @set_metadata: update dataspace from GM (0x00000000 -> 0x08010000)
+11-17 17:31:37.481 11229 11282 I gralloc4: @set_metadata: update dataspace from GM (0x00000000 -> 0x08010000)
+11-17 17:31:37.493 11229 11767 D UsbDeviceConnectionJNI: close
+11-17 17:31:37.494 11229 11767 E FloweryDiagnostics: PLAYBACK_ENGINE_FAILURE generation=12
+11-17 17:31:37.494 11229 11767 E FloweryDiagnostics: java.lang.IllegalStateException: UAC2 Clock Source 6 has no usable frequency control
+11-17 17:31:37.494 11229 11767 E FloweryDiagnostics: 	at com.waizusora.flowery.UsbNativePlaybackSession$Companion.open-hUnOzRk(UsbNativePlaybackSession.kt:266)
+11-17 17:31:37.494 11229 11767 E FloweryDiagnostics: 	at com.waizusora.flowery.FloweryPlayer.play$lambda$32(FloweryPlayer.kt:139)
+11-17 17:31:37.494 11229 11767 E FloweryDiagnostics: 	at com.waizusora.flowery.FloweryPlayer.$r8$lambda$Q59QRjd60Kfq9ANx-slgDTBmDV0(FloweryPlayer.kt:0)
+11-17 17:31:37.494 11229 11767 E FloweryDiagnostics: 	at com.waizusora.flowery.FloweryPlayer$$ExternalSyntheticLambda2.invoke(D8$$SyntheticClass:0)
+11-17 17:31:37.494 11229 11767 E FloweryDiagnostics: 	at kotlin.concurrent.ThreadsKt$thread$thread$1.run(Thread.kt:30)
+11-17 17:31:37.494 11229 11282 I gralloc4: @set_metadata: update dataspace from GM (0x00000000 -> 0x08010000)
+11-17 17:31:37.514 11229 11282 I gralloc4: @set_metadata: update dataspace from GM (0x00000000 -> 0x08010000)
+11-17 17:31:37.532 11229 11282 I gralloc4: @set_metadata: update dataspace from GM (0x00000000 -> 0x08010000)
+11-17 17:31:37.546 11229 11282 I gralloc4: @set_metadata: update dataspace from GM (0x00000000 -> 0x08010000)
+11-17 17:31:37.563 11229 11282 I gralloc4: @set_metadata: update dataspace from GM (0x00000000 -> 0x08010000)
+11-17 17:31:37.581 11229 11282 I gralloc4: @set_metadata: update dataspace from GM (0x00000000 -> 0x08010000)
+11-17 17:31:37.596 11229 11282 I gralloc4: @set_metadata: update dataspace from GM (0x00000000 -> 0x08010000)
+11-17 17:31:37.612 11229 11282 I gralloc4: @set_metadata: update dataspace from GM (0x00000000 -> 0x08010000)
+11-17 17:31:37.629 11229 11282 I gralloc4: @set_metadata: update dataspace from GM (0x00000000 -> 0x08010000)
+11-17 17:31:37.649 11229 11282 I gralloc4: @set_metadata: update dataspace from GM (0x00000000 -> 0x08010000)
+11-17 17:31:42.237 11229 11282 I GED     : ged_boost_gpu_freq, level 100, eOrigin 2, final_idx 31, oppidx_max 31, oppidx_min 0
+11-17 17:31:42.245 11229 11229 D BLASTBufferQueue: [VRI[MainActivity]#4](f:0,a:1) destructor()
+11-17 17:31:42.245 11229 11229 D BufferQueueConsumer: [VRI[MainActivity]#4(BLAST Consumer)4](id:2bdd00000004,api:0,p:-1,c:11229) disconnect
+11-17 17:31:42.248 11229 11282 I GED     : ged_boost_gpu_freq, level 100, eOrigin 2, final_idx 31, oppidx_max 31, oppidx_min 0
