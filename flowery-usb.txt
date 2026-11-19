@@ -1,0 +1,16 @@
+USB MANAGER STATE (dumpsys usb):
+
+Exception occurred while dumping:
+java.lang.IllegalArgumentException
+	at com.android.server.usb.descriptors.ByteStream.<init>(ByteStream.java:63)
+	at com.android.server.usb.descriptors.UsbDescriptorParser.parseDescriptors(UsbDescriptorParser.java:299)
+	at com.android.server.usb.descriptors.UsbDescriptorParser.<init>(UsbDescriptorParser.java:73)
+	at com.android.server.usb.UsbHostManager$ConnectionRecord.dump(UsbHostManager.java:147)
+	at com.android.server.usb.UsbHostManager.dump(UsbHostManager.java:602)
+	at com.android.server.usb.UsbService.dump(UsbService.java:992)
+	at android.os.Binder.doDump(Binder.java:1011)
+	at android.os.Binder.dump(Binder.java:1001)
+	at android.os.Binder.onTransact(Binder.java:874)
+	at android.hardware.usb.IUsbManager$Stub.onTransact(IUsbManager.java:968)
+	at android.os.Binder.execTransactInternal(Binder.java:1351)
+	at android.os.Binder.execTransact(Binder.java:1282)
