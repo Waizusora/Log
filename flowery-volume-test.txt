@@ -1,0 +1,72 @@
+--------- beginning of main
+11-19 10:20:17.872 I/FloweryDiagnostics(12333): QUEUE_LOAD source=ACTION_PLAY size=16 index=2 repeat=0 shuffle=false
+11-19 10:20:17.888 I/FloweryDiagnostics(12333): PLAY_CURRENT index=2 queueSize=16 title=Idol repeat=0 shuffle=false
+11-19 10:20:17.888 I/FloweryDiagnostics(12333): PLAY_PHASE phase=focus_request_start index=2
+11-19 10:20:17.888 I/FloweryDiagnostics(12333): PLAY_PHASE phase=focus_request_done accepted=true index=2
+11-19 10:20:17.899 I/FloweryDiagnostics(12333): PLAY_PHASE phase=metadata_retrieval_start index=2
+11-19 10:20:18.073 I/FloweryDiagnostics(12333): PLAY_PHASE phase=engine_play_start index=2
+11-19 10:20:18.074 I/FloweryUsbNative(12333): SESSION_CLOSE_BEGIN nativeHandle=2
+11-19 10:20:18.074 I/FloweryDiagnostics(12333): PLAY_PHASE phase=engine_play_return index=2; waiting_for_engine_started_callback=true
+11-19 10:20:18.076 I/FloweryDiagnostics(12333): PLAYBACK_REPLACEMENT_WAIT_BEGIN generation=7 previousThread=FloweryStreamPlayer
+11-19 10:20:18.077 I/FloweryUsbNative(12333): SESSION_CLOSE_NATIVE_DRAINED nativeHandle=2; closing retained Android USB connection
+11-19 10:20:18.081 I/FloweryDiagnostics(12333): PLAYBACK_REPLACEMENT_WAIT_END generation=7 previousThread=FloweryStreamPlayer waitedMs=4 alive=false
+11-19 10:20:18.152 I/FloweryUsbNative(12333): DEVICE_SCAN candidates=1 sourceRate=96000 channels=2 sourceBits=24 sourceFormat=1
+11-19 10:20:18.160 I/FloweryUsbNative(12333): USB_PROBE_OPEN device=/dev/bus/usb/001/034 vendorId=12722 productId=273
+11-19 10:20:18.161 I/FloweryUsbNative(12333): USB_AC_DESCRIPTOR offset=44 bytes=092401000204730000
+11-19 10:20:18.162 I/FloweryUsbNative(12333): USB_AC_DESCRIPTOR offset=53 bytes=08240A0307070000
+11-19 10:20:18.163 I/FloweryUsbNative(12333): USB_AC_DESCRIPTOR offset=61 bytes=1124020101020003010400000000000000
+11-19 10:20:18.164 I/FloweryUsbNative(12333): USB_AC_DESCRIPTOR offset=78 bytes=0C2403040101070203000000
+11-19 10:20:18.165 I/FloweryUsbNative(12333): USB_AC_DESCRIPTOR offset=90 bytes=0E24060201030000000C00000000
+11-19 10:20:18.166 I/FloweryUsbNative(12333): USB_AC_DESCRIPTOR offset=104 bytes=08240A0607070000
+11-19 10:20:18.167 I/FloweryUsbNative(12333): USB_AC_DESCRIPTOR offset=112 bytes=1124020501010006020300000000000000
+11-19 10:20:18.168 I/FloweryUsbNative(12333): USB_AC_DESCRIPTOR offset=129 bytes=0C24030802030A0706000000
+11-19 10:20:18.170 I/FloweryUsbNative(12333): USB_AC_DESCRIPTOR offset=141 bytes=1224060705030000000C0000000C00000000
+11-19 10:20:18.170 I/FloweryUsbNative(12333): USB_AC_DESCRIPTOR_SUMMARY count=9 rawBytes=485
+11-19 10:20:18.171 I/FloweryUsbNative(12333): USB_VOLUME_CAPABILITY device=/dev/bus/usb/001/034 featureUnit=7 readable=1,2 writable=1,2
+11-19 10:20:18.172 I/FloweryUsbNative(12333): USB_PROBE_CONNECTION_CLOSED device=/dev/bus/usb/001/034 reason=descriptor-planning-complete
+11-19 10:20:18.174 I/FloweryUsbNative(12333): USB_PLAN device=/dev/bus/usb/001/034 interface=2 alternate=2 endpoint=0x4 rawMaxPacketSize=294 interval=1 synchronizationType=2 synchronization=adaptive sampleRate=96000 channels=2 validBits=24 subslotBytes=3 dataFormat=pcm uac2=true feedbackEndpoint=0x0 feedbackPacketBytes=0 clockControlInterface=0 clockSourceEntity=6 clockControls=7
+11-19 10:20:18.175 I/FloweryUsbNative(12333): SESSION_OPEN_BEGIN device=/dev/bus/usb/001/034 vendorId=12722 productId=273 interface=2 alternate=2
+11-19 10:20:18.177 I/FloweryUsbNative(12333): ANDROID_OPEN_DEVICE_OK device=/dev/bus/usb/001/034 fdValid=true
+11-19 10:20:18.178 I/FloweryUsbNative(12333): USB_INTERFACE_CLAIM interface=2 alternate=2 claimed=true
+11-19 10:20:18.180 I/FloweryUsbNative(12333): NATIVE_SESSION_OPEN_RESULT handle=3 interface=2 alternate=2
+11-19 10:20:18.180 I/FloweryUsbNative(12333): USB_NATIVE_SESSION_READY device=/dev/bus/usb/001/034 busSpeed=high interface=2 alternate=2 endpoint=0x4 requestedRate=96000
+11-19 10:20:18.181 I/FloweryUsbNative(12333): PLAYBACK_START_BEGIN sampleRate=96000 channels=2 validBits=24 subslotBytes=3 dataFormat=1 endpoint=0x4 maxPacketSize=294 interval=1 uac2=true feedbackEndpoint=0x0 feedbackPacketBytes=0
+11-19 10:20:18.182 I/FloweryUsbNative(12333): USB_CONTROL_INTERFACE_CLAIM interface=0 found=true claimed=true
+11-19 10:20:18.183 I/FloweryUsbNative(12333): UAC2_CLOCK_READY controlInterface=0 sourceEntity=6 requestedOutputHz=96000 sourceRequiredHz=96000 sourceCurrentHz=44100 sourceActiveHz=96000 sourceWritable=false sourceBestEffortWrite=true selectors=0 multipliers=0
+11-19 10:20:18.184 I/FloweryUsbNative(12333): NATIVE_START result=0 sampleRate=96000 channels=2 validBits=24 subslotBytes=3 dataFormat=1 endpoint=0x4 rawMaxPacketSize=294 interval=1 feedbackEndpoint=0x0 feedbackPacketBytes=0 initialPositionMs=0
+11-19 10:20:18.185 I/FloweryUsbNative(12333): PLAYBACK_START_SUCCESS sampleRate=96000 busSpeed=high status={"error":"","paused":false,"positionFrames":0,"status":0}
+11-19 10:20:18.185 I/FloweryUsbNative(12333): USB_VOLUME_CAPABILITY detected=true writable=true unit=7
+11-19 10:20:18.186 W/FloweryUsbNative(12333): USB_VOLUME_READ_UNAVAILABLE unit=7 reason=Feature Unit GET_RANGE/GET_MIN failed
+11-19 10:20:23.185 I/FloweryUsbNative(12333): TRANSFER_SUMMARY endpoint=0x04 sampleRate=96000 channels=2 intervalUs=125 maxPacketBytes=294 busSpeed=High completedTransfers=4993 completedFrames=479328 expectedBytes=2875968 actualBytes=2875968 packetErrors=0 feedbackSamples=0 feedbackRaw=none feedbackRateHz=none playedFrames=479328
+11-19 10:20:26.075 I/FloweryDiagnostics(12333): VOLUME_UI_SOURCE source=slider_commit id=3 requested=0.27380952
+11-19 10:20:26.078 I/FloweryDiagnostics(12333): USB_VOLUME_COMMAND_START id=3 requestedFraction=0.27380952
+11-19 10:20:26.079 E/FloweryUsbNative(12333): USB_VOLUME_SET_FAILED unit=7
+11-19 10:20:26.079 E/FloweryUsbNative(12333): java.lang.IllegalStateException: Feature Unit volume range unavailable for channel 1
+11-19 10:20:26.079 E/FloweryUsbNative(12333): 	at com.waizusora.flowery.UsbLibusbSession.setUacVolume-gIAlu-s(UsbLibusbSession.kt:216)
+11-19 10:20:26.079 E/FloweryUsbNative(12333): 	at com.waizusora.flowery.UsbNativePlaybackSession.setVolumeFraction-IoAF18A(UsbNativePlaybackSession.kt:194)
+11-19 10:20:26.079 E/FloweryUsbNative(12333): 	at com.waizusora.flowery.FloweryPlayer.setVolume(FloweryPlayer.kt:46)
+11-19 10:20:26.079 E/FloweryUsbNative(12333): 	at com.waizusora.flowery.PlaybackCoordinator.setVolume(PlaybackCoordinator.kt:102)
+11-19 10:20:26.079 E/FloweryUsbNative(12333): 	at com.waizusora.flowery.PlaybackService.onStartCommand$lambda$8(PlaybackService.kt:300)
+11-19 10:20:26.079 E/FloweryUsbNative(12333): 	at com.waizusora.flowery.PlaybackService.$r8$lambda$usii3ShyQKvg-aIfUzNurw5-yB4(PlaybackService.kt:0)
+11-19 10:20:26.079 E/FloweryUsbNative(12333): 	at com.waizusora.flowery.PlaybackService$$ExternalSyntheticLambda9.run(D8$$SyntheticClass:0)
+11-19 10:20:26.079 E/FloweryUsbNative(12333): 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1100)
+11-19 10:20:26.079 E/FloweryUsbNative(12333): 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+11-19 10:20:26.079 E/FloweryUsbNative(12333): 	at java.lang.Thread.run(Thread.java:1571)
+11-19 10:20:26.079 W/FloweryUsbNative(12333): USB_VOLUME_SET_FAILED unit=7 reason=Feature Unit volume range unavailable for channel 1
+11-19 10:20:26.079 W/FloweryUsbNative(12333): USB_VOLUME_UNAVAILABLE requestedFraction=0.27380952 reason=Feature Unit volume range unavailable for channel 1
+11-19 10:20:26.079 I/FloweryDiagnostics(12333): USB_VOLUME_COMMAND_COMPLETE id=3 requestedFraction=0.27380952 actualFraction=1.0 verified=false
+11-19 10:20:26.082 I/FloweryDiagnostics(12333): VOLUME_UI_SOURCE source=command_ack id=3 actual=1.0
+11-19 10:20:28.186 I/FloweryUsbNative(12333): TRANSFER_SUMMARY endpoint=0x04 sampleRate=96000 channels=2 intervalUs=125 maxPacketBytes=294 busSpeed=High completedTransfers=9987 completedFrames=958752 expectedBytes=5752512 actualBytes=5752512 packetErrors=0 feedbackSamples=0 feedbackRaw=none feedbackRateHz=none playedFrames=958752
+11-19 10:20:33.187 I/FloweryUsbNative(12333): TRANSFER_SUMMARY endpoint=0x04 sampleRate=96000 channels=2 intervalUs=125 maxPacketBytes=294 busSpeed=High completedTransfers=14961 completedFrames=1436256 expectedBytes=8617536 actualBytes=8617536 packetErrors=0 feedbackSamples=0 feedbackRaw=none feedbackRateHz=none playedFrames=1436256
+11-19 10:20:38.187 I/FloweryUsbNative(12333): TRANSFER_SUMMARY endpoint=0x04 sampleRate=96000 channels=2 intervalUs=125 maxPacketBytes=294 busSpeed=High completedTransfers=19925 completedFrames=1912800 expectedBytes=11476800 actualBytes=11476800 packetErrors=0 feedbackSamples=0 feedbackRaw=none feedbackRateHz=none playedFrames=1912800
+11-19 10:20:43.189 I/FloweryUsbNative(12333): TRANSFER_SUMMARY endpoint=0x04 sampleRate=96000 channels=2 intervalUs=125 maxPacketBytes=294 busSpeed=High completedTransfers=24914 completedFrames=2391744 expectedBytes=14350464 actualBytes=14350464 packetErrors=0 feedbackSamples=0 feedbackRaw=none feedbackRateHz=none playedFrames=2391744
+11-19 10:20:48.190 I/FloweryUsbNative(12333): TRANSFER_SUMMARY endpoint=0x04 sampleRate=96000 channels=2 intervalUs=125 maxPacketBytes=294 busSpeed=High completedTransfers=29882 completedFrames=2868672 expectedBytes=17212032 actualBytes=17212032 packetErrors=0 feedbackSamples=0 feedbackRaw=none feedbackRateHz=none playedFrames=2868672
+11-19 10:20:53.190 I/FloweryUsbNative(12333): TRANSFER_SUMMARY endpoint=0x04 sampleRate=96000 channels=2 intervalUs=125 maxPacketBytes=294 busSpeed=High completedTransfers=34863 completedFrames=3346848 expectedBytes=20081088 actualBytes=20081088 packetErrors=0 feedbackSamples=0 feedbackRaw=none feedbackRateHz=none playedFrames=3346848
+11-19 10:20:58.191 I/FloweryUsbNative(12333): TRANSFER_SUMMARY endpoint=0x04 sampleRate=96000 channels=2 intervalUs=125 maxPacketBytes=294 busSpeed=High completedTransfers=39855 completedFrames=3826080 expectedBytes=22956480 actualBytes=22956480 packetErrors=0 feedbackSamples=0 feedbackRaw=none feedbackRateHz=none playedFrames=3826080
+11-19 10:21:03.192 I/FloweryUsbNative(12333): TRANSFER_SUMMARY endpoint=0x04 sampleRate=96000 channels=2 intervalUs=125 maxPacketBytes=294 busSpeed=High completedTransfers=44811 completedFrames=4301856 expectedBytes=25811136 actualBytes=25811136 packetErrors=0 feedbackSamples=0 feedbackRaw=none feedbackRateHz=none playedFrames=4301856
+11-19 10:21:08.195 I/FloweryUsbNative(12333): TRANSFER_SUMMARY endpoint=0x04 sampleRate=96000 channels=2 intervalUs=125 maxPacketBytes=294 busSpeed=High completedTransfers=49761 completedFrames=4777056 expectedBytes=28662336 actualBytes=28662336 packetErrors=0 feedbackSamples=0 feedbackRaw=none feedbackRateHz=none playedFrames=4777056
+11-19 10:21:13.196 I/FloweryUsbNative(12333): TRANSFER_SUMMARY endpoint=0x04 sampleRate=96000 channels=2 intervalUs=125 maxPacketBytes=294 busSpeed=High completedTransfers=54761 completedFrames=5257056 expectedBytes=31542336 actualBytes=31542336 packetErrors=0 feedbackSamples=0 feedbackRaw=none feedbackRateHz=none playedFrames=5257056
+11-19 10:21:18.197 I/FloweryUsbNative(12333): TRANSFER_SUMMARY endpoint=0x04 sampleRate=96000 channels=2 intervalUs=125 maxPacketBytes=294 busSpeed=High completedTransfers=59756 completedFrames=5736576 expectedBytes=34419456 actualBytes=34419456 packetErrors=0 feedbackSamples=0 feedbackRaw=none feedbackRateHz=none playedFrames=5736576
+11-19 10:21:23.198 I/FloweryUsbNative(12333): TRANSFER_SUMMARY endpoint=0x04 sampleRate=96000 channels=2 intervalUs=125 maxPacketBytes=294 busSpeed=High completedTransfers=64736 completedFrames=6214656 expectedBytes=37287936 actualBytes=37287936 packetErrors=0 feedbackSamples=0 feedbackRaw=none feedbackRateHz=none playedFrames=6214656
+11-19 10:21:28.198 I/FloweryUsbNative(12333): TRANSFER_SUMMARY endpoint=0x04 sampleRate=96000 channels=2 intervalUs=125 maxPacketBytes=294 busSpeed=High completedTransfers=69720 completedFrames=6693120 expectedBytes=40158720 actualBytes=40158720 packetErrors=0 feedbackSamples=0 feedbackRaw=none feedbackRateHz=none playedFrames=6693120
+11-19 10:21:33.199 I/FloweryUsbNative(12333): TRANSFER_SUMMARY endpoint=0x04 sampleRate=96000 channels=2 intervalUs=125 maxPacketBytes=294 busSpeed=High completedTransfers=74700 completedFrames=7171200 expectedBytes=43027200 actualBytes=43027200 packetErrors=0 feedbackSamples=0 feedbackRaw=none feedbackRateHz=none playedFrames=7171200
