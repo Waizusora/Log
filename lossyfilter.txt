@@ -1,0 +1,563 @@
+274643:11-19 15:56:14.522 10487 13098 I FloweryUsbNative: TRANSFER_SUMMARY endpoint=0x04 sampleRate=44100 channels=2 intervalUs=125 maxPacketBytes=294 busSpeed=High completedTransfers=136354 completedFrames=6013211 expectedBytes=36079266 actualBytes=36079266 packetErrors=0 feedbackSamples=0 feedbackRaw=none feedbackRateHz=none playedFrames=6013211 fillCalls=136357 fillAvgUs=127 fillMaxUs=15160 submitGapMaxUs=19099 pendingMin=0 zeroPaddedFrames=0 eventLoopMaxUs=18932
+276728:11-19 15:56:19.170 30421 13584 D CCodec  : allocate(c2.android.vorbis.decoder)
+276738:11-19 15:56:19.178 30421 13584 I CCodec  : Created component [c2.android.vorbis.decoder]
+276739:11-19 15:56:19.178 30421 13584 D CCodecBufferChannel: [0x71608a9a00] setComponent: mName c2.android.vorbis.decoder#144, mPipelineWatcher 0x71608a9ea8
+276740:11-19 15:56:19.178 30421 13584 D CCodecBufferChannel: PipelineWatcher debug info [c2.android.vorbis.decoder#144] enable=0
+276780:11-19 15:56:19.189 30421 13582 D MediaCodec: [0x71e3ef1800] [c2.android.vorbis.decoder] configure
+276781:11-19 15:56:19.189 30421 13582 D MediaCodec: [mId: 101] audio-debug configure: ClientName: com.termux ComponentName: c2.android.vorbis.decoder
+276799:11-19 15:56:19.189 30421 13584 D CCodec  : [c2.android.vorbis.decoder] buffers are bound to CCodec for this session
+276831:11-19 15:56:19.193 30421 13584 D CCodecBufferChannel: [c2.android.vorbis.decoder#144] Created input block pool with allocatorID 16 => poolID 118 - OK (0)
+276846:11-19 15:56:19.195 30421 13584 I CCodecBufferChannel: [c2.android.vorbis.decoder#144] Created output block pool with allocatorID 16 => poolID 743 - OK
+276847:11-19 15:56:19.195 30421 13584 D CCodecBufferChannel: [c2.android.vorbis.decoder#144] Configured output block pool ids 743 => OK
+276848:11-19 15:56:19.195 30421 13584 D CCodecBufferChannel: [0x71608a9a00] [c2.android.vorbis.decoder#144] start: output->outputDelay 0, output->numSlots 4
+276857:11-19 15:56:19.196 30421 13584 D CCodecBuffers: [c2.android.vorbis.decoder#144:1D-Output.Impl[N]] converted 0 buffers to array mode of 4
+276858:11-19 15:56:19.196   790  2036 D C2MtkComponentStore: setIonUsage: usage 5, flags 65539, minAlign 0, heapMask 1024 for decoder and encoder.
+276917:11-19 15:56:19.207 30421 13584 D CCodecBuffers: [c2.android.vorbis.decoder#144:1D-Input.Impl[N]] converted 4 buffers to array mode of 4
+276924:11-19 15:56:19.211   790  2036 D C2MtkComponentStore: setIonUsage: usage 5, flags 65539, minAlign 0, heapMask 1024 for decoder and encoder.
+276963:11-19 15:56:19.234 30421 13584 D CCodecBufferChannel: [c2.android.vorbis.decoder#144] input EOS
+276972:11-19 15:56:19.238 30421 13582 D MediaCodec: [0x71e3ef1800] [c2.android.vorbis.decoder] stop
+276979:11-19 15:56:19.238 30421 13584 D CCodecBufferChannel: [c2.android.vorbis.decoder#144] MediaCodec discarded an unknown buffer
+276981:11-19 15:56:19.238 30421 13584 D CCodecBufferChannel: [c2.android.vorbis.decoder#144] MediaCodec discarded an unknown buffer
+276983:11-19 15:56:19.238 30421 13584 D CCodecBufferChannel: [c2.android.vorbis.decoder#144] MediaCodec discarded an unknown buffer
+276993:11-19 15:56:19.241 30421 13584 D MediaCodec: [0x71e3ef1800] [c2.android.vorbis.decoder] kWhatStopCompleted
+276998:11-19 15:56:19.243 30421 13582 D MediaCodec: [0x71e3ef1800] [c2.android.vorbis.decoder] release
+277010:11-19 15:56:19.246 30421 13584 D MediaCodec: [0x71e3ef1800] [c2.android.vorbis.decoder] kWhatReleaseCompleted
+280092:11-19 15:56:37.342 10487 11060 D libjpeg-alpha: Tile Decoder (#thread:4, size:256 256 256 432x304, alignment:256x16)
+280101:11-19 15:56:37.370 10487 13097 I FloweryUsbNative: SESSION_CLOSE_BEGIN nativeHandle=4
+280105:11-19 15:56:37.372 10487 13097 I FloweryUsbNative: SESSION_CLOSE_NATIVE_DRAINED nativeHandle=4; closing retained Android USB connection
+280154:11-19 15:56:37.455 10487 13627 I FloweryUsbNative: DEVICE_SCAN candidates=1 sourceRate=48000 channels=2 sourceBits=24 sourceFormat=1
+280157:11-19 15:56:37.460 10487 13627 I FloweryUsbNative: USB_PROBE_OPEN device=/dev/bus/usb/001/121 vendorId=12722 productId=273
+280166:11-19 15:56:37.463 10487 13627 I FloweryUsbNative: USB_AC_DESCRIPTOR offset=44 bytes=092401000204730000
+280170:11-19 15:56:37.464 10487 13627 I FloweryUsbNative: USB_AC_DESCRIPTOR offset=53 bytes=08240A0307070000
+280171:11-19 15:56:37.465 10487 13627 I FloweryUsbNative: USB_AC_DESCRIPTOR offset=61 bytes=1124020101020003010400000000000000
+280172:11-19 15:56:37.467 10487 13627 I FloweryUsbNative: USB_AC_DESCRIPTOR offset=78 bytes=0C2403040101070203000000
+280173:11-19 15:56:37.470 10487 13627 I FloweryUsbNative: USB_AC_DESCRIPTOR offset=90 bytes=0E24060201030000000C00000000
+280174:11-19 15:56:37.471 10487 13627 I FloweryUsbNative: USB_AC_DESCRIPTOR offset=104 bytes=08240A0607070000
+280175:11-19 15:56:37.471 10487 13627 I FloweryUsbNative: USB_AC_DESCRIPTOR offset=112 bytes=1124020501010006020300000000000000
+280177:11-19 15:56:37.473 10487 13627 I FloweryUsbNative: USB_AC_DESCRIPTOR offset=129 bytes=0C24030802030A0706000000
+280178:11-19 15:56:37.473 10487 13627 I FloweryUsbNative: USB_AC_DESCRIPTOR offset=141 bytes=1224060705030000000C0000000C00000000
+280179:11-19 15:56:37.477 10487 13627 I FloweryUsbNative: USB_AC_DESCRIPTOR_SUMMARY count=9 rawBytes=485
+280180:11-19 15:56:37.478 10487 13627 I FloweryUsbNative: USB_VOLUME_CAPABILITY device=/dev/bus/usb/001/121 featureUnit=7 readable=1,2 writable=1,2
+280182:11-19 15:56:37.479 10487 13627 I FloweryUsbNative: USB_PROBE_CONNECTION_CLOSED device=/dev/bus/usb/001/121 reason=descriptor-planning-complete
+280183:11-19 15:56:37.480 10487 13627 I FloweryUsbNative: USB_PLAN device=/dev/bus/usb/001/121 interface=2 alternate=2 endpoint=0x4 rawMaxPacketSize=294 interval=1 synchronizationType=2 synchronization=adaptive sampleRate=48000 channels=2 validBits=24 subslotBytes=3 dataFormat=pcm uac2=true feedbackEndpoint=0x0 feedbackPacketBytes=0 clockControlInterface=0 clockSourceEntity=6 clockControls=7
+280184:11-19 15:56:37.481 10487 13627 I FloweryUsbNative: SESSION_OPEN_BEGIN device=/dev/bus/usb/001/121 vendorId=12722 productId=273 interface=2 alternate=2
+280185:11-19 15:56:37.482 10487 13627 I FloweryUsbNative: ANDROID_OPEN_DEVICE_OK device=/dev/bus/usb/001/121 fdValid=true
+280186:11-19 15:56:37.482 10487 13627 I FloweryUsbNative: USB_INTERFACE_CLAIM interface=2 alternate=2 claimed=true
+280191:11-19 15:56:37.483 10487 13627 I FloweryUsbNative: NATIVE_SESSION_OPEN_RESULT handle=5 interface=2 alternate=2
+280192:11-19 15:56:37.483 10487 13627 I FloweryUsbNative: USB_NATIVE_SESSION_READY device=/dev/bus/usb/001/121 busSpeed=high interface=2 alternate=2 endpoint=0x4 requestedRate=48000
+280193:11-19 15:56:37.483 10487 13627 I FloweryUsbNative: PLAYBACK_START_BEGIN sampleRate=48000 channels=2 validBits=24 subslotBytes=3 dataFormat=1 endpoint=0x4 maxPacketSize=294 interval=1 uac2=true feedbackEndpoint=0x0 feedbackPacketBytes=0
+280194:11-19 15:56:37.484 10487 13627 I FloweryUsbNative: USB_CONTROL_INTERFACE_CLAIM interface=0 found=true claimed=true
+280196:11-19 15:56:37.485 10487 13627 I FloweryUsbNative: UAC2_CLOCK_READY controlInterface=0 sourceEntity=6 requestedOutputHz=48000 sourceRequiredHz=48000 sourceCurrentHz=44100 sourceActiveHz=48000 sourceWritable=true selectors=0 multipliers=0
+280198:11-19 15:56:37.485 10487 13627 I FloweryUsbNative: USB_VOLUME_CONTROL_TRANSFER op=PROBE_PRESTREAM_GET_CUR_VOL_ch1 bmRequestType=0xa1 bRequest=0x1 wValue=0x201 wIndex=0x700 requested=2 transferred=2 data=00DE
+280199:11-19 15:56:37.486 10487 13627 I FloweryUsbNative: USB_VOLUME_CONTROL_TRANSFER op=PROBE_PRESTREAM_GET_CUR_VOL_ch2 bmRequestType=0xa1 bRequest=0x1 wValue=0x202 wIndex=0x700 requested=2 transferred=2 data=00DE
+280200:11-19 15:56:37.486 10487 13627 I FloweryUsbNative: USB_VOLUME_CONTROL_TRANSFER op=PROBE_PRESTREAM_GET_CUR_VOL_ch0 bmRequestType=0xa1 bRequest=0x1 wValue=0x200 wIndex=0x700 requested=2 transferred=2 data=0000
+280202:11-19 15:56:37.486 10487 13627 I FloweryUsbNative: USB_VOLUME_CONTROL_TRANSFER op=PROBE_PRESTREAM_GET_RANGE_VOL_ch1 bmRequestType=0xa1 bRequest=0x2 wValue=0x201 wIndex=0x700 requested=8 transferred=8 data=010000CE00008000
+280203:11-19 15:56:37.487 10487 13627 I FloweryUsbNative: USB_VOLUME_CONTROL_TRANSFER op=PROBE_PRESTREAM_GET_CUR_MUTE_ch0 bmRequestType=0xa1 bRequest=0x1 wValue=0x100 wIndex=0x700 requested=1 transferred=1 data=00
+280204:11-19 15:56:37.487 10487 13627 I FloweryUsbNative: UAC2_SWEEP phase=PRESTREAM op=vol_ch1 entity=1 interface=0 wValue=0x201 transferred=-1 data=
+280205:11-19 15:56:37.488 10487 13627 I FloweryUsbNative: UAC2_SWEEP phase=PRESTREAM op=clock_freq entity=1 interface=0 wValue=0x100 transferred=-1 data=
+280206:11-19 15:56:37.490 10487 13627 I FloweryUsbNative: UAC2_SWEEP phase=PRESTREAM op=vol_ch1 entity=2 interface=0 wValue=0x201 transferred=2 data=0000
+280207:11-19 15:56:37.491 10487 13627 I FloweryUsbNative: UAC2_SWEEP phase=PRESTREAM op=clock_freq entity=2 interface=0 wValue=0x100 transferred=1 data=00
+280208:11-19 15:56:37.491 10487 13627 I FloweryUsbNative: UAC2_SWEEP phase=PRESTREAM op=vol_ch1 entity=3 interface=0 wValue=0x201 transferred=1 data=01
+280209:11-19 15:56:37.491 10487 13627 I FloweryUsbNative: UAC2_SWEEP phase=PRESTREAM op=clock_freq entity=3 interface=0 wValue=0x100 transferred=4 data=00DC0500
+280210:11-19 15:56:37.491 10487 13627 I FloweryUsbNative: UAC2_SWEEP phase=PRESTREAM op=vol_ch1 entity=4 interface=0 wValue=0x201 transferred=-1 data=
+280216:11-19 15:56:37.492 10487 13627 I FloweryUsbNative: UAC2_SWEEP phase=PRESTREAM op=clock_freq entity=4 interface=0 wValue=0x100 transferred=-1 data=
+280218:11-19 15:56:37.492 10487 13627 I FloweryUsbNative: UAC2_SWEEP phase=PRESTREAM op=vol_ch1 entity=5 interface=0 wValue=0x201 transferred=-1 data=
+280221:11-19 15:56:37.493 10487 13627 I FloweryUsbNative: UAC2_SWEEP phase=PRESTREAM op=clock_freq entity=5 interface=0 wValue=0x100 transferred=-1 data=
+280223:11-19 15:56:37.493 10487 13627 I FloweryUsbNative: UAC2_SWEEP phase=PRESTREAM op=vol_ch1 entity=6 interface=0 wValue=0x201 transferred=1 data=01
+280224:11-19 15:56:37.493 10487 13627 I FloweryUsbNative: UAC2_SWEEP phase=PRESTREAM op=clock_freq entity=6 interface=0 wValue=0x100 transferred=4 data=80BB0000
+280225:11-19 15:56:37.494 10487 13627 I FloweryUsbNative: UAC2_SWEEP phase=PRESTREAM op=vol_ch1 entity=7 interface=0 wValue=0x201 transferred=2 data=00DE
+280226:11-19 15:56:37.494 10487 13627 I FloweryUsbNative: UAC2_SWEEP phase=PRESTREAM op=clock_freq entity=7 interface=0 wValue=0x100 transferred=1 data=00
+280228:11-19 15:56:37.494 10487 13627 I FloweryUsbNative: UAC2_SWEEP phase=PRESTREAM op=vol_ch1 entity=8 interface=0 wValue=0x201 transferred=-1 data=
+280229:11-19 15:56:37.494 10487 13627 I FloweryUsbNative: UAC2_SWEEP phase=PRESTREAM op=clock_freq entity=8 interface=0 wValue=0x100 transferred=-1 data=
+280231:11-19 15:56:37.494 10487 13627 I FloweryUsbNative: UAC2_SWEEP phase=PRESTREAM op=vol_ch1 entity=9 interface=0 wValue=0x201 transferred=-1 data=
+280232:11-19 15:56:37.494 10487 13627 I FloweryUsbNative: UAC2_SWEEP phase=PRESTREAM op=clock_freq entity=9 interface=0 wValue=0x100 transferred=-1 data=
+280233:11-19 15:56:37.494 10487 13627 I FloweryUsbNative: UAC2_SWEEP phase=PRESTREAM op=vol_ch1 entity=10 interface=0 wValue=0x201 transferred=-1 data=
+280234:11-19 15:56:37.495 10487 13627 I FloweryUsbNative: UAC2_SWEEP phase=PRESTREAM op=clock_freq entity=10 interface=0 wValue=0x100 transferred=-1 data=
+280235:11-19 15:56:37.495 10487 13627 I FloweryUsbNative: UAC2_SWEEP phase=PRESTREAM op=vol_ch1_iface entity=7 interface=1 wValue=0x201 transferred=-1 data=
+280236:11-19 15:56:37.495 10487 13627 I FloweryUsbNative: UAC2_SWEEP phase=PRESTREAM op=vol_ch1_iface entity=7 interface=2 wValue=0x201 transferred=2 data=00DE
+280237:11-19 15:56:37.495 10487 13627 I FloweryUsbNative: UAC2_SWEEP phase=PRESTREAM op=vol_ch1_iface entity=7 interface=3 wValue=0x201 transferred=-1 data=
+280238:11-19 15:56:37.495 10487 13627 I FloweryUsbNative: USB_VOLUME_CONTROL_TRANSFER op=GET_RANGE_ch1 bmRequestType=0xa1 bRequest=0x2 wValue=0x201 wIndex=0x700 requested=8 transferred=8 data=010000CE00008000
+280239:11-19 15:56:37.496 10487 13627 I FloweryUsbNative: USB_VOLUME_CONTROL_TRANSFER op=GET_CUR_ch1 bmRequestType=0xa1 bRequest=0x1 wValue=0x201 wIndex=0x700 requested=2 transferred=2 data=00DE
+280240:11-19 15:56:37.496 10487 13627 I FloweryUsbNative: USB_VOLUME_CONTROL_TRANSFER op=GET_CUR_ch1 bmRequestType=0xa1 bRequest=0x1 wValue=0x201 wIndex=0x700 requested=2 transferred=2 data=00DE
+280241:11-19 15:56:37.496 10487 13627 I FloweryUsbNative: USB_VOLUME_READY unit=7 protocol=32 channel=1 currentDb256=-8704 minDb256=-12800 maxDb256=0 resolutionDb256=128 readableChannels=1,2 writableChannels=1,2
+280242:11-19 15:56:37.496 10487 13627 I FloweryUsbNative: NATIVE_START result=0 sampleRate=48000 channels=2 validBits=24 subslotBytes=3 dataFormat=1 endpoint=0x4 rawMaxPacketSize=294 interval=1 feedbackEndpoint=0x0 feedbackPacketBytes=0 initialPositionMs=0
+280243:11-19 15:56:37.497 10487 13627 I FloweryUsbNative: PLAYBACK_START_SUCCESS sampleRate=48000 busSpeed=high status={"error":"","paused":false,"positionFrames":0,"status":0}
+280244:11-19 15:56:37.497 10487 13627 I FloweryUsbNative: USB_VOLUME_CAPABILITY detected=true writable=true unit=7
+280333:11-19 15:56:37.607 10487 10487 I FloweryDiagnostics: AUDIO_PIPELINE backend=USB_DIRECT sourceRateHz=48000 bitDepth=24 status={"error":"","paused":false,"positionFrames":5088,"status":0}
+281748:11-19 15:56:42.497 10487 13628 I FloweryUsbNative: TRANSFER_SUMMARY endpoint=0x04 sampleRate=48000 channels=2 intervalUs=125 maxPacketBytes=294 busSpeed=High completedTransfers=4994 completedFrames=239712 expectedBytes=1438272 actualBytes=1438272 packetErrors=0 feedbackSamples=0 feedbackRaw=none feedbackRateHz=none playedFrames=239712 fillCalls=4997 fillAvgUs=35 fillMaxUs=2859 submitGapMaxUs=5306 pendingMin=0 zeroPaddedFrames=0 eventLoopMaxUs=5161
+281766:11-19 15:56:42.680 10487 10487 I FloweryDiagnostics: AUDIO_PIPELINE backend=USB_DIRECT sourceRateHz=48000 bitDepth=24 status={"error":"","paused":false,"positionFrames":248448,"status":0}
+283117:11-19 15:56:46.069 12258 13663 D MediaCodec: CreateByComponentName: name c2.android.aac.decoder
+283126:11-19 15:56:46.076 12258 13673 D CCodec  : allocate(c2.android.aac.decoder)
+283194:11-19 15:56:46.091 12258 13673 I CCodec  : Created component [c2.android.aac.decoder]
+283195:11-19 15:56:46.091 12258 13673 D CCodecBufferChannel: [0xb400007137bce800] setComponent: mName c2.android.aac.decoder#840, mPipelineWatcher 0xb400007137bceca8
+283196:11-19 15:56:46.091 12258 13673 D CCodecBufferChannel: PipelineWatcher debug info [c2.android.aac.decoder#840] enable=0
+283235:11-19 15:56:46.119 12258 13663 D MediaCodec: [0xb4000070cd079000] [c2.android.aac.decoder] configure
+283236:11-19 15:56:46.119 12258 13663 D MediaCodec: [mId: 16] audio-debug configure: ClientName: com.facebook.katana ComponentName: c2.android.aac.decoder
+283249:11-19 15:56:46.119 12258 13673 D CCodec  : [c2.android.aac.decoder] buffers are bound to CCodec for this session
+283299:11-19 15:56:46.131 12258 13673 D CCodecBufferChannel: [c2.android.aac.decoder#840] Created input block pool with allocatorID 16 => poolID 30 - OK (0)
+283322:11-19 15:56:46.133 12258 13673 I CCodecBufferChannel: [c2.android.aac.decoder#840] Created output block pool with allocatorID 16 => poolID 745 - OK
+283323:11-19 15:56:46.134 12258 13673 D CCodecBufferChannel: [c2.android.aac.decoder#840] Configured output block pool ids 745 => OK
+283324:11-19 15:56:46.134 12258 13673 D CCodecBufferChannel: [0xb400007137bce800] [c2.android.aac.decoder#840] start: output->outputDelay 2, output->numSlots 6
+283342:11-19 15:56:46.134 12258 13673 D CCodecBuffers: [c2.android.aac.decoder#840:1D-Output.Impl[N]] converted 0 buffers to array mode of 6
+283343:11-19 15:56:46.134   790  2022 D C2MtkComponentStore: setIonUsage: usage 5, flags 65539, minAlign 0, heapMask 1024 for decoder and encoder.
+283347:11-19 15:56:46.141  1143 13674 I C2SoftAacDec: Reconfiguring decoder: 0->48000 Hz, 0->2 channels
+283348:11-19 15:56:46.143   790  2022 D C2MtkComponentStore: setIonUsage: usage 5, flags 65539, minAlign 0, heapMask 1024 for decoder and encoder.
+283354:11-19 15:56:46.151 12258 13673 D CCodecBuffers: [c2.android.aac.decoder#840:Output[N]] popFromStashAndRegister: at 1000000000000us, output format changed to AMessage(what = 0x00000000) = {
+283891:11-19 15:56:47.498 10487 13628 I FloweryUsbNative: TRANSFER_SUMMARY endpoint=0x04 sampleRate=48000 channels=2 intervalUs=125 maxPacketBytes=294 busSpeed=High completedTransfers=9941 completedFrames=477168 expectedBytes=2863008 actualBytes=2863008 packetErrors=0 feedbackSamples=0 feedbackRaw=none feedbackRateHz=none playedFrames=477168 fillCalls=9944 fillAvgUs=38 fillMaxUs=4345 submitGapMaxUs=10688 pendingMin=0 zeroPaddedFrames=0 eventLoopMaxUs=10407
+284325:11-19 15:56:47.741 10487 10487 I FloweryDiagnostics: AUDIO_PIPELINE backend=USB_DIRECT sourceRateHz=48000 bitDepth=24 status={"error":"","paused":false,"positionFrames":488304,"status":0}
+285110:11-19 15:56:49.369 12258 13753 D MediaCodec: CreateByComponentName: name c2.android.aac.decoder
+285123:11-19 15:56:49.372 12258 13758 D CCodec  : allocate(c2.android.aac.decoder)
+285138:11-19 15:56:49.379 12258 13758 I CCodec  : Created component [c2.android.aac.decoder]
+285139:11-19 15:56:49.379 12258 13758 D CCodecBufferChannel: [0xb400007137bcfa00] setComponent: mName c2.android.aac.decoder#946, mPipelineWatcher 0xb400007137bcfea8
+285140:11-19 15:56:49.379 12258 13758 D CCodecBufferChannel: PipelineWatcher debug info [c2.android.aac.decoder#946] enable=0
+285195:11-19 15:56:49.394 12258 13753 D MediaCodec: [0xb4000070f2880000] [c2.android.aac.decoder] configure
+285196:11-19 15:56:49.394 12258 13753 D MediaCodec: [mId: 17] audio-debug configure: ClientName: com.facebook.katana ComponentName: c2.android.aac.decoder
+285210:11-19 15:56:49.394 12258 13758 D CCodec  : [c2.android.aac.decoder] buffers are bound to CCodec for this session
+285260:11-19 15:56:49.402 12258 13758 D CCodecBufferChannel: [c2.android.aac.decoder#946] Created input block pool with allocatorID 16 => poolID 31 - OK (0)
+285280:11-19 15:56:49.406 12258 13758 I CCodecBufferChannel: [c2.android.aac.decoder#946] Created output block pool with allocatorID 16 => poolID 747 - OK
+285281:11-19 15:56:49.406 12258 13758 D CCodecBufferChannel: [c2.android.aac.decoder#946] Configured output block pool ids 747 => OK
+285282:11-19 15:56:49.406 12258 13758 D CCodecBufferChannel: [0xb400007137bcfa00] [c2.android.aac.decoder#946] start: output->outputDelay 2, output->numSlots 6
+285300:11-19 15:56:49.407 12258 13758 D CCodecBuffers: [c2.android.aac.decoder#946:1D-Output.Impl[N]] converted 0 buffers to array mode of 6
+285301:11-19 15:56:49.407   790  2022 D C2MtkComponentStore: setIonUsage: usage 5, flags 65539, minAlign 0, heapMask 1024 for decoder and encoder.
+285335:11-19 15:56:49.423  1143 13759 I C2SoftAacDec: Reconfiguring decoder: 0->48000 Hz, 0->2 channels
+285340:11-19 15:56:49.427   790  2022 D C2MtkComponentStore: setIonUsage: usage 5, flags 65539, minAlign 0, heapMask 1024 for decoder and encoder.
+285342:11-19 15:56:49.432   790  2022 D C2MtkComponentStore: setIonUsage: usage 5, flags 65539, minAlign 0, heapMask 1024 for decoder and encoder.
+285345:11-19 15:56:49.435 12258 13758 D CCodecBuffers: [c2.android.aac.decoder#946:Output[N]] popFromStashAndRegister: at 1000000000000us, output format changed to AMessage(what = 0x00000000) = {
+285537:11-19 15:56:49.896 12258 13761 D MediaCodec: CreateByComponentName: name c2.android.aac.decoder
+285547:11-19 15:56:49.900 12258 13764 D CCodec  : allocate(c2.android.aac.decoder)
+285557:11-19 15:56:49.907 12258 13764 I CCodec  : Created component [c2.android.aac.decoder]
+285558:11-19 15:56:49.907 12258 13764 D CCodecBufferChannel: [0xb400007137bcee00] setComponent: mName c2.android.aac.decoder#773, mPipelineWatcher 0xb400007137bcf2a8
+285559:11-19 15:56:49.907 12258 13764 D CCodecBufferChannel: PipelineWatcher debug info [c2.android.aac.decoder#773] enable=0
+285597:11-19 15:56:49.920 12258 13761 D MediaCodec: [0xb4000070cd07a800] [c2.android.aac.decoder] configure
+285598:11-19 15:56:49.920 12258 13761 D MediaCodec: [mId: 18] audio-debug configure: ClientName: com.facebook.katana ComponentName: c2.android.aac.decoder
+285611:11-19 15:56:49.921 12258 13764 D CCodec  : [c2.android.aac.decoder] buffers are bound to CCodec for this session
+285663:11-19 15:56:49.928 12258 13764 D CCodecBufferChannel: [c2.android.aac.decoder#773] Created input block pool with allocatorID 16 => poolID 32 - OK (0)
+285683:11-19 15:56:49.931 12258 13764 I CCodecBufferChannel: [c2.android.aac.decoder#773] Created output block pool with allocatorID 16 => poolID 749 - OK
+285684:11-19 15:56:49.931 12258 13764 D CCodecBufferChannel: [c2.android.aac.decoder#773] Configured output block pool ids 749 => OK
+285685:11-19 15:56:49.931 12258 13764 D CCodecBufferChannel: [0xb400007137bcee00] [c2.android.aac.decoder#773] start: output->outputDelay 2, output->numSlots 6
+285703:11-19 15:56:49.932 12258 13764 D CCodecBuffers: [c2.android.aac.decoder#773:1D-Output.Impl[N]] converted 0 buffers to array mode of 6
+285704:11-19 15:56:49.933   790  2022 D C2MtkComponentStore: setIonUsage: usage 5, flags 65539, minAlign 0, heapMask 1024 for decoder and encoder.
+285713:11-19 15:56:49.943  1143 13765 I C2SoftAacDec: Reconfiguring decoder: 0->44100 Hz, 0->2 channels
+285714:11-19 15:56:49.944   790  2022 D C2MtkComponentStore: setIonUsage: usage 5, flags 65539, minAlign 0, heapMask 1024 for decoder and encoder.
+285718:11-19 15:56:49.949 12258 13764 D CCodecBuffers: [c2.android.aac.decoder#773:Output[N]] popFromStashAndRegister: at 1000000000000us, output format changed to AMessage(what = 0x00000000) = {
+286029:11-19 15:56:50.466   790  2022 D C2MtkComponentStore: setIonUsage: usage 5, flags 65539, minAlign 0, heapMask 1024 for decoder and encoder.
+286109:11-19 15:56:50.617 12258 13660 E HeifDecoderImpl: getSize: not supported!
+286120:11-19 15:56:50.621 12258 13660 E HeifDecoderImpl: getSize: not supported!
+286843:11-19 15:56:52.501 10487 13628 I FloweryUsbNative: TRANSFER_SUMMARY endpoint=0x04 sampleRate=48000 channels=2 intervalUs=125 maxPacketBytes=294 busSpeed=High completedTransfers=14856 completedFrames=713088 expectedBytes=4278528 actualBytes=4278528 packetErrors=0 feedbackSamples=0 feedbackRaw=none feedbackRateHz=none playedFrames=713088 fillCalls=14857 fillAvgUs=48 fillMaxUs=4345 submitGapMaxUs=12233 pendingMin=0 zeroPaddedFrames=0 eventLoopMaxUs=11904
+286942:11-19 15:56:52.821 10487 10487 I FloweryDiagnostics: AUDIO_PIPELINE backend=USB_DIRECT sourceRateHz=48000 bitDepth=24 status={"error":"","paused":false,"positionFrames":728400,"status":0}
+287480:11-19 15:56:54.385 12258 13673 D CCodecBufferChannel: [c2.android.aac.decoder#840] input EOS
+288742:11-19 15:56:57.502 10487 13628 I FloweryUsbNative: TRANSFER_SUMMARY endpoint=0x04 sampleRate=48000 channels=2 intervalUs=125 maxPacketBytes=294 busSpeed=High completedTransfers=19795 completedFrames=950160 expectedBytes=5700960 actualBytes=5700960 packetErrors=0 feedbackSamples=0 feedbackRaw=none feedbackRateHz=none playedFrames=950160 fillCalls=19798 fillAvgUs=57 fillMaxUs=9853 submitGapMaxUs=13442 pendingMin=0 zeroPaddedFrames=0 eventLoopMaxUs=13287
+288862:11-19 15:56:57.909 10487 10487 I FloweryDiagnostics: AUDIO_PIPELINE backend=USB_DIRECT sourceRateHz=48000 bitDepth=24 status={"error":"","paused":false,"positionFrames":969408,"status":0}
+290184:11-19 15:57:01.736 12258 13673 D CCodecBufferChannel: [c2.android.aac.decoder#840] input EOS
+290597:11-19 15:57:02.503 10487 13628 I FloweryUsbNative: TRANSFER_SUMMARY endpoint=0x04 sampleRate=48000 channels=2 intervalUs=125 maxPacketBytes=294 busSpeed=High completedTransfers=24716 completedFrames=1186368 expectedBytes=7118208 actualBytes=7118208 packetErrors=0 feedbackSamples=0 feedbackRaw=none feedbackRateHz=none playedFrames=1186368 fillCalls=24719 fillAvgUs=63 fillMaxUs=9853 submitGapMaxUs=13442 pendingMin=0 zeroPaddedFrames=0 eventLoopMaxUs=13287
+290773:11-19 15:57:03.019 10487 10487 I FloweryDiagnostics: AUDIO_PIPELINE backend=USB_DIRECT sourceRateHz=48000 bitDepth=24 status={"error":"","paused":false,"positionFrames":1210848,"status":0}
+292304:11-19 15:57:07.504 10487 13628 I FloweryUsbNative: TRANSFER_SUMMARY endpoint=0x04 sampleRate=48000 channels=2 intervalUs=125 maxPacketBytes=294 busSpeed=High completedTransfers=29654 completedFrames=1423392 expectedBytes=8540352 actualBytes=8540352 packetErrors=0 feedbackSamples=0 feedbackRaw=none feedbackRateHz=none playedFrames=1423392 fillCalls=29657 fillAvgUs=67 fillMaxUs=9853 submitGapMaxUs=13442 pendingMin=0 zeroPaddedFrames=0 eventLoopMaxUs=13287
+292499:11-19 15:57:08.119 10487 10487 I FloweryDiagnostics: AUDIO_PIPELINE backend=USB_DIRECT sourceRateHz=48000 bitDepth=24 status={"error":"","paused":false,"positionFrames":1452384,"status":0}
+292817:11-19 15:57:09.006 12258 13673 D CCodecBufferChannel: [c2.android.aac.decoder#840] input EOS
+294179:11-19 15:57:12.504 10487 13628 I FloweryUsbNative: TRANSFER_SUMMARY endpoint=0x04 sampleRate=48000 channels=2 intervalUs=125 maxPacketBytes=294 busSpeed=High completedTransfers=34590 completedFrames=1660320 expectedBytes=9961920 actualBytes=9961920 packetErrors=0 feedbackSamples=0 feedbackRaw=none feedbackRateHz=none playedFrames=1660320 fillCalls=34593 fillAvgUs=70 fillMaxUs=9853 submitGapMaxUs=16513 pendingMin=0 zeroPaddedFrames=0 eventLoopMaxUs=16391
+294414:11-19 15:57:13.214 10487 10487 I FloweryDiagnostics: AUDIO_PIPELINE backend=USB_DIRECT sourceRateHz=48000 bitDepth=24 status={"error":"","paused":false,"positionFrames":1694016,"status":0}
+295414:11-19 15:57:15.116   790  2022 D C2MtkComponentStore: setIonUsage: usage 5, flags 65539, minAlign 0, heapMask 1024 for decoder and encoder.
+295497:11-19 15:57:15.310 12258 13663 D MediaCodec: [0xb4000070cd079000] [c2.android.aac.decoder] releaseAsync
+295501:11-19 15:57:15.310 12258 13673 D CCodecBufferChannel: [c2.android.aac.decoder#840] MediaCodec discarded an unknown buffer
+295502:11-19 15:57:15.310 12258 13673 D CCodecBufferChannel: [c2.android.aac.decoder#840] MediaCodec discarded an unknown buffer
+295503:11-19 15:57:15.310 12258 13673 D CCodecBufferChannel: [c2.android.aac.decoder#840] MediaCodec discarded an unknown buffer
+295504:11-19 15:57:15.310 12258 13673 D CCodecBufferChannel: [c2.android.aac.decoder#840] MediaCodec discarded an unknown buffer
+295505:11-19 15:57:15.310 12258 13673 D CCodecBufferChannel: [c2.android.aac.decoder#840] MediaCodec discarded an unknown buffer
+295506:11-19 15:57:15.311 12258 13673 D CCodecBufferChannel: [c2.android.aac.decoder#840] MediaCodec discarded an unknown buffer
+295513:11-19 15:57:15.313 12258 13673 D MediaCodec: [0xb4000070cd079000] [c2.android.aac.decoder] kWhatReleaseCompleted
+295615:11-19 15:57:15.536 12258 13798 D MediaCodec: CreateByComponentName: name c2.android.aac.decoder
+295623:11-19 15:57:15.540 12258 13801 D CCodec  : allocate(c2.android.aac.decoder)
+295637:11-19 15:57:15.549 12258 13801 I CCodec  : Created component [c2.android.aac.decoder]
+295638:11-19 15:57:15.549 12258 13801 D CCodecBufferChannel: [0xb400007137bce800] setComponent: mName c2.android.aac.decoder#123, mPipelineWatcher 0xb400007137bceca8
+295639:11-19 15:57:15.549 12258 13801 D CCodecBufferChannel: PipelineWatcher debug info [c2.android.aac.decoder#123] enable=0
+295689:11-19 15:57:15.561   790  2022 D C2MtkComponentStore: setIonUsage: usage 5, flags 65539, minAlign 0, heapMask 1024 for decoder and encoder.
+295690:11-19 15:57:15.563 12258 13798 D MediaCodec: [0xb4000070f2a1d000] [c2.android.aac.decoder] configure
+295691:11-19 15:57:15.563 12258 13798 D MediaCodec: [mId: 19] audio-debug configure: ClientName: com.facebook.katana ComponentName: c2.android.aac.decoder
+295705:11-19 15:57:15.563 12258 13801 D CCodec  : [c2.android.aac.decoder] buffers are bound to CCodec for this session
+295753:11-19 15:57:15.567 12258 13801 D CCodecBufferChannel: [c2.android.aac.decoder#123] Created input block pool with allocatorID 16 => poolID 33 - OK (0)
+295772:11-19 15:57:15.568   790  2022 D C2MtkComponentStore: setIonUsage: usage 5, flags 65539, minAlign 0, heapMask 1024 for decoder and encoder.
+295774:11-19 15:57:15.569 12258 13801 I CCodecBufferChannel: [c2.android.aac.decoder#123] Created output block pool with allocatorID 16 => poolID 751 - OK
+295775:11-19 15:57:15.570 12258 13801 D CCodecBufferChannel: [c2.android.aac.decoder#123] Configured output block pool ids 751 => OK
+295776:11-19 15:57:15.570 12258 13801 D CCodecBufferChannel: [0xb400007137bce800] [c2.android.aac.decoder#123] start: output->outputDelay 2, output->numSlots 6
+295794:11-19 15:57:15.570 12258 13801 D CCodecBuffers: [c2.android.aac.decoder#123:1D-Output.Impl[N]] converted 0 buffers to array mode of 6
+295795:11-19 15:57:15.570   790  2022 D C2MtkComponentStore: setIonUsage: usage 5, flags 65539, minAlign 0, heapMask 1024 for decoder and encoder.
+295799:11-19 15:57:15.572   790  2022 D C2MtkComponentStore: setIonUsage: usage 5, flags 65539, minAlign 0, heapMask 1024 for decoder and encoder.
+295801:11-19 15:57:15.579  1143 13802 I C2SoftAacDec: Reconfiguring decoder: 0->44100 Hz, 0->2 channels
+295803:11-19 15:57:15.580   790  2022 D C2MtkComponentStore: setIonUsage: usage 5, flags 65539, minAlign 0, heapMask 1024 for decoder and encoder.
+295806:11-19 15:57:15.583 12258 13801 D CCodecBuffers: [c2.android.aac.decoder#123:Output[N]] popFromStashAndRegister: at 1000000000000us, output format changed to AMessage(what = 0x00000000) = {
+296540:11-19 15:57:17.505 10487 13628 I FloweryUsbNative: TRANSFER_SUMMARY endpoint=0x04 sampleRate=48000 channels=2 intervalUs=125 maxPacketBytes=294 busSpeed=High completedTransfers=39557 completedFrames=1898736 expectedBytes=11392416 actualBytes=11392416 packetErrors=0 feedbackSamples=0 feedbackRaw=none feedbackRateHz=none playedFrames=1898736 fillCalls=39560 fillAvgUs=68 fillMaxUs=9853 submitGapMaxUs=16513 pendingMin=0 zeroPaddedFrames=0 eventLoopMaxUs=16391
+296834:11-19 15:57:18.269 10487 10487 I FloweryDiagnostics: AUDIO_PIPELINE backend=USB_DIRECT sourceRateHz=48000 bitDepth=24 status={"error":"","paused":false,"positionFrames":1935312,"status":0}
+297771:11-19 15:57:19.999 12258 12689 E HeifDecoderImpl: getSize: not supported!
+297782:11-19 15:57:20.002 12258 12689 E HeifDecoderImpl: getSize: not supported!
+297803:11-19 15:57:20.057 12258 13753 D MediaCodec: [0xb4000070f2880000] [c2.android.aac.decoder] releaseAsync
+297807:11-19 15:57:20.058 12258 13758 D CCodecBufferChannel: [c2.android.aac.decoder#946] MediaCodec discarded an unknown buffer
+297808:11-19 15:57:20.058 12258 13758 D CCodecBufferChannel: [c2.android.aac.decoder#946] MediaCodec discarded an unknown buffer
+297809:11-19 15:57:20.058 12258 13758 D CCodecBufferChannel: [c2.android.aac.decoder#946] MediaCodec discarded an unknown buffer
+297810:11-19 15:57:20.058 12258 13758 D CCodecBufferChannel: [c2.android.aac.decoder#946] MediaCodec discarded an unknown buffer
+297811:11-19 15:57:20.058 12258 13758 D CCodecBufferChannel: [c2.android.aac.decoder#946] MediaCodec discarded an unknown buffer
+297812:11-19 15:57:20.058 12258 13758 D CCodecBufferChannel: [c2.android.aac.decoder#946] MediaCodec discarded an unknown buffer
+297818:11-19 15:57:20.061 12258 13758 D MediaCodec: [0xb4000070f2880000] [c2.android.aac.decoder] kWhatReleaseCompleted
+298320:11-19 15:57:20.776 12258 13815 D MediaCodec: CreateByComponentName: name c2.android.aac.decoder
+298331:11-19 15:57:20.786 12258 13821 D CCodec  : allocate(c2.android.aac.decoder)
+298363:11-19 15:57:20.802   790  2022 D C2MtkComponentStore: setIonUsage: usage 5, flags 65539, minAlign 0, heapMask 1024 for decoder and encoder.
+298366:11-19 15:57:20.806 12258 13821 I CCodec  : Created component [c2.android.aac.decoder]
+298367:11-19 15:57:20.806 12258 13821 D CCodecBufferChannel: [0xb400006fad99e400] setComponent: mName c2.android.aac.decoder#798, mPipelineWatcher 0xb400006fad99e8a8
+298368:11-19 15:57:20.806 12258 13821 D CCodecBufferChannel: PipelineWatcher debug info [c2.android.aac.decoder#798] enable=0
+298441:11-19 15:57:20.852 12258 13815 D MediaCodec: [0xb40000715b733800] [c2.android.aac.decoder] configure
+298442:11-19 15:57:20.853 12258 13815 D MediaCodec: [mId: 20] audio-debug configure: ClientName: com.facebook.katana ComponentName: c2.android.aac.decoder
+298455:11-19 15:57:20.853 12258 13821 D CCodec  : [c2.android.aac.decoder] buffers are bound to CCodec for this session
+298511:11-19 15:57:20.864 12258 13821 D CCodecBufferChannel: [c2.android.aac.decoder#798] Created input block pool with allocatorID 16 => poolID 34 - OK (0)
+298531:11-19 15:57:20.868 12258 13821 I CCodecBufferChannel: [c2.android.aac.decoder#798] Created output block pool with allocatorID 16 => poolID 753 - OK
+298533:11-19 15:57:20.869 12258 13821 D CCodecBufferChannel: [c2.android.aac.decoder#798] Configured output block pool ids 753 => OK
+298534:11-19 15:57:20.869 12258 13821 D CCodecBufferChannel: [0xb400006fad99e400] [c2.android.aac.decoder#798] start: output->outputDelay 2, output->numSlots 6
+298552:11-19 15:57:20.870 12258 13821 D CCodecBuffers: [c2.android.aac.decoder#798:1D-Output.Impl[N]] converted 0 buffers to array mode of 6
+298553:11-19 15:57:20.871   790  2022 D C2MtkComponentStore: setIonUsage: usage 5, flags 65539, minAlign 0, heapMask 1024 for decoder and encoder.
+298631:11-19 15:57:20.897  1143 13822 I C2SoftAacDec: Reconfiguring decoder: 0->48000 Hz, 0->2 channels
+298635:11-19 15:57:20.901   790  2022 D C2MtkComponentStore: setIonUsage: usage 5, flags 65539, minAlign 0, heapMask 1024 for decoder and encoder.
+298640:11-19 15:57:20.905 12258 13821 D CCodecBuffers: [c2.android.aac.decoder#798:Output[N]] popFromStashAndRegister: at 1000000000000us, output format changed to AMessage(what = 0x00000000) = {
+298694:11-19 15:57:20.970   790  2022 D C2MtkComponentStore: setIonUsage: usage 5, flags 65539, minAlign 0, heapMask 1024 for decoder and encoder.
+298946:11-19 15:57:21.338 12258 13798 D MediaCodec: [0xb4000070f2a1d000] [c2.android.aac.decoder] releaseAsync
+298952:11-19 15:57:21.339 12258 13801 D CCodecBufferChannel: [c2.android.aac.decoder#123] MediaCodec discarded an unknown buffer
+298953:11-19 15:57:21.339 12258 13801 D CCodecBufferChannel: [c2.android.aac.decoder#123] MediaCodec discarded an unknown buffer
+298955:11-19 15:57:21.339 12258 13801 D CCodecBufferChannel: [c2.android.aac.decoder#123] MediaCodec discarded an unknown buffer
+298956:11-19 15:57:21.339 12258 13801 D CCodecBufferChannel: [c2.android.aac.decoder#123] MediaCodec discarded an unknown buffer
+298958:11-19 15:57:21.339 12258 13801 D CCodecBufferChannel: [c2.android.aac.decoder#123] MediaCodec discarded an unknown buffer
+298959:11-19 15:57:21.339 12258 13801 D CCodecBufferChannel: [c2.android.aac.decoder#123] MediaCodec discarded an unknown buffer
+298965:11-19 15:57:21.343 12258 13801 D MediaCodec: [0xb4000070f2a1d000] [c2.android.aac.decoder] kWhatReleaseCompleted
+299083:11-19 15:57:21.556 12258 13827 D MediaCodec: CreateByComponentName: name c2.android.aac.decoder
+299091:11-19 15:57:21.560 12258 13830 D CCodec  : allocate(c2.android.aac.decoder)
+299100:11-19 15:57:21.566 12258 13830 I CCodec  : Created component [c2.android.aac.decoder]
+299101:11-19 15:57:21.566 12258 13830 D CCodecBufferChannel: [0xb4000071469a3c00] setComponent: mName c2.android.aac.decoder#934, mPipelineWatcher 0xb4000071469a40a8
+299102:11-19 15:57:21.566 12258 13830 D CCodecBufferChannel: PipelineWatcher debug info [c2.android.aac.decoder#934] enable=0
+299142:11-19 15:57:21.578 12258 13827 D MediaCodec: [0xb400007138216800] [c2.android.aac.decoder] configure
+299143:11-19 15:57:21.578 12258 13827 D MediaCodec: [mId: 21] audio-debug configure: ClientName: com.facebook.katana ComponentName: c2.android.aac.decoder
+299157:11-19 15:57:21.579 12258 13830 D CCodec  : [c2.android.aac.decoder] buffers are bound to CCodec for this session
+299205:11-19 15:57:21.583 12258 13830 D CCodecBufferChannel: [c2.android.aac.decoder#934] Created input block pool with allocatorID 16 => poolID 35 - OK (0)
+299225:11-19 15:57:21.584 12258 13830 I CCodecBufferChannel: [c2.android.aac.decoder#934] Created output block pool with allocatorID 16 => poolID 755 - OK
+299226:11-19 15:57:21.585 12258 13830 D CCodecBufferChannel: [c2.android.aac.decoder#934] Configured output block pool ids 755 => OK
+299227:11-19 15:57:21.585 12258 13830 D CCodecBufferChannel: [0xb4000071469a3c00] [c2.android.aac.decoder#934] start: output->outputDelay 2, output->numSlots 6
+299245:11-19 15:57:21.585 12258 13830 D CCodecBuffers: [c2.android.aac.decoder#934:1D-Output.Impl[N]] converted 0 buffers to array mode of 6
+299246:11-19 15:57:21.585   790  2022 D C2MtkComponentStore: setIonUsage: usage 5, flags 65539, minAlign 0, heapMask 1024 for decoder and encoder.
+299252:11-19 15:57:21.593  1143 13831 I C2SoftAacDec: Reconfiguring decoder: 0->44100 Hz, 0->2 channels
+299254:11-19 15:57:21.595   790  2022 D C2MtkComponentStore: setIonUsage: usage 5, flags 65539, minAlign 0, heapMask 1024 for decoder and encoder.
+299257:11-19 15:57:21.597 12258 13830 D CCodecBuffers: [c2.android.aac.decoder#934:Output[N]] popFromStashAndRegister: at 1000000000000us, output format changed to AMessage(what = 0x00000000) = {
+299303:11-19 15:57:21.674   790  2022 D C2MtkComponentStore: setIonUsage: usage 5, flags 65539, minAlign 0, heapMask 1024 for decoder and encoder.
+299584:11-19 15:57:22.506 10487 13628 I FloweryUsbNative: TRANSFER_SUMMARY endpoint=0x04 sampleRate=48000 channels=2 intervalUs=125 maxPacketBytes=294 busSpeed=High completedTransfers=44524 completedFrames=2137152 expectedBytes=12822912 actualBytes=12822912 packetErrors=0 feedbackSamples=0 feedbackRaw=none feedbackRateHz=none playedFrames=2137152 fillCalls=44527 fillAvgUs=66 fillMaxUs=9853 submitGapMaxUs=16513 pendingMin=0 zeroPaddedFrames=0 eventLoopMaxUs=16391
+299868:11-19 15:57:23.360 10487 10487 I FloweryDiagnostics: AUDIO_PIPELINE backend=USB_DIRECT sourceRateHz=48000 bitDepth=24 status={"error":"","paused":false,"positionFrames":2178144,"status":0}
+300570:11-19 15:57:24.398 12258 13830 D CCodecBuffers: [c2.android.aac.decoder#934:1D-Output.Impl[N]] Client returned a buffer it does not own according to our record: 0
+300571:11-19 15:57:24.398 12258 13830 D CCodecBuffers: [c2.android.aac.decoder#934:1D-Output.Impl[N]] Client returned a buffer it does not own according to our record: 1
+300581:11-19 15:57:24.400   790  2022 D C2MtkComponentStore: setIonUsage: usage 5, flags 65539, minAlign 0, heapMask 1024 for decoder and encoder.
+300582:11-19 15:57:24.401 12258 13830 D CCodecBufferChannel: [c2.android.aac.decoder#934] flushed work; ignored.
+300583:11-19 15:57:24.401 12258 13830 D CCodecBufferChannel: [c2.android.aac.decoder#934] Discard frames from previous generation.
+300584:11-19 15:57:24.401 12258 13830 D CCodecBufferChannel: [c2.android.aac.decoder#934] flushed work not feedInput.
+301197:11-19 15:57:25.608 12258 13827 D MediaCodec: [0xb400007138216800] [c2.android.aac.decoder] releaseAsync
+301200:11-19 15:57:25.609 12258 13830 D CCodecBufferChannel: [c2.android.aac.decoder#934] MediaCodec discarded an unknown buffer
+301201:11-19 15:57:25.609 12258 13830 D CCodecBufferChannel: [c2.android.aac.decoder#934] MediaCodec discarded an unknown buffer
+301202:11-19 15:57:25.609 12258 13830 D CCodecBufferChannel: [c2.android.aac.decoder#934] MediaCodec discarded an unknown buffer
+301203:11-19 15:57:25.609 12258 13830 D CCodecBufferChannel: [c2.android.aac.decoder#934] MediaCodec discarded an unknown buffer
+301208:11-19 15:57:25.613 12258 13830 D MediaCodec: [0xb400007138216800] [c2.android.aac.decoder] kWhatReleaseCompleted
+301308:11-19 15:57:25.876 12258 13856 D MediaCodec: CreateByComponentName: name c2.android.aac.decoder
+301318:11-19 15:57:25.883 12258 13859 D CCodec  : allocate(c2.android.aac.decoder)
+301349:11-19 15:57:25.896   790  2022 D C2MtkComponentStore: setIonUsage: usage 5, flags 65539, minAlign 0, heapMask 1024 for decoder and encoder.
+301351:11-19 15:57:25.898 12258 13859 I CCodec  : Created component [c2.android.aac.decoder]
+301352:11-19 15:57:25.898 12258 13859 D CCodecBufferChannel: [0xb4000071469a3c00] setComponent: mName c2.android.aac.decoder#579, mPipelineWatcher 0xb4000071469a40a8
+301353:11-19 15:57:25.898 12258 13859 D CCodecBufferChannel: PipelineWatcher debug info [c2.android.aac.decoder#579] enable=0
+301409:11-19 15:57:25.921 12258 13856 D MediaCodec: [0xb400007138216800] [c2.android.aac.decoder] configure
+301410:11-19 15:57:25.921 12258 13856 D MediaCodec: [mId: 22] audio-debug configure: ClientName: com.facebook.katana ComponentName: c2.android.aac.decoder
+301423:11-19 15:57:25.922 12258 13859 D CCodec  : [c2.android.aac.decoder] buffers are bound to CCodec for this session
+301476:11-19 15:57:25.930 12258 13859 D CCodecBufferChannel: [c2.android.aac.decoder#579] Created input block pool with allocatorID 16 => poolID 36 - OK (0)
+301495:11-19 15:57:25.932 12258 13859 I CCodecBufferChannel: [c2.android.aac.decoder#579] Created output block pool with allocatorID 16 => poolID 757 - OK
+301496:11-19 15:57:25.933 12258 13859 D CCodecBufferChannel: [c2.android.aac.decoder#579] Configured output block pool ids 757 => OK
+301497:11-19 15:57:25.933 12258 13859 D CCodecBufferChannel: [0xb4000071469a3c00] [c2.android.aac.decoder#579] start: output->outputDelay 2, output->numSlots 6
+301515:11-19 15:57:25.934 12258 13859 D CCodecBuffers: [c2.android.aac.decoder#579:1D-Output.Impl[N]] converted 0 buffers to array mode of 6
+301517:11-19 15:57:25.934   790  2022 D C2MtkComponentStore: setIonUsage: usage 5, flags 65539, minAlign 0, heapMask 1024 for decoder and encoder.
+301523:11-19 15:57:25.944  1143 13860 I C2SoftAacDec: Reconfiguring decoder: 0->44100 Hz, 0->2 channels
+301528:11-19 15:57:25.946   790  2022 D C2MtkComponentStore: setIonUsage: usage 5, flags 65539, minAlign 0, heapMask 1024 for decoder and encoder.
+301531:11-19 15:57:25.950 12258 13859 D CCodecBuffers: [c2.android.aac.decoder#579:Output[N]] popFromStashAndRegister: at 1000000000000us, output format changed to AMessage(what = 0x00000000) = {
+301597:11-19 15:57:26.064   790  2022 D C2MtkComponentStore: setIonUsage: usage 5, flags 65539, minAlign 0, heapMask 1024 for decoder and encoder.
+301691:11-19 15:57:26.145 12258 13859 D CCodecBuffers: [c2.android.aac.decoder#579:1D-Output.Impl[N]] Client returned a buffer it does not own according to our record: 0
+301692:11-19 15:57:26.145 12258 13859 D CCodecBuffers: [c2.android.aac.decoder#579:1D-Output.Impl[N]] Client returned a buffer it does not own according to our record: 1
+301702:11-19 15:57:26.147   790  2022 D C2MtkComponentStore: setIonUsage: usage 5, flags 65539, minAlign 0, heapMask 1024 for decoder and encoder.
+301703:11-19 15:57:26.147 12258 13859 D CCodecBufferChannel: [c2.android.aac.decoder#579] flushed work; ignored.
+301704:11-19 15:57:26.147 12258 13859 D CCodecBufferChannel: [c2.android.aac.decoder#579] Discard frames from previous generation.
+301705:11-19 15:57:26.147 12258 13859 D CCodecBufferChannel: [c2.android.aac.decoder#579] flushed work not feedInput.
+302127:11-19 15:57:26.652 12258 13815 D MediaCodec: [0xb40000715b733800] [c2.android.aac.decoder] releaseAsync
+302131:11-19 15:57:26.653 12258 13821 D CCodecBufferChannel: [c2.android.aac.decoder#798] MediaCodec discarded an unknown buffer
+302132:11-19 15:57:26.653 12258 13821 D CCodecBufferChannel: [c2.android.aac.decoder#798] MediaCodec discarded an unknown buffer
+302133:11-19 15:57:26.653 12258 13821 D CCodecBufferChannel: [c2.android.aac.decoder#798] MediaCodec discarded an unknown buffer
+302134:11-19 15:57:26.653 12258 13821 D CCodecBufferChannel: [c2.android.aac.decoder#798] MediaCodec discarded an unknown buffer
+302135:11-19 15:57:26.653 12258 13821 D CCodecBufferChannel: [c2.android.aac.decoder#798] MediaCodec discarded an unknown buffer
+302136:11-19 15:57:26.653 12258 13821 D CCodecBufferChannel: [c2.android.aac.decoder#798] MediaCodec discarded an unknown buffer
+302146:11-19 15:57:26.656 12258 13821 D MediaCodec: [0xb40000715b733800] [c2.android.aac.decoder] kWhatReleaseCompleted
+302483:11-19 15:57:27.506 10487 13628 I FloweryUsbNative: TRANSFER_SUMMARY endpoint=0x04 sampleRate=48000 channels=2 intervalUs=125 maxPacketBytes=294 busSpeed=High completedTransfers=49507 completedFrames=2376336 expectedBytes=14258016 actualBytes=14258016 packetErrors=0 feedbackSamples=0 feedbackRaw=none feedbackRateHz=none playedFrames=2376336 fillCalls=49510 fillAvgUs=64 fillMaxUs=9853 submitGapMaxUs=16513 pendingMin=0 zeroPaddedFrames=0 eventLoopMaxUs=16391
+303029:11-19 15:57:28.254 12258 13856 D MediaCodec: [0xb400007138216800] [c2.android.aac.decoder] releaseAsync
+303033:11-19 15:57:28.255 12258 13859 D CCodecBufferChannel: [c2.android.aac.decoder#579] MediaCodec discarded an unknown buffer
+303034:11-19 15:57:28.255 12258 13859 D CCodecBufferChannel: [c2.android.aac.decoder#579] MediaCodec discarded an unknown buffer
+303035:11-19 15:57:28.255 12258 13859 D CCodecBufferChannel: [c2.android.aac.decoder#579] MediaCodec discarded an unknown buffer
+303036:11-19 15:57:28.255 12258 13859 D CCodecBufferChannel: [c2.android.aac.decoder#579] MediaCodec discarded an unknown buffer
+303037:11-19 15:57:28.255 12258 13859 D CCodecBufferChannel: [c2.android.aac.decoder#579] MediaCodec discarded an unknown buffer
+303038:11-19 15:57:28.255 12258 13859 D CCodecBufferChannel: [c2.android.aac.decoder#579] MediaCodec discarded an unknown buffer
+303061:11-19 15:57:28.258 12258 13859 D MediaCodec: [0xb400007138216800] [c2.android.aac.decoder] kWhatReleaseCompleted
+303114:11-19 15:57:28.417 10487 10487 I FloweryDiagnostics: AUDIO_PIPELINE backend=USB_DIRECT sourceRateHz=48000 bitDepth=24 status={"error":"","paused":false,"positionFrames":2419968,"status":0}
+303966:11-19 15:57:30.931   780   880 D AudioALSAPlaybackHandlerUsb: close(-), mPcm 0x0 usbProxy 0xeb7c66f8 error!!
+304223:11-19 15:57:32.507 10487 13628 I FloweryUsbNative: TRANSFER_SUMMARY endpoint=0x04 sampleRate=48000 channels=2 intervalUs=125 maxPacketBytes=294 busSpeed=High completedTransfers=54508 completedFrames=2616384 expectedBytes=15698304 actualBytes=15698304 packetErrors=0 feedbackSamples=0 feedbackRaw=none feedbackRateHz=none playedFrames=2616384 fillCalls=54511 fillAvgUs=62 fillMaxUs=9853 submitGapMaxUs=16513 pendingMin=0 zeroPaddedFrames=0 eventLoopMaxUs=16391
+304391:11-19 15:57:33.255 12258 13870 D MediaCodec: CreateByComponentName: name c2.android.aac.decoder
+304399:11-19 15:57:33.258 12258 13873 D CCodec  : allocate(c2.android.aac.decoder)
+304429:11-19 15:57:33.266 12258 13873 I CCodec  : Created component [c2.android.aac.decoder]
+304430:11-19 15:57:33.267 12258 13873 D CCodecBufferChannel: [0xb400006fad9ca800] setComponent: mName c2.android.aac.decoder#721, mPipelineWatcher 0xb400006fad9caca8
+304431:11-19 15:57:33.267 12258 13873 D CCodecBufferChannel: PipelineWatcher debug info [c2.android.aac.decoder#721] enable=0
+304466:11-19 15:57:33.287 12258 13870 D MediaCodec: [0xb400007116f1e800] [c2.android.aac.decoder] configure
+304467:11-19 15:57:33.287 12258 13870 D MediaCodec: [mId: 23] audio-debug configure: ClientName: com.facebook.katana ComponentName: c2.android.aac.decoder
+304480:11-19 15:57:33.287 12258 13873 D CCodec  : [c2.android.aac.decoder] buffers are bound to CCodec for this session
+304533:11-19 15:57:33.294 12258 13873 D CCodecBufferChannel: [c2.android.aac.decoder#721] Created input block pool with allocatorID 16 => poolID 37 - OK (0)
+304553:11-19 15:57:33.295 12258 13873 I CCodecBufferChannel: [c2.android.aac.decoder#721] Created output block pool with allocatorID 16 => poolID 759 - OK
+304554:11-19 15:57:33.296 12258 13873 D CCodecBufferChannel: [c2.android.aac.decoder#721] Configured output block pool ids 759 => OK
+304555:11-19 15:57:33.296 12258 13873 D CCodecBufferChannel: [0xb400006fad9ca800] [c2.android.aac.decoder#721] start: output->outputDelay 2, output->numSlots 6
+304574:11-19 15:57:33.296 12258 13873 D CCodecBuffers: [c2.android.aac.decoder#721:1D-Output.Impl[N]] converted 0 buffers to array mode of 6
+304575:11-19 15:57:33.296   790  2022 D C2MtkComponentStore: setIonUsage: usage 5, flags 65539, minAlign 0, heapMask 1024 for decoder and encoder.
+304579:11-19 15:57:33.303  1143 13874 I C2SoftAacDec: Reconfiguring decoder: 0->44100 Hz, 0->2 channels
+304580:11-19 15:57:33.304   790  2022 D C2MtkComponentStore: setIonUsage: usage 5, flags 65539, minAlign 0, heapMask 1024 for decoder and encoder.
+304583:11-19 15:57:33.307 12258 13873 D CCodecBuffers: [c2.android.aac.decoder#721:Output[N]] popFromStashAndRegister: at 1000000000000us, output format changed to AMessage(what = 0x00000000) = {
+304608:11-19 15:57:33.465 10487 10487 I FloweryDiagnostics: AUDIO_PIPELINE backend=USB_DIRECT sourceRateHz=48000 bitDepth=24 status={"error":"","paused":false,"positionFrames":2662272,"status":0}
+305364:11-19 15:57:34.929 12258 13880 D MediaCodec: CreateByComponentName: name c2.android.aac.decoder
+305374:11-19 15:57:34.933 12258 13883 D CCodec  : allocate(c2.android.aac.decoder)
+305384:11-19 15:57:34.940 12258 13883 I CCodec  : Created component [c2.android.aac.decoder]
+305385:11-19 15:57:34.940 12258 13883 D CCodecBufferChannel: [0xb400006f9eaab800] setComponent: mName c2.android.aac.decoder#108, mPipelineWatcher 0xb400006f9eaabca8
+305386:11-19 15:57:34.940 12258 13883 D CCodecBufferChannel: PipelineWatcher debug info [c2.android.aac.decoder#108] enable=0
+305424:11-19 15:57:34.952 12258 13880 D MediaCodec: [0xb400006f9ebc2800] [c2.android.aac.decoder] configure
+305425:11-19 15:57:34.952 12258 13880 D MediaCodec: [mId: 24] audio-debug configure: ClientName: com.facebook.katana ComponentName: c2.android.aac.decoder
+305438:11-19 15:57:34.953 12258 13883 D CCodec  : [c2.android.aac.decoder] buffers are bound to CCodec for this session
+305487:11-19 15:57:34.957 12258 13883 D CCodecBufferChannel: [c2.android.aac.decoder#108] Created input block pool with allocatorID 16 => poolID 38 - OK (0)
+305506:11-19 15:57:34.959 12258 13883 I CCodecBufferChannel: [c2.android.aac.decoder#108] Created output block pool with allocatorID 16 => poolID 761 - OK
+305507:11-19 15:57:34.959 12258 13883 D CCodecBufferChannel: [c2.android.aac.decoder#108] Configured output block pool ids 761 => OK
+305508:11-19 15:57:34.959 12258 13883 D CCodecBufferChannel: [0xb400006f9eaab800] [c2.android.aac.decoder#108] start: output->outputDelay 2, output->numSlots 6
+305526:11-19 15:57:34.959 12258 13883 D CCodecBuffers: [c2.android.aac.decoder#108:1D-Output.Impl[N]] converted 0 buffers to array mode of 6
+305527:11-19 15:57:34.960   790  2022 D C2MtkComponentStore: setIonUsage: usage 5, flags 65539, minAlign 0, heapMask 1024 for decoder and encoder.
+305532:11-19 15:57:34.965  1143 13884 I C2SoftAacDec: Reconfiguring decoder: 0->44100 Hz, 0->2 channels
+305535:11-19 15:57:34.967   790  2022 D C2MtkComponentStore: setIonUsage: usage 5, flags 65539, minAlign 0, heapMask 1024 for decoder and encoder.
+305538:11-19 15:57:34.970 12258 13883 D CCodecBuffers: [c2.android.aac.decoder#108:Output[N]] popFromStashAndRegister: at 1000000000000us, output format changed to AMessage(what = 0x00000000) = {
+306770:11-19 15:57:37.508 10487 13628 I FloweryUsbNative: TRANSFER_SUMMARY endpoint=0x04 sampleRate=48000 channels=2 intervalUs=125 maxPacketBytes=294 busSpeed=High completedTransfers=59506 completedFrames=2856288 expectedBytes=17137728 actualBytes=17137728 packetErrors=0 feedbackSamples=0 feedbackRaw=none feedbackRateHz=none playedFrames=2856288 fillCalls=59509 fillAvgUs=60 fillMaxUs=9853 submitGapMaxUs=16513 pendingMin=0 zeroPaddedFrames=0 eventLoopMaxUs=16391
+306771:11-19 15:57:37.512 12258 13870 D MediaCodec: [0xb400007116f1e800] [c2.android.aac.decoder] releaseAsync
+306776:11-19 15:57:37.513 12258 13873 D CCodecBufferChannel: [c2.android.aac.decoder#721] MediaCodec discarded an unknown buffer
+306777:11-19 15:57:37.513 12258 13873 D CCodecBufferChannel: [c2.android.aac.decoder#721] MediaCodec discarded an unknown buffer
+306778:11-19 15:57:37.513 12258 13873 D CCodecBufferChannel: [c2.android.aac.decoder#721] MediaCodec discarded an unknown buffer
+306779:11-19 15:57:37.513 12258 13873 D CCodecBufferChannel: [c2.android.aac.decoder#721] MediaCodec discarded an unknown buffer
+306780:11-19 15:57:37.513 12258 13873 D CCodecBufferChannel: [c2.android.aac.decoder#721] MediaCodec discarded an unknown buffer
+306781:11-19 15:57:37.513 12258 13873 D CCodecBufferChannel: [c2.android.aac.decoder#721] MediaCodec discarded an unknown buffer
+306787:11-19 15:57:37.516 12258 13873 D MediaCodec: [0xb400007116f1e800] [c2.android.aac.decoder] kWhatReleaseCompleted
+306902:11-19 15:57:37.737 12258 13898 D MediaCodec: CreateByComponentName: name c2.android.aac.decoder
+306911:11-19 15:57:37.740 12258 13901 D CCodec  : allocate(c2.android.aac.decoder)
+306923:11-19 15:57:37.748 12258 13901 I CCodec  : Created component [c2.android.aac.decoder]
+306924:11-19 15:57:37.748 12258 13901 D CCodecBufferChannel: [0xb400006fad7de600] setComponent: mName c2.android.aac.decoder#822, mPipelineWatcher 0xb400006fad7deaa8
+306925:11-19 15:57:37.748 12258 13901 D CCodecBufferChannel: PipelineWatcher debug info [c2.android.aac.decoder#822] enable=0
+306964:11-19 15:57:37.759   790  2022 D C2MtkComponentStore: setIonUsage: usage 5, flags 65539, minAlign 0, heapMask 1024 for decoder and encoder.
+306965:11-19 15:57:37.759 12258 13898 D MediaCodec: [0xb400007116f1e800] [c2.android.aac.decoder] configure
+306966:11-19 15:57:37.759 12258 13898 D MediaCodec: [mId: 25] audio-debug configure: ClientName: com.facebook.katana ComponentName: c2.android.aac.decoder
+306979:11-19 15:57:37.760 12258 13901 D CCodec  : [c2.android.aac.decoder] buffers are bound to CCodec for this session
+307029:11-19 15:57:37.766 12258 13901 D CCodecBufferChannel: [c2.android.aac.decoder#822] Created input block pool with allocatorID 16 => poolID 39 - OK (0)
+307049:11-19 15:57:37.769 12258 13901 I CCodecBufferChannel: [c2.android.aac.decoder#822] Created output block pool with allocatorID 16 => poolID 763 - OK
+307050:11-19 15:57:37.769 12258 13901 D CCodecBufferChannel: [c2.android.aac.decoder#822] Configured output block pool ids 763 => OK
+307051:11-19 15:57:37.769 12258 13901 D CCodecBufferChannel: [0xb400006fad7de600] [c2.android.aac.decoder#822] start: output->outputDelay 2, output->numSlots 6
+307069:11-19 15:57:37.770 12258 13901 D CCodecBuffers: [c2.android.aac.decoder#822:1D-Output.Impl[N]] converted 0 buffers to array mode of 6
+307070:11-19 15:57:37.770   790  2022 D C2MtkComponentStore: setIonUsage: usage 5, flags 65539, minAlign 0, heapMask 1024 for decoder and encoder.
+307075:11-19 15:57:37.776  1143 13902 I C2SoftAacDec: Reconfiguring decoder: 0->44100 Hz, 0->2 channels
+307077:11-19 15:57:37.778   790  2022 D C2MtkComponentStore: setIonUsage: usage 5, flags 65539, minAlign 0, heapMask 1024 for decoder and encoder.
+307081:11-19 15:57:37.782 12258 13901 D CCodecBuffers: [c2.android.aac.decoder#822:Output[N]] popFromStashAndRegister: at 1000000000000us, output format changed to AMessage(what = 0x00000000) = {
+307348:11-19 15:57:38.511 10487 10487 I FloweryDiagnostics: AUDIO_PIPELINE backend=USB_DIRECT sourceRateHz=48000 bitDepth=24 status={"error":"","paused":false,"positionFrames":2904384,"status":0}
+309056:11-19 15:57:42.509 10487 13628 I FloweryUsbNative: TRANSFER_SUMMARY endpoint=0x04 sampleRate=48000 channels=2 intervalUs=125 maxPacketBytes=294 busSpeed=High completedTransfers=64483 completedFrames=3095184 expectedBytes=18571104 actualBytes=18571104 packetErrors=0 feedbackSamples=0 feedbackRaw=none feedbackRateHz=none playedFrames=3095184 fillCalls=64486 fillAvgUs=60 fillMaxUs=9853 submitGapMaxUs=16513 pendingMin=0 zeroPaddedFrames=0 eventLoopMaxUs=16391
+309280:11-19 15:57:42.875 12258 13880 D MediaCodec: [0xb400006f9ebc2800] [c2.android.aac.decoder] releaseAsync
+309284:11-19 15:57:42.875 12258 13883 D CCodecBufferChannel: [c2.android.aac.decoder#108] MediaCodec discarded an unknown buffer
+309285:11-19 15:57:42.875 12258 13883 D CCodecBufferChannel: [c2.android.aac.decoder#108] MediaCodec discarded an unknown buffer
+309286:11-19 15:57:42.875 12258 13883 D CCodecBufferChannel: [c2.android.aac.decoder#108] MediaCodec discarded an unknown buffer
+309287:11-19 15:57:42.875 12258 13883 D CCodecBufferChannel: [c2.android.aac.decoder#108] MediaCodec discarded an unknown buffer
+309288:11-19 15:57:42.875 12258 13883 D CCodecBufferChannel: [c2.android.aac.decoder#108] MediaCodec discarded an unknown buffer
+309289:11-19 15:57:42.875 12258 13883 D CCodecBufferChannel: [c2.android.aac.decoder#108] MediaCodec discarded an unknown buffer
+309297:11-19 15:57:42.879 12258 13883 D MediaCodec: [0xb400006f9ebc2800] [c2.android.aac.decoder] kWhatReleaseCompleted
+309400:11-19 15:57:43.105 12258 13910 D MediaCodec: CreateByComponentName: name c2.android.aac.decoder
+309412:11-19 15:57:43.111 12258 13913 D CCodec  : allocate(c2.android.aac.decoder)
+309429:11-19 15:57:43.119 12258 13913 I CCodec  : Created component [c2.android.aac.decoder]
+309430:11-19 15:57:43.119 12258 13913 D CCodecBufferChannel: [0xb400006fbb8f2e00] setComponent: mName c2.android.aac.decoder#564, mPipelineWatcher 0xb400006fbb8f32a8
+309431:11-19 15:57:43.119 12258 13913 D CCodecBufferChannel: PipelineWatcher debug info [c2.android.aac.decoder#564] enable=0
+309473:11-19 15:57:43.131 12258 13910 D MediaCodec: [0xb4000071469af800] [c2.android.aac.decoder] configure
+309474:11-19 15:57:43.131 12258 13910 D MediaCodec: [mId: 26] audio-debug configure: ClientName: com.facebook.katana ComponentName: c2.android.aac.decoder
+309487:11-19 15:57:43.131 12258 13913 D CCodec  : [c2.android.aac.decoder] buffers are bound to CCodec for this session
+309540:11-19 15:57:43.137 12258 13913 D CCodecBufferChannel: [c2.android.aac.decoder#564] Created input block pool with allocatorID 16 => poolID 40 - OK (0)
+309561:11-19 15:57:43.139 12258 13913 I CCodecBufferChannel: [c2.android.aac.decoder#564] Created output block pool with allocatorID 16 => poolID 765 - OK
+309562:11-19 15:57:43.139 12258 13913 D CCodecBufferChannel: [c2.android.aac.decoder#564] Configured output block pool ids 765 => OK
+309563:11-19 15:57:43.139 12258 13913 D CCodecBufferChannel: [0xb400006fbb8f2e00] [c2.android.aac.decoder#564] start: output->outputDelay 2, output->numSlots 6
+309581:11-19 15:57:43.139 12258 13913 D CCodecBuffers: [c2.android.aac.decoder#564:1D-Output.Impl[N]] converted 0 buffers to array mode of 6
+309582:11-19 15:57:43.140   790  2022 D C2MtkComponentStore: setIonUsage: usage 5, flags 65539, minAlign 0, heapMask 1024 for decoder and encoder.
+309588:11-19 15:57:43.151  1143 13914 I C2SoftAacDec: Reconfiguring decoder: 0->48000 Hz, 0->2 channels
+309589:11-19 15:57:43.155   790  2022 D C2MtkComponentStore: setIonUsage: usage 5, flags 65539, minAlign 0, heapMask 1024 for decoder and encoder.
+309593:11-19 15:57:43.158 12258 13913 D CCodecBuffers: [c2.android.aac.decoder#564:Output[N]] popFromStashAndRegister: at 1000000000000us, output format changed to AMessage(what = 0x00000000) = {
+309619:11-19 15:57:43.187   790  2022 D C2MtkComponentStore: setIonUsage: usage 5, flags 65539, minAlign 0, heapMask 1024 for decoder and encoder.
+309755:11-19 15:57:43.581 10487 10487 I FloweryDiagnostics: AUDIO_PIPELINE backend=USB_DIRECT sourceRateHz=48000 bitDepth=24 status={"error":"","paused":false,"positionFrames":3146592,"status":0}
+311166:11-19 15:57:47.510 10487 13628 I FloweryUsbNative: TRANSFER_SUMMARY endpoint=0x04 sampleRate=48000 channels=2 intervalUs=125 maxPacketBytes=294 busSpeed=High completedTransfers=69467 completedFrames=3334416 expectedBytes=20006496 actualBytes=20006496 packetErrors=0 feedbackSamples=0 feedbackRaw=none feedbackRateHz=none playedFrames=3334416 fillCalls=69470 fillAvgUs=60 fillMaxUs=9853 submitGapMaxUs=16513 pendingMin=0 zeroPaddedFrames=0 eventLoopMaxUs=16391
+311582:11-19 15:57:48.654 10487 10487 I FloweryDiagnostics: AUDIO_PIPELINE backend=USB_DIRECT sourceRateHz=48000 bitDepth=24 status={"error":"","paused":false,"positionFrames":3389088,"status":0}
+312036:11-19 15:57:49.928 12258 13901 D CCodecBufferChannel: [c2.android.aac.decoder#822] input EOS
+313097:11-19 15:57:52.511 10487 13628 I FloweryUsbNative: TRANSFER_SUMMARY endpoint=0x04 sampleRate=48000 channels=2 intervalUs=125 maxPacketBytes=294 busSpeed=High completedTransfers=74424 completedFrames=3572352 expectedBytes=21434112 actualBytes=21434112 packetErrors=0 feedbackSamples=0 feedbackRaw=none feedbackRateHz=none playedFrames=3572352 fillCalls=74427 fillAvgUs=61 fillMaxUs=9853 submitGapMaxUs=16513 pendingMin=0 zeroPaddedFrames=0 eventLoopMaxUs=16391
+314197:11-19 15:57:53.732 10487 10487 I FloweryDiagnostics: AUDIO_PIPELINE backend=USB_DIRECT sourceRateHz=48000 bitDepth=24 status={"error":"","paused":false,"positionFrames":3629136,"status":0}
+315148:11-19 15:57:55.804   780   880 D AudioALSAPlaybackHandlerUsb: close(-), mPcm 0x0 usbProxy 0xeb339ef8 error!!
+315611:11-19 15:57:57.512 10487 13628 I FloweryUsbNative: TRANSFER_SUMMARY endpoint=0x04 sampleRate=48000 channels=2 intervalUs=125 maxPacketBytes=294 busSpeed=High completedTransfers=79388 completedFrames=3810624 expectedBytes=22863744 actualBytes=22863744 packetErrors=0 feedbackSamples=0 feedbackRaw=none feedbackRateHz=none playedFrames=3810624 fillCalls=79391 fillAvgUs=59 fillMaxUs=9853 submitGapMaxUs=22913 pendingMin=0 zeroPaddedFrames=0 eventLoopMaxUs=22381
+315736:11-19 15:57:58.181 12258 13910 D MediaCodec: [0xb4000071469af800] [c2.android.aac.decoder] releaseAsync
+315737:11-19 15:57:58.181 12258 13761 D MediaCodec: [0xb4000070cd07a800] [c2.android.aac.decoder] releaseAsync
+315742:11-19 15:57:58.181 12258 13764 D CCodecBufferChannel: [c2.android.aac.decoder#773] MediaCodec discarded an unknown buffer
+315743:11-19 15:57:58.181 12258 13764 D CCodecBufferChannel: [c2.android.aac.decoder#773] MediaCodec discarded an unknown buffer
+315744:11-19 15:57:58.181 12258 13764 D CCodecBufferChannel: [c2.android.aac.decoder#773] MediaCodec discarded an unknown buffer
+315745:11-19 15:57:58.181 12258 13913 D CCodecBufferChannel: [c2.android.aac.decoder#564] MediaCodec discarded an unknown buffer
+315746:11-19 15:57:58.181 12258 13913 D CCodecBufferChannel: [c2.android.aac.decoder#564] MediaCodec discarded an unknown buffer
+315747:11-19 15:57:58.181 12258 13764 D CCodecBufferChannel: [c2.android.aac.decoder#773] MediaCodec discarded an unknown buffer
+315748:11-19 15:57:58.181 12258 13913 D CCodecBufferChannel: [c2.android.aac.decoder#564] MediaCodec discarded an unknown buffer
+315749:11-19 15:57:58.181 12258 13764 D CCodecBufferChannel: [c2.android.aac.decoder#773] MediaCodec discarded an unknown buffer
+315750:11-19 15:57:58.181 12258 13913 D CCodecBufferChannel: [c2.android.aac.decoder#564] MediaCodec discarded an unknown buffer
+315751:11-19 15:57:58.181 12258 13764 D CCodecBufferChannel: [c2.android.aac.decoder#773] MediaCodec discarded an unknown buffer
+315752:11-19 15:57:58.181 12258 13913 D CCodecBufferChannel: [c2.android.aac.decoder#564] MediaCodec discarded an unknown buffer
+315753:11-19 15:57:58.181 12258 13913 D CCodecBufferChannel: [c2.android.aac.decoder#564] MediaCodec discarded an unknown buffer
+315780:11-19 15:57:58.194 12258 13764 D MediaCodec: [0xb4000070cd07a800] [c2.android.aac.decoder] kWhatReleaseCompleted
+315791:11-19 15:57:58.197 12258 13913 D MediaCodec: [0xb4000071469af800] [c2.android.aac.decoder] kWhatReleaseCompleted
+315959:11-19 15:57:58.962 10487 10487 I FloweryDiagnostics: AUDIO_PIPELINE backend=USB_DIRECT sourceRateHz=48000 bitDepth=24 status={"error":"","paused":false,"positionFrames":3880176,"status":0}
+316202:11-19 15:58:02.513 10487 13628 I FloweryUsbNative: TRANSFER_SUMMARY endpoint=0x04 sampleRate=48000 channels=2 intervalUs=125 maxPacketBytes=294 busSpeed=High completedTransfers=84387 completedFrames=4050576 expectedBytes=24303456 actualBytes=24303456 packetErrors=0 feedbackSamples=0 feedbackRaw=none feedbackRateHz=none playedFrames=4050576 fillCalls=84390 fillAvgUs=58 fillMaxUs=9853 submitGapMaxUs=22913 pendingMin=0 zeroPaddedFrames=0 eventLoopMaxUs=22381
+316305:11-19 15:58:04.010 10487 10487 I FloweryDiagnostics: AUDIO_PIPELINE backend=USB_DIRECT sourceRateHz=48000 bitDepth=24 status={"error":"","paused":false,"positionFrames":4122384,"status":0}
+316417:11-19 15:58:05.384 10487 10487 D libjpeg-alpha: Tile Decoder (#thread:4, size:256 256 256 432x304, alignment:256x16)
+316594:11-19 15:58:07.513 10487 13628 I FloweryUsbNative: TRANSFER_SUMMARY endpoint=0x04 sampleRate=48000 channels=2 intervalUs=125 maxPacketBytes=294 busSpeed=High completedTransfers=89384 completedFrames=4290432 expectedBytes=25742592 actualBytes=25742592 packetErrors=0 feedbackSamples=0 feedbackRaw=none feedbackRateHz=none playedFrames=4290432 fillCalls=89387 fillAvgUs=60 fillMaxUs=9853 submitGapMaxUs=22913 pendingMin=0 zeroPaddedFrames=0 eventLoopMaxUs=22381
+316755:11-19 15:58:09.053 10487 10487 I FloweryDiagnostics: AUDIO_PIPELINE backend=USB_DIRECT sourceRateHz=48000 bitDepth=24 status={"error":"","paused":false,"positionFrames":4364304,"status":0}
+317422:11-19 15:58:12.514 10487 13628 I FloweryUsbNative: TRANSFER_SUMMARY endpoint=0x04 sampleRate=48000 channels=2 intervalUs=125 maxPacketBytes=294 busSpeed=High completedTransfers=94380 completedFrames=4530240 expectedBytes=27181440 actualBytes=27181440 packetErrors=0 feedbackSamples=0 feedbackRaw=none feedbackRateHz=none playedFrames=4530240 fillCalls=94383 fillAvgUs=61 fillMaxUs=9853 submitGapMaxUs=22913 pendingMin=0 zeroPaddedFrames=0 eventLoopMaxUs=22381
+318192:11-19 15:58:13.699 12258 13901 D CCodecBuffers: [c2.android.aac.decoder#822:1D-Output.Impl[N]] Client returned a buffer it does not own according to our record: 0
+318193:11-19 15:58:13.699 12258 13901 D CCodecBuffers: [c2.android.aac.decoder#822:1D-Output.Impl[N]] Client returned a buffer it does not own according to our record: 1
+318194:11-19 15:58:13.699 12258 13901 D CCodecBuffers: [c2.android.aac.decoder#822:1D-Output.Impl[N]] Client returned a buffer it does not own according to our record: 2
+318195:11-19 15:58:13.699 12258 13901 D CCodecBuffers: [c2.android.aac.decoder#822:1D-Output.Impl[N]] Client returned a buffer it does not own according to our record: 3
+318203:11-19 15:58:13.701   790  2022 D C2MtkComponentStore: setIonUsage: usage 5, flags 65539, minAlign 0, heapMask 1024 for decoder and encoder.
+318215:11-19 15:58:13.705   790  2022 D C2MtkComponentStore: setIonUsage: usage 5, flags 65539, minAlign 0, heapMask 1024 for decoder and encoder.
+318708:11-19 15:58:14.124 10487 10487 I FloweryDiagnostics: AUDIO_PIPELINE backend=USB_DIRECT sourceRateHz=48000 bitDepth=24 status={"error":"","paused":false,"positionFrames":4605024,"status":0}
+318997:11-19 15:58:14.643 12258 14036 D MediaCodec: CreateByComponentName: name c2.android.aac.decoder
+319057:11-19 15:58:14.660 12258 14039 D CCodec  : allocate(c2.android.aac.decoder)
+319071:11-19 15:58:14.671   790  2022 D C2MtkComponentStore: setIonUsage: usage 5, flags 65539, minAlign 0, heapMask 1024 for decoder and encoder.
+319073:11-19 15:58:14.672 12258 14039 I CCodec  : Created component [c2.android.aac.decoder]
+319074:11-19 15:58:14.673 12258 14039 D CCodecBufferChannel: [0xb400007105224e00] setComponent: mName c2.android.aac.decoder#394, mPipelineWatcher 0xb4000071052252a8
+319075:11-19 15:58:14.673 12258 14039 D CCodecBufferChannel: PipelineWatcher debug info [c2.android.aac.decoder#394] enable=0
+319116:11-19 15:58:14.688 12258 14036 D MediaCodec: [0xb40000715b58b800] [c2.android.aac.decoder] configure
+319117:11-19 15:58:14.688 12258 14036 D MediaCodec: [mId: 27] audio-debug configure: ClientName: com.facebook.katana ComponentName: c2.android.aac.decoder
+319130:11-19 15:58:14.689 12258 14039 D CCodec  : [c2.android.aac.decoder] buffers are bound to CCodec for this session
+319185:11-19 15:58:14.695 12258 14039 D CCodecBufferChannel: [c2.android.aac.decoder#394] Created input block pool with allocatorID 16 => poolID 41 - OK (0)
+319204:11-19 15:58:14.697 12258 14039 I CCodecBufferChannel: [c2.android.aac.decoder#394] Created output block pool with allocatorID 16 => poolID 767 - OK
+319205:11-19 15:58:14.698 12258 14039 D CCodecBufferChannel: [c2.android.aac.decoder#394] Configured output block pool ids 767 => OK
+319206:11-19 15:58:14.698 12258 14039 D CCodecBufferChannel: [0xb400007105224e00] [c2.android.aac.decoder#394] start: output->outputDelay 2, output->numSlots 6
+319224:11-19 15:58:14.699 12258 14039 D CCodecBuffers: [c2.android.aac.decoder#394:1D-Output.Impl[N]] converted 0 buffers to array mode of 6
+319226:11-19 15:58:14.699   790  2022 D C2MtkComponentStore: setIonUsage: usage 5, flags 65539, minAlign 0, heapMask 1024 for decoder and encoder.
+319299:11-19 15:58:14.717  1143 14040 I C2SoftAacDec: Reconfiguring decoder: 0->48000 Hz, 0->2 channels
+319319:11-19 15:58:14.720   790  2022 D C2MtkComponentStore: setIonUsage: usage 5, flags 65539, minAlign 0, heapMask 1024 for decoder and encoder.
+319331:11-19 15:58:14.725 12258 14039 D CCodecBuffers: [c2.android.aac.decoder#394:Output[N]] popFromStashAndRegister: at 1000000000000us, output format changed to AMessage(what = 0x00000000) = {
+319675:11-19 15:58:15.187 12258 13898 D MediaCodec: [0xb400007116f1e800] [c2.android.aac.decoder] releaseAsync
+319679:11-19 15:58:15.188 12258 13901 D CCodecBufferChannel: [c2.android.aac.decoder#822] MediaCodec discarded an unknown buffer
+319680:11-19 15:58:15.188 12258 13901 D CCodecBufferChannel: [c2.android.aac.decoder#822] MediaCodec discarded an unknown buffer
+319681:11-19 15:58:15.188 12258 13901 D CCodecBufferChannel: [c2.android.aac.decoder#822] MediaCodec discarded an unknown buffer
+319682:11-19 15:58:15.188 12258 13901 D CCodecBufferChannel: [c2.android.aac.decoder#822] MediaCodec discarded an unknown buffer
+319683:11-19 15:58:15.188 12258 13901 D CCodecBufferChannel: [c2.android.aac.decoder#822] MediaCodec discarded an unknown buffer
+319684:11-19 15:58:15.188 12258 13901 D CCodecBufferChannel: [c2.android.aac.decoder#822] MediaCodec discarded an unknown buffer
+319692:11-19 15:58:15.191 12258 13901 D MediaCodec: [0xb400007116f1e800] [c2.android.aac.decoder] kWhatReleaseCompleted
+319783:11-19 15:58:15.409 12258 14050 D MediaCodec: CreateByComponentName: name c2.android.aac.decoder
+319792:11-19 15:58:15.413 12258 14053 D CCodec  : allocate(c2.android.aac.decoder)
+319803:11-19 15:58:15.420 12258 14053 I CCodec  : Created component [c2.android.aac.decoder]
+319804:11-19 15:58:15.420 12258 14053 D CCodecBufferChannel: [0xb400007104e8fe00] setComponent: mName c2.android.aac.decoder#619, mPipelineWatcher 0xb400007104e902a8
+319805:11-19 15:58:15.420 12258 14053 D CCodecBufferChannel: PipelineWatcher debug info [c2.android.aac.decoder#619] enable=0
+319854:11-19 15:58:15.433 12258 14050 D MediaCodec: [0xb400007116f1e800] [c2.android.aac.decoder] configure
+319855:11-19 15:58:15.433 12258 14050 D MediaCodec: [mId: 28] audio-debug configure: ClientName: com.facebook.katana ComponentName: c2.android.aac.decoder
+319869:11-19 15:58:15.434 12258 14053 D CCodec  : [c2.android.aac.decoder] buffers are bound to CCodec for this session
+319921:11-19 15:58:15.441 12258 14053 D CCodecBufferChannel: [c2.android.aac.decoder#619] Created input block pool with allocatorID 16 => poolID 42 - OK (0)
+319940:11-19 15:58:15.443 12258 14053 I CCodecBufferChannel: [c2.android.aac.decoder#619] Created output block pool with allocatorID 16 => poolID 769 - OK
+319941:11-19 15:58:15.443 12258 14053 D CCodecBufferChannel: [c2.android.aac.decoder#619] Configured output block pool ids 769 => OK
+319942:11-19 15:58:15.443 12258 14053 D CCodecBufferChannel: [0xb400007104e8fe00] [c2.android.aac.decoder#619] start: output->outputDelay 2, output->numSlots 6
+319960:11-19 15:58:15.443 12258 14053 D CCodecBuffers: [c2.android.aac.decoder#619:1D-Output.Impl[N]] converted 0 buffers to array mode of 6
+319961:11-19 15:58:15.443   790  2022 D C2MtkComponentStore: setIonUsage: usage 5, flags 65539, minAlign 0, heapMask 1024 for decoder and encoder.
+319966:11-19 15:58:15.449  1143 14054 I C2SoftAacDec: Reconfiguring decoder: 0->44100 Hz, 0->2 channels
+319968:11-19 15:58:15.451   790  2022 D C2MtkComponentStore: setIonUsage: usage 5, flags 65539, minAlign 0, heapMask 1024 for decoder and encoder.
+319971:11-19 15:58:15.455 12258 14053 D CCodecBuffers: [c2.android.aac.decoder#619:Output[N]] popFromStashAndRegister: at 1000000000000us, output format changed to AMessage(what = 0x00000000) = {
+320013:11-19 15:58:15.499   790  2022 D C2MtkComponentStore: setIonUsage: usage 5, flags 65539, minAlign 0, heapMask 1024 for decoder and encoder.
+320249:11-19 15:58:15.655 12258 14039 D CCodecBuffers: [c2.android.aac.decoder#394:1D-Output.Impl[N]] Client returned a buffer it does not own according to our record: 0
+320520:11-19 15:58:16.069 12258 14036 D MediaCodec: [0xb40000715b58b800] [c2.android.aac.decoder] releaseAsync
+320523:11-19 15:58:16.070 12258 14039 D CCodecBufferChannel: [c2.android.aac.decoder#394] MediaCodec discarded an unknown buffer
+320524:11-19 15:58:16.070 12258 14039 D CCodecBufferChannel: [c2.android.aac.decoder#394] MediaCodec discarded an unknown buffer
+320525:11-19 15:58:16.070 12258 14039 D CCodecBufferChannel: [c2.android.aac.decoder#394] MediaCodec discarded an unknown buffer
+320527:11-19 15:58:16.070 12258 14039 D CCodecBufferChannel: [c2.android.aac.decoder#394] MediaCodec discarded an unknown buffer
+320531:11-19 15:58:16.073 12258 14039 D MediaCodec: [0xb40000715b58b800] [c2.android.aac.decoder] kWhatReleaseCompleted
+321196:11-19 15:58:17.086 12258 14050 D MediaCodec: [0xb400007116f1e800] [c2.android.aac.decoder] releaseAsync
+321200:11-19 15:58:17.087 12258 14053 D CCodecBufferChannel: [c2.android.aac.decoder#619] MediaCodec discarded an unknown buffer
+321201:11-19 15:58:17.087 12258 14053 D CCodecBufferChannel: [c2.android.aac.decoder#619] MediaCodec discarded an unknown buffer
+321202:11-19 15:58:17.087 12258 14053 D CCodecBufferChannel: [c2.android.aac.decoder#619] MediaCodec discarded an unknown buffer
+321203:11-19 15:58:17.087 12258 14053 D CCodecBufferChannel: [c2.android.aac.decoder#619] MediaCodec discarded an unknown buffer
+321204:11-19 15:58:17.087 12258 14053 D CCodecBufferChannel: [c2.android.aac.decoder#619] MediaCodec discarded an unknown buffer
+321205:11-19 15:58:17.087 12258 14053 D CCodecBufferChannel: [c2.android.aac.decoder#619] MediaCodec discarded an unknown buffer
+321213:11-19 15:58:17.088 12258 14053 D MediaCodec: [0xb400007116f1e800] [c2.android.aac.decoder] kWhatReleaseCompleted
+321305:11-19 15:58:17.324 12258 14064 D MediaCodec: CreateByComponentName: name c2.android.aac.decoder
+321315:11-19 15:58:17.327 12258 14067 D CCodec  : allocate(c2.android.aac.decoder)
+321342:11-19 15:58:17.336 12258 14067 I CCodec  : Created component [c2.android.aac.decoder]
+321343:11-19 15:58:17.337 12258 14067 D CCodecBufferChannel: [0xb400007104e8fe00] setComponent: mName c2.android.aac.decoder#834, mPipelineWatcher 0xb400007104e902a8
+321344:11-19 15:58:17.337 12258 14067 D CCodecBufferChannel: PipelineWatcher debug info [c2.android.aac.decoder#834] enable=0
+321383:11-19 15:58:17.347 12258 14064 D MediaCodec: [0xb400007116f1e800] [c2.android.aac.decoder] configure
+321384:11-19 15:58:17.347 12258 14064 D MediaCodec: [mId: 29] audio-debug configure: ClientName: com.facebook.katana ComponentName: c2.android.aac.decoder
+321397:11-19 15:58:17.348 12258 14067 D CCodec  : [c2.android.aac.decoder] buffers are bound to CCodec for this session
+321446:11-19 15:58:17.352 12258 14067 D CCodecBufferChannel: [c2.android.aac.decoder#834] Created input block pool with allocatorID 16 => poolID 43 - OK (0)
+321466:11-19 15:58:17.354 12258 14067 I CCodecBufferChannel: [c2.android.aac.decoder#834] Created output block pool with allocatorID 16 => poolID 771 - OK
+321467:11-19 15:58:17.354 12258 14067 D CCodecBufferChannel: [c2.android.aac.decoder#834] Configured output block pool ids 771 => OK
+321468:11-19 15:58:17.354 12258 14067 D CCodecBufferChannel: [0xb400007104e8fe00] [c2.android.aac.decoder#834] start: output->outputDelay 2, output->numSlots 6
+321486:11-19 15:58:17.355 12258 14067 D CCodecBuffers: [c2.android.aac.decoder#834:1D-Output.Impl[N]] converted 0 buffers to array mode of 6
+321487:11-19 15:58:17.355   790  2022 D C2MtkComponentStore: setIonUsage: usage 5, flags 65539, minAlign 0, heapMask 1024 for decoder and encoder.
+321495:11-19 15:58:17.361  1143 14068 I C2SoftAacDec: Reconfiguring decoder: 0->44100 Hz, 0->2 channels
+321496:11-19 15:58:17.363   790  2022 D C2MtkComponentStore: setIonUsage: usage 5, flags 65539, minAlign 0, heapMask 1024 for decoder and encoder.
+321500:11-19 15:58:17.365 12258 14067 D CCodecBuffers: [c2.android.aac.decoder#834:Output[N]] popFromStashAndRegister: at 1000000000000us, output format changed to AMessage(what = 0x00000000) = {
+321566:11-19 15:58:17.515 10487 13628 I FloweryUsbNative: TRANSFER_SUMMARY endpoint=0x04 sampleRate=48000 channels=2 intervalUs=125 maxPacketBytes=294 busSpeed=High completedTransfers=99313 completedFrames=4767024 expectedBytes=28602144 actualBytes=28602144 packetErrors=0 feedbackSamples=0 feedbackRaw=none feedbackRateHz=none playedFrames=4767024 fillCalls=99316 fillAvgUs=60 fillMaxUs=9853 submitGapMaxUs=22913 pendingMin=0 zeroPaddedFrames=0 eventLoopMaxUs=22381
+322179:11-19 15:58:18.200 12258 14019 E HeifDecoderImpl: getSize: not supported!
+322191:11-19 15:58:18.204 12258 14019 E HeifDecoderImpl: getSize: not supported!
+322297:11-19 15:58:18.503 12258 14078 D MediaCodec: CreateByComponentName: name c2.android.aac.decoder
+322306:11-19 15:58:18.506 12258 14081 D CCodec  : allocate(c2.android.aac.decoder)
+322331:11-19 15:58:18.514 12258 14081 I CCodec  : Created component [c2.android.aac.decoder]
+322332:11-19 15:58:18.514 12258 14081 D CCodecBufferChannel: [0xb4000071c4fd7800] setComponent: mName c2.android.aac.decoder#704, mPipelineWatcher 0xb4000071c4fd7ca8
+322333:11-19 15:58:18.514 12258 14081 D CCodecBufferChannel: PipelineWatcher debug info [c2.android.aac.decoder#704] enable=0
+322371:11-19 15:58:18.527 12258 14078 D MediaCodec: [0xb40000715b469800] [c2.android.aac.decoder] configure
+322372:11-19 15:58:18.527 12258 14078 D MediaCodec: [mId: 30] audio-debug configure: ClientName: com.facebook.katana ComponentName: c2.android.aac.decoder
+322386:11-19 15:58:18.527 12258 14081 D CCodec  : [c2.android.aac.decoder] buffers are bound to CCodec for this session
+322437:11-19 15:58:18.533 12258 14081 D CCodecBufferChannel: [c2.android.aac.decoder#704] Created input block pool with allocatorID 16 => poolID 44 - OK (0)
+322456:11-19 15:58:18.536 12258 14081 I CCodecBufferChannel: [c2.android.aac.decoder#704] Created output block pool with allocatorID 16 => poolID 773 - OK
+322457:11-19 15:58:18.536 12258 14081 D CCodecBufferChannel: [c2.android.aac.decoder#704] Configured output block pool ids 773 => OK
+322458:11-19 15:58:18.536 12258 14081 D CCodecBufferChannel: [0xb4000071c4fd7800] [c2.android.aac.decoder#704] start: output->outputDelay 2, output->numSlots 6
+322477:11-19 15:58:18.536 12258 14081 D CCodecBuffers: [c2.android.aac.decoder#704:1D-Output.Impl[N]] converted 0 buffers to array mode of 6
+322478:11-19 15:58:18.537   790  2036 D C2MtkComponentStore: setIonUsage: usage 5, flags 65539, minAlign 0, heapMask 1024 for decoder and encoder.
+322484:11-19 15:58:18.544  1143 14082 I C2SoftAacDec: Reconfiguring decoder: 0->48000 Hz, 0->1 channels
+322485:11-19 15:58:18.545   790  2036 D C2MtkComponentStore: setIonUsage: usage 5, flags 65539, minAlign 0, heapMask 1024 for decoder and encoder.
+322488:11-19 15:58:18.548 12258 14081 D CCodecBuffers: [c2.android.aac.decoder#704:Output[N]] popFromStashAndRegister: at 1000000000000us, output format changed to AMessage(what = 0x00000000) = {
+322512:11-19 15:58:18.563   790  2036 D C2MtkComponentStore: setIonUsage: usage 5, flags 65539, minAlign 0, heapMask 1024 for decoder and encoder.
+322983:11-19 15:58:19.183 10487 10487 I FloweryDiagnostics: AUDIO_PIPELINE backend=USB_DIRECT sourceRateHz=48000 bitDepth=24 status={"error":"","paused":false,"positionFrames":4845936,"status":0}
+324826:11-19 15:58:22.138   780   880 D AudioALSAPlaybackHandlerUsb: close(-), mPcm 0x0 usbProxy 0xeb36cef8 error!!
+325000:11-19 15:58:22.221 30421 14096 D CCodec  : allocate(c2.android.vorbis.decoder)
+325023:11-19 15:58:22.235 30421 14096 I CCodec  : Created component [c2.android.vorbis.decoder]
+325024:11-19 15:58:22.235 30421 14096 D CCodecBufferChannel: [0x71608a9a00] setComponent: mName c2.android.vorbis.decoder#475, mPipelineWatcher 0x71608a9ea8
+325025:11-19 15:58:22.235 30421 14096 D CCodecBufferChannel: PipelineWatcher debug info [c2.android.vorbis.decoder#475] enable=0
+325089:11-19 15:58:22.246 30421 14093 D MediaCodec: [0x71e3ef1800] [c2.android.vorbis.decoder] configure
+325090:11-19 15:58:22.246 30421 14093 D MediaCodec: [mId: 102] audio-debug configure: ClientName: com.termux ComponentName: c2.android.vorbis.decoder
+325108:11-19 15:58:22.248 30421 14096 D CCodec  : [c2.android.vorbis.decoder] buffers are bound to CCodec for this session
+325149:11-19 15:58:22.255 30421 14096 D CCodecBufferChannel: [c2.android.vorbis.decoder#475] Created input block pool with allocatorID 16 => poolID 119 - OK (0)
+325159:11-19 15:58:22.257 30421 14096 I CCodecBufferChannel: [c2.android.vorbis.decoder#475] Created output block pool with allocatorID 16 => poolID 775 - OK
+325160:11-19 15:58:22.257 30421 14096 D CCodecBufferChannel: [c2.android.vorbis.decoder#475] Configured output block pool ids 775 => OK
+325161:11-19 15:58:22.257 30421 14096 D CCodecBufferChannel: [0x71608a9a00] [c2.android.vorbis.decoder#475] start: output->outputDelay 0, output->numSlots 4
+325170:11-19 15:58:22.258 30421 14096 D CCodecBuffers: [c2.android.vorbis.decoder#475:1D-Output.Impl[N]] converted 0 buffers to array mode of 4
+325172:11-19 15:58:22.258   790  2036 D C2MtkComponentStore: setIonUsage: usage 5, flags 65539, minAlign 0, heapMask 1024 for decoder and encoder.
+325182:11-19 15:58:22.266 30421 14096 D CCodecBuffers: [c2.android.vorbis.decoder#475:1D-Input.Impl[N]] converted 4 buffers to array mode of 4
+325183:11-19 15:58:22.268   790  2036 D C2MtkComponentStore: setIonUsage: usage 5, flags 65539, minAlign 0, heapMask 1024 for decoder and encoder.
+325213:11-19 15:58:22.287 30421 14096 D CCodecBufferChannel: [c2.android.vorbis.decoder#475] input EOS
+325228:11-19 15:58:22.292 30421 14093 D MediaCodec: [0x71e3ef1800] [c2.android.vorbis.decoder] stop
+325232:11-19 15:58:22.292 30421 14096 D CCodecBufferChannel: [c2.android.vorbis.decoder#475] MediaCodec discarded an unknown buffer
+325233:11-19 15:58:22.294 30421 14096 D CCodecBufferChannel: [c2.android.vorbis.decoder#475] MediaCodec discarded an unknown buffer
+325234:11-19 15:58:22.294 30421 14096 D CCodecBufferChannel: [c2.android.vorbis.decoder#475] MediaCodec discarded an unknown buffer
+325235:11-19 15:58:22.295 30421 14096 D MediaCodec: [0x71e3ef1800] [c2.android.vorbis.decoder] kWhatStopCompleted
+325238:11-19 15:58:22.297 30421 14093 D MediaCodec: [0x71e3ef1800] [c2.android.vorbis.decoder] release
+325247:11-19 15:58:22.304 30421 14096 D MediaCodec: [0x71e3ef1800] [c2.android.vorbis.decoder] kWhatReleaseCompleted
+325409:11-19 15:58:22.516 10487 13628 I FloweryUsbNative: TRANSFER_SUMMARY endpoint=0x04 sampleRate=48000 channels=2 intervalUs=125 maxPacketBytes=294 busSpeed=High completedTransfers=104242 completedFrames=5003616 expectedBytes=30021696 actualBytes=30021696 packetErrors=0 feedbackSamples=0 feedbackRaw=none feedbackRateHz=none playedFrames=5003616 fillCalls=104245 fillAvgUs=59 fillMaxUs=9853 submitGapMaxUs=22913 pendingMin=0 zeroPaddedFrames=0 eventLoopMaxUs=22381
+325593:11-19 15:58:24.219 10487 10487 I FloweryDiagnostics: AUDIO_PIPELINE backend=USB_DIRECT sourceRateHz=48000 bitDepth=24 status={"error":"","paused":false,"positionFrames":5085360,"status":0}
+325666:11-19 15:58:24.532 12258 14078 D MediaCodec: [0xb40000715b469800] [c2.android.aac.decoder] releaseAsync
+325669:11-19 15:58:24.533 12258 14081 D CCodecBufferChannel: [c2.android.aac.decoder#704] MediaCodec discarded an unknown buffer
+325670:11-19 15:58:24.533 12258 14081 D CCodecBufferChannel: [c2.android.aac.decoder#704] MediaCodec discarded an unknown buffer
+325671:11-19 15:58:24.533 12258 14081 D CCodecBufferChannel: [c2.android.aac.decoder#704] MediaCodec discarded an unknown buffer
+325672:11-19 15:58:24.533 12258 14081 D CCodecBufferChannel: [c2.android.aac.decoder#704] MediaCodec discarded an unknown buffer
+325673:11-19 15:58:24.533 12258 14081 D CCodecBufferChannel: [c2.android.aac.decoder#704] MediaCodec discarded an unknown buffer
+325674:11-19 15:58:24.533 12258 14081 D CCodecBufferChannel: [c2.android.aac.decoder#704] MediaCodec discarded an unknown buffer
+325682:11-19 15:58:24.540 12258 14081 D MediaCodec: [0xb40000715b469800] [c2.android.aac.decoder] kWhatReleaseCompleted
