@@ -1,0 +1,10 @@
+package=com.waizusora.flowery
+test_mode=background-diagnostics
+pid_before=not-recorded
+pid_after=not-recorded
+process_exit_observed=0
+new_process_observed=0
+recovery_observation_state=not-started
+am_crash_command_status=not-run
+
+Recovery markers (if present):
