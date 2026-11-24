@@ -1,0 +1,18 @@
+package=com.waizusora.flowery
+test_mode=injected-am-crash
+pid_before=10949
+pid_after=not-recorded
+process_exit_observed=1
+new_process_observed=0
+recovery_observation_state=running
+am_crash_command_status=0
+
+Recovery markers (if present):
+11-24 20:37:25.294 10949 10949 E AndroidRuntime: FATAL EXCEPTION: main
+11-24 20:37:25.294 10949 10949 E AndroidRuntime: android.app.RemoteServiceException$CrashedByAdbException: shell-induced crash
+11-24 20:37:25.378  1550  5921 I am_crash: [10949,0,com.waizusora.flowery,549994054,android.app.RemoteServiceException$CrashedByAdbException,shell-induced crash,ActivityThread.java,2263,0]
+11-24 20:37:25.393  3451  3700 D DigestGenerator: digest=============com.waizusora.floweryandroid.app.RemoteServiceException$CrashedByAdbException: shell-induced crash
+11-24 20:37:25.424  3451  3700 D MiSightJni: MiSight: Java_com_miui_misight_MiSight_nativeSendEvent enter called. '{"CrashType":"android.app.RemoteServiceException$CrashedByAdbException","Stacktrace":"android.app.RemoteServiceException$CrashedByAdbException: shell-induced crash##^^at android.app.ActivityThread.throwRemoteServiceException(ActivityThread.java:2263)##^^at android.app.ActivityThread.-$$Nest$mthrowRemoteServiceException(ActivityThread.java:0)##^^at android.app.ActivityThread$H.handleMessage(ActivityThread.java:2542)##^^at android.os.Handler.dispatchMessage(Handler.java:106)##^^at android.os.Looper.loopOnce(Looper.java:222)##^^at android.os.Looper.loop(Looper.java:314)##^^at android.app.ActivityThread.main(ActivityThread.java:8716)##^^at java.lang.reflect.Method.invoke(Native Method)##^^at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:565)##^^at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:1081)##","Digest":"717e0b471919aa4a8fb2c9a12dfdd5b6","PackageName":"com.waizusora.flowery","CurrentTime":1795527
+11-24 20:37:25.424  3451  3700 D MiEvent : flatten EventId 901001001 -t 1795527445 -paraList {"CrashType":"android.app.RemoteServiceException$CrashedByAdbException","CurrentTime":1795527445300,"Digest":"717e0b471919aa4a8fb2c9a12dfdd5b6","Keyword":"{\"vn\":\"0.1.0\",\"vc\":\"1\",\"isRoot\":false,\"count\":1,\"preInstalled\":false,\"unfold\":false,\"ram\":4,\"rom\":64,\"dialog\":true}","PackageName":"com.waizusora.flowery","Stacktrace":"android.app.RemoteServiceException$CrashedByAdbException: shell-induced crash##^^at android.app.ActivityThread.throwRemoteServiceException(ActivityThread.java:2263)##^^at android.app.ActivityThread.-$$Nest$mthrowRemoteServiceException(ActivityThread.java:0)##^^at android.app.ActivityThread$H.handleMessage(ActivityThread.java:2542)##^^at android.os.Handler.dispatchMessage(Handler.java:106)##^^at android.os.Looper.loopOnce(Looper.java:222)##^^at android.os.Looper.loop(Looper.java:314)##^^at android.app.ActivityThread.main(ActivityThread.java:8716)##^^at java.lang.reflect.Method.invoke(Native Method)##^^at com.android.inte
+11-24 20:37:25.505  1550  8438 I am_proc_died: [0,10949,com.waizusora.flowery,200,4]
+11-24 20:37:25.507  1550  8438 I am_foreground_service_stop: [0,com.waizusora.flowery/.PlaybackService,1,PROC_STATE_TOP,35,35,0,0,34103031,1,STOP_SERVICE,2]
